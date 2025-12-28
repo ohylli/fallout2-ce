@@ -4,7 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Fallout 2 Community Edition is a fully working re-implementation of Fallout 2 in C++17 with the same original gameplay, engine bugfixes, and quality of life improvements. It runs on Windows, Linux, macOS, Android, and iOS.
+Fallout 2 Community Edition is a fully working re-implementation of Fallout 2 in
+C++17 with the same original gameplay, engine bugfixes, and quality of life
+improvements. It runs on Windows, Linux, macOS, Android, and iOS.
+
+This is a fork of the orignal repository. Its aim is to make the game accessible
+for blind screen reader users. See `accessibility.md` for details of the current status.
 
 ## Build Commands
 
