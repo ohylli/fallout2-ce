@@ -62,6 +62,7 @@
 #include "svga.h"
 #include "text_font.h"
 #include "tile.h"
+#include "tolk.h"
 #include "trait.h"
 #include "version.h"
 #include "window_manager.h"
@@ -182,6 +183,9 @@ int gameInitWithOptions(const char* windowTitle, bool isMapper, int font, int a4
     } else if (compat_stricmp(debugMode, "gnw") == 0) {
         _debug_register_func(_win_debug);
     }
+
+    tolkInit();
+    tolkSpeak("Fallout 2 loaded", true);
 
     interfaceFontsInit();
     fontManagerAdd(&gModernFontManager);
@@ -434,6 +438,8 @@ void gameReset()
 void gameExit()
 {
     debugPrint("\nGame Exit\n");
+
+    tolkExit();
 
     // SFALL
     sfall_gl_scr_exit();
