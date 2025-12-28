@@ -392,3 +392,6 @@ FodyWeavers.xsd
 /out
 /build
 CMakeUserPresets.json
+
+# Local Claude Code instructions
+CLAUDE.local.md
