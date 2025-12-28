@@ -8,10 +8,14 @@ We use [Tolk](https://github.com/dkager/tolk) - a screen reader abstraction libr
 
 ### Current Status
 
-Minimal proof of concept:
-- Tolk.dll is loaded dynamically at startup
-- Announces "Fallout 2 loaded" when the game starts
-- Graceful degradation: game runs normally if Tolk.dll is not present
+**Startup:**
+- Tolk.dll loaded dynamically, announces "Fallout 2 loaded"
+- Graceful degradation if Tolk.dll not present
+
+**Main Menu:**
+- Arrow keys (Up/Down) navigate with wraparound
+- Enter activates selected option
+- Announces "Main Menu" + current selection
 
 ### Usage
 
@@ -35,6 +39,15 @@ tolkExit();                           // Cleanup
 
 - `src/tolk.h` - Public API
 - `src/tolk.cc` - Implementation with dynamic DLL loading
+- `src/mainmenu.cc` - Main menu keyboard navigation
+
+### Implementation Notes
+
+Pattern for adding keyboard navigation to menus:
+1. Add static selection index variable
+2. Handle `KEY_ARROW_UP`/`KEY_ARROW_DOWN` in event loop
+3. Use `messageListGetItem()` to get UI text for announcements
+4. Call `tolkSpeak(text, true)` with interrupt for immediate feedback
 
 ### Integration Points
 
@@ -44,7 +57,7 @@ Currently integrated in `src/game.cc`:
 
 ## Future Work
 
-- Menu navigation announcements
+- Other menus (options, load/save, character creation)
 - Dialog text reading
 - Combat messages
 - Inventory item descriptions

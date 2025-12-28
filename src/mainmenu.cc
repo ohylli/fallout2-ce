@@ -15,6 +15,7 @@
 #include "sfall_config.h"
 #include "svga.h"
 #include "text_font.h"
+#include "tolk.h"
 #include "version.h"
 #include "window_manager.h"
 
@@ -80,6 +81,29 @@ static bool gMainMenuWindowHidden;
 static FrmImage _mainMenuBackgroundFrmImage;
 static FrmImage _mainMenuButtonNormalFrmImage;
 static FrmImage _mainMenuButtonPressedFrmImage;
+
+// Accessibility: currently selected button for keyboard navigation
+static int gMainMenuSelectedButton = MAIN_MENU_BUTTON_INTRO;
+
+// Get the display name of a main menu button for screen reader
+static const char* mainMenuGetButtonName(int buttonIndex)
+{
+    MessageListItem msg;
+    msg.num = 9 + buttonIndex; // Messages 9-14 are button labels
+    if (messageListGetItem(&gMiscMessageList, &msg)) {
+        return msg.text;
+    }
+    return nullptr;
+}
+
+// Announce current menu selection to screen reader
+static void mainMenuAnnounceSelection(int buttonIndex)
+{
+    const char* name = mainMenuGetButtonName(buttonIndex);
+    if (name != nullptr) {
+        tolkSpeak(name, true);
+    }
+}
 
 // 0x481650
 int mainMenuWindowInit()
@@ -290,6 +314,10 @@ void mainMenuWindowUnhide(bool animate)
     }
 
     gMainMenuWindowHidden = false;
+
+    // Accessibility: announce main menu and current selection
+    tolkSpeak("Main Menu", true);
+    mainMenuAnnounceSelection(gMainMenuSelectedButton);
 }
 
 // 0x481AA8
@@ -341,6 +369,32 @@ int mainMenuWindowHandleEvents()
                 brightnessDecrease();
             } else if (keyCode == KEY_UPPERCASE_D || keyCode == KEY_LOWERCASE_D) {
                 rc = MAIN_MENU_SCREENSAVER;
+                continue;
+            } else if (keyCode == KEY_ARROW_UP) {
+                // Accessibility: navigate up with wraparound
+                gMainMenuSelectedButton--;
+                if (gMainMenuSelectedButton < 0) {
+                    gMainMenuSelectedButton = MAIN_MENU_BUTTON_COUNT - 1;
+                }
+                mainMenuAnnounceSelection(gMainMenuSelectedButton);
+                continue;
+            } else if (keyCode == KEY_ARROW_DOWN) {
+                // Accessibility: navigate down with wraparound
+                gMainMenuSelectedButton++;
+                if (gMainMenuSelectedButton >= MAIN_MENU_BUTTON_COUNT) {
+                    gMainMenuSelectedButton = 0;
+                }
+                mainMenuAnnounceSelection(gMainMenuSelectedButton);
+                continue;
+            } else if (keyCode == KEY_RETURN) {
+                // Accessibility: activate selected button
+                main_menu_play_sound("nmselec1");
+                rc = _return_values[gMainMenuSelectedButton];
+
+                // Handle Shift+Enter on Credits same as Shift+C
+                if (gMainMenuSelectedButton == MAIN_MENU_BUTTON_CREDITS && (gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP || gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP)) {
+                    rc = MAIN_MENU_QUOTES;
+                }
                 continue;
             } else if (keyCode == 1111) {
                 if (!(mouseGetEvent() & MOUSE_EVENT_LEFT_BUTTON_REPEAT)) {
