@@ -97,11 +97,11 @@ static const char* mainMenuGetButtonName(int buttonIndex)
 }
 
 // Announce current menu selection to screen reader
-static void mainMenuAnnounceSelection(int buttonIndex)
+static void mainMenuAnnounceSelection(int buttonIndex, bool interrupt = true)
 {
     const char* name = mainMenuGetButtonName(buttonIndex);
     if (name != nullptr) {
-        tolkSpeak(name, true);
+        tolkSpeak(name, interrupt);
     }
 }
 
@@ -317,7 +317,7 @@ void mainMenuWindowUnhide(bool animate)
 
     // Accessibility: announce main menu and current selection
     tolkSpeak("Main Menu", true);
-    mainMenuAnnounceSelection(gMainMenuSelectedButton);
+    mainMenuAnnounceSelection(gMainMenuSelectedButton, false);
 }
 
 // 0x481AA8
