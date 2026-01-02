@@ -40,6 +40,9 @@ cmake --build --preset ios-release
 
 Build output is placed in `out/build/{preset-name}/`.
 
+### Auto-Copy to Game Directory
+Copy `CMakeUserPresets.json.example` to `CMakeUserPresets.json` and set `FALLOUT2_INSTALL_DIR` to your Fallout 2 install path. Then use the dev presets (e.g., `cmake --preset windows-x64-dev` and `cmake --build --preset windows-x64-dev-release`) to auto-copy the executable after each build.
+
 ## Architecture
 
 ### Namespace

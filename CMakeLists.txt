@@ -21,6 +21,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED YES)
 set(CMAKE_CXX_EXTENSIONS NO)
 
 option(FALLOUT_VENDORED "Use vendored third-party libraries" ON)
+set(FALLOUT2_INSTALL_DIR "" CACHE PATH "Path to Fallout 2 installation directory for auto-copy after build")
 
 if(ANDROID)
     add_library(${EXECUTABLE_NAME} SHARED)
@@ -376,6 +377,16 @@ target_include_directories(${EXECUTABLE_NAME} PRIVATE ${ZLIB_INCLUDE_DIRS})
 
 target_link_libraries(${EXECUTABLE_NAME} ${SDL2_LIBRARIES})
 target_include_directories(${EXECUTABLE_NAME} PRIVATE ${SDL2_INCLUDE_DIRS})
+
+# Auto-copy executable to game install directory if configured
+if(FALLOUT2_INSTALL_DIR)
+    add_custom_command(TARGET ${EXECUTABLE_NAME} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            "$<TARGET_FILE:${EXECUTABLE_NAME}>"
+            "${FALLOUT2_INSTALL_DIR}/"
+        COMMENT "Copying ${EXECUTABLE_NAME} to ${FALLOUT2_INSTALL_DIR}"
+    )
+endif()
 
 if(APPLE)
     if(IOS)

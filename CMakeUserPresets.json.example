@@ -1,0 +1,35 @@
+{
+    "version": 6,
+    "configurePresets": [
+        {
+            "name": "windows-x64-dev",
+            "inherits": "windows-x64",
+            "cacheVariables": {
+                "FALLOUT2_INSTALL_DIR": ""C:/Program Files (x86)/Steam/steamapps/common/Fallout 2"
+            }
+        },
+        {
+            "name": "linux-x64-dev",
+            "inherits": "linux-x64-release",
+            "cacheVariables": {
+                "FALLOUT2_INSTALL_DIR": "/home/user/.steam/steam/steamapps/common/Fallout 2"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "windows-x64-dev-debug",
+            "configurePreset": "windows-x64-dev",
+            "configuration": "Debug"
+        },
+        {
+            "name": "windows-x64-dev-release",
+            "configurePreset": "windows-x64-dev",
+            "configuration": "Release"
+        },
+        {
+            "name": "linux-x64-dev-release",
+            "configurePreset": "linux-x64-dev"
+        }
+    ]
+}
