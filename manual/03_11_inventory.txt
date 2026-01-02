@@ -1,0 +1,190 @@
+============================================================
+INVENTORY
+============================================================
+
+Inventory
+The Inventory screen is used to keep track and use items
+that you come across during the course of your adventure.
+It also allows you to equip your character with items or
+weapons. You are limited in the number of items that you
+can carry. Every item has a specific weight. The maximum
+number of items you can carry is based on your Carry
+Weight statistic. You can Examine an item to determine
+the items weight.
+Cursors
+There are two cursors that you
+can use on this screen: The
+Hand cursor and the Command
+cursor. Right-click to switch
+between them.
+The hand cursor will allow
+you to pick up and move items
+around. With the hand cursor
+visible, move it over an item,
+left-click and hold the mouse
+button down. Move the cursor around. Release the left
+mouse button to drop the item into its new location. If
+you are moving more than one item, a special window will
+appear and ask you how many of the items do you wish to
+move.
+If you move completely identical items on to each
+other, they will “stack.” Stacked items show only one
+picture, but the number of items in the stack will
+appear. This is more convenient than having many items
+take up space in your inventory list. In the case of
+ammunition, it will show the total number of rounds in
+all of the magazines in this stack. When you move ammo,
+you move it by magazine, not individual rounds. Guns must
+have the exact number of rounds remaining, and the ammo
+must be of the exact same type. Stacking guns that are
+not unloaded is rare.
+
+Moving or Dropping Multiple Items
+The picture shows the items being moved. The counter
+shows the current number of items being moved. Press the
++ and - buttons to increase or decrease the number of
+items being moved. You can also
+type the number of items, up to
+99999, on your keyboard. If you
+are moving a bunch of items,
+type the number instead of
+using the +/- buttons.
+If you want to move all the
+items, press the ALL button.
+If you are happy with the
+number of items being moved, press DONE.
+If you decided not to move any items at all, press
+CANCEL.
+If you use the Drop Item action icon on a stack of
+items, you will also get this window.
+Inventory Screen
+The Inventory screen is divided into five parts:
+Inventory List - This is a list of all your inventory
+items that your character is carrying. As you pick up new
+items, they will be added to the top of the list. If you
+Use an item from this list, it will automatically be used
+on your character. If you Examine an item, the long
+description will appear in the inventory screen Display
+Window (see below.)
+You can use the Home, End, PgUp, PgDn keys on your
+keyboard to quickly move the inventory list from top to
+bottom, and back.
+The arrow buttons will also scroll the list. When an
+arrow is white, the list can no longer be moved in that
+direction. When the arrow is coloured yellow, you can
+press it to move the list in that direction.
+MGYE ITENi
+hH
+' ÿ ÿ1
+00 0 (3 1
+ALL
+m
+ÿ*; :ÿ - ~lL'\
+
+Character Portrait - This window
+will change to show what armour
+your character is wearing, and
+weapon is equipped.
+Display Window
+- This window
+normally shows
+the current
+status of your
+character. At
+the top of the
+window is your
+character’s
+name. Below
+that you find
+some numbers and abbreviations.
+ST, PE, EN, CH, IN, AG, LK - Your character’s current
+statistics, which will include any modifiers for
+radiation, chems or other effects.
+Remember
+that you must right-
+click to change between
+the hand and action
+cursor.  It is only with
+the action cursor that
+you can drop, examine,
+or use items.
+NOTES
+-I m Ml
+ÿ•i mmr Chm M
+EH
+2f ZftK
+i
+L nwr
+mjin*
+m
+ÿi
+F-rr
+M.-ÿ.'H?.
+lN
+-i
+Cfpvÿs m.-ir*:
+"Nwt
+Ibirrnnl rkq I"!"
+iGl-Dl Ui: ÿ"5si"Z73
+
+Hit Points - Current HP/Maximum HP. When the first number
+drops to 0, you are dead and the game is over.
+Armour Class - This area shows the current Armour Class
+(AC), Damage Resistance (DR) and Damage Threshold (DT)
+for the armour you are currently wearing. The different
+types of DR/DT are:
+Normal - Bullets, knives and other blunt or sharp
+objects.
+Laser - Damage from laser weapons. Reflective armour
+will have higher DR/DT in this type of damage.
+Fire - Damage from flamers and other sources of heat.
+Plasma - Damage from plasma weapons, which use super-
+heated matter almost on the point of becoming pure
+energy. Pretty advanced stuff.
+Explode - Explosions of all types. Concussion and
+blast damage.
+AC is the negative modifier applied to people or critters
+attacking you.
+DT and DR are the amount of damage that the attack is
+reduced by.
+The two areas at the bottom of your display window are
+for your currently active items (the items in ITEM1 and
+ITEM2, respectively.) Basic information about the item or
+weapon will be displayed, like the name. Other
+information displayed depends on the object type. Weapons
+will show damage, range, rounds left/maximum and the type
+of ammo. Other items will have brief descriptions of
+important information.
+Current Weight/Total Weight - The two numbers at the
+bottom of the screen show your current total weight for
+all your inventory items, and the maximum amount of
+weight that you can carry. You current weight cannot be
+larger than your maximum weight.
+Armour Slot - Only armour can be placed into this slot.
+Use the hand cursor to drop armour items into this slot.
+
+Any armour that is currently in the armour slot will be
+dropped back into your inventory.
+Item Slots - These two slots can hold items such as
+weapons. Other items can be placed here and then used
+from the Interface Bar. ITEM1 when empty can be used for
+unarmed punch attacks. ITEM2 when empty can be used for
+unarmed kick attacks.
+There is also a DONE button. Press the DONE button to
+return to the game. While you are in the Inventory
+screen, time stops in the game. You can spend as much
+real-world time as you want in this screen, and no time
+will pass in the game.
+Other Inventory Actions
+You can also load and unload weapons. Drag ammo of the
+appropriate type to the weapon. When you drag ammo to a
+weapon, it will attempt to load it. To load the weapon
+successfully, the ammo calibre must be the same as the
+gun (no fair trying to load 9mm into a 10mm gun, either)
+and ammo type (JHP, FMJ) must be the same. If the weapon
+is completely loaded, you cannot add additional ammo,
+either.
+Unload ammo from weapons by using the Unload action
+icon. The ammo will appear in your inventory. You can
+also unload ammo from a loot screen. It is far easier to
+carry small bits of ammo, then big heavy guns.

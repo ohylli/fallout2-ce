@@ -1,0 +1,111 @@
+============================================================
+APPENDIX 1: TUTORIAL
+============================================================
+
+APPENDIX 1:
+Tutorial
+This section will give you a brief tutorial on game
+functions and give you a head start at the beginning of
+the game. This tutorial assumes that you have already
+installed Fallout 2 and doubled-click on the Fallout 2
+icon or ran it from the Win95 Start menu.
+Start a new game by selecting NEW GAME from the main
+menu. For now, click on the TAKE button to select Narg, a
+combat-based character that is the easiest character to
+start the game with.
+After the tribal elder tells you of your mission, you
+will appear standing in front of the temple of trials.
+Narg, your character, is standing on the steps in the
+centre of the screen. Press F1 if you need a quick
+reminder of the basic functions and icons on this screen.
+Equip Narg with a weapon, since Narg likes to kick a
+little bootie every now and then. Click on the INV button
+on the interface bar to open Narg’s bag of goodies. Narg
+is pretty poor and only has a spear. That’ll have to do
+for now. Move the cursor over the spear. Right-click once
+to change the cursor mode. Left-click on the spear to
+examine it a little more closely. Then right-click again
+to change the cursor back to the hand. Left-click on the
+spear and hold the mouse button this time. Notice that
+the cursor becomes the spear. The cursor is one with the
+spear. Drag the spear to the ITEM1 slot and release the
+left-mouse button. Narg is now wielding the spear. Click
+on the DONE button to return to the game.
+Move the cursor to the corners of the screen. The
+screen will scroll to show you more of the map. This map
+is pretty small. About the only things of
+interest on this map are the actual entrance to the
+temple and that guy standing to the south of you.
+Go talk to that guy. Right-click to change cursor
+modes and left-click on the guy, er, guard. Narg will run
+up to him and start a conversation. See page 63 for full
+information about talking to non-player characters. For
+now, click on the “Just thought I’d say hello...” line
+and say good-bye to the man. If you move the cursor over
+the NPC for a moment, you will see a brief description of
+
+him in the display monitor.
+Left-click to change back to the movement cursor and
+click in the dark entrance area of the temple.
+Good thing you pulled out that spear. There is a
+(somewhat) dangerous animal hiding in the darkness of the
+temple. Move Narg in the direction of the scorpion. Don’t
+move too close. Wait for the scorpion to notice you and
+start combat.
+The scorpion should move right up to Narg. Convenient
+for Narg, bad for the scorpion. Left-click on the spear
+button on the interface bar. The cursor will change to a
+targeting attack cursor and the scorpion will highlight.
+Left-click on the scorpion to attack it. If you miss,
+click the END TURN button. If you hit and don’t kill the
+scorpion, left-click to change cursor modes and walk away
+from the scorpion. If you kill it, click the END COMBAT
+button.
+Change the cursor to the action cursor (right-click
+until the cursor is an arrow) and left-click on the large
+door. This type action uses the item in question. In the
+case of doors, this action attempts to open them.
+Walk north and take the first corridor on your right.
+Kill any scorpions that you come across. As a shortcut,
+you can right-click in combat to select the targeting
+cursor. Keep moving away from the monsters, as it makes
+them work harder to attack you. Narg only gets one attack
+with his spear each turn.
+Continue on to the end of this corridor, until you
+come to a small room. Use the Pot in the north end of
+the room. Drag the bag of healing powder from the pot to
+Narg’s inventory or use the TAKE ALL button. Click on the
+DONE button you are finished looting the pot. Then leave
+this room and continue back to the main corridor and
+continue to explore this level until you come to another
+set of large doors to the north.
+(If you want to move faster, hold down SHIFT while
+clicking to move. This will make your character run
+instead of walk.)
+Notice this door is locked. You will need to pick the
+lock. Click on the SKILLDEX button and select LOCKPICK.
+The cursor will change to a yellow targeting cursor.
+Left-click on the door to attempt to pick the lock.
+Continue using the SKILLDEX button until you pick the
+
+lock.
+Then use the door to open it and proceed north.
+This next corridor is trapped where it widens and
+opens up. Proceed slowly through the area. If Narg sees a
+raised plate, it indicates that a trap trigger has been
+found. Walk slowly to the west side of the corridor and
+then walk carefully to the north. Avoid stepping on any
+trap triggers.
+If Narg gets hurt, either by the scorpions or the
+traps, open Inventory and use the healing powder. To do
+so, right-click to change cursor modes to the Inventory
+action cursor. Left-click and hold on the healing powder.
+A column of icons will appear. While holding the mouse
+button, move the mouse down to select the upraised hand
+(the Use icon) and release the mouse button. Narg will
+munch on the powder and feel much better.
+From here, you should continue to have Narg explore
+the temple. Keep proceeding, killing hostile animals as
+you come across them and using your skills and wits to
+bypass other obstacles.
+Good luck!

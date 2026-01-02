@@ -1,0 +1,41 @@
+============================================================
+TARGETS
+============================================================
+
+Targets
+One of the first things you need to do is determine
+possible targets. You can use the Target Highlight
+preference to determine when targets will be highlighted.
+We will assume that preference is set to Targeting Only.
+When you right-click to change cursor modes, one of
+the cursors is the targeting cursor. The targeting cursor
+is also available when you click on a weapon in the
+active item button area.
+All targets within your character’s line of sight*
+(LOS) and/or Perception range* will be highlighted. The
+colour of the highlight is important.
+
+RED - A critter highlighted red is a possible enemy
+within your character’s LOS and Perception range. Proceed
+with caution. It’s possible that the critter is neutral,
+and wants to have nothing to do with you and your
+problems. It’s also possible that the critter could be
+planning evil things to do with your character’s corpse.
+YELLOW - The critter is out of your character’s LOS, but
+within Perception range. It will be impossible for your
+character to attack this critter, unless your character
+moves closer.
+GREEN - This is a friendly critter. Don’t shoot!
+NONE - If there is no highlight around a critter, that
+particular character or creature is out of our
+character’s LOS and Perception range.
+* LOS is Line of Sight. This is a straight line between
+two characters. If the line is blocked, the characters
+are not in LOS of each other. LOS is mutual. By
+definition, a character that has LOS to a critter is
+within the LOS of the critter. LOS can be blocked by
+walls, trees and other large objects.
+* Perception range is what your character can hear or
+smell, in addition to see. It is possible for your
+character to know that a critter is behind a while,
+because your character can just perceive them.

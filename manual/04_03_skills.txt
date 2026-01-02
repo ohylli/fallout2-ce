@@ -1,0 +1,295 @@
+============================================================
+SKILLS
+============================================================
+
+Skills
+Skills are learned abilities of your character. The skill
+level shows how good your character is at that skill.
+Each skill will have its own skill level, which is
+expressed as a percentage. That percentage shows your
+chance of success, before modifiers. No skill is 100%
+certain, however, and all skills max out at 95% (after
+modifiers.)
+The maximum skill level is 200%. Skill levels can be
+increased everytime your character gains a level, but it
+starts getting harder and harder to improve well-known
+skills. Skills can also be improved by reading specific
+books or completing quests within the game.
+Small Guns - Firearms covered by the use of this skill:
+pistols (both revolvers and autoloaders), sub-machineguns
+(SMGs), rifles, and shotguns. The skill level is your
+base percentage to hit. Modifiers include: weapon weight,
+range, darkness, and cover. This skill is used
+automatically in combat when you attack with the
+appropriate weapon.
+Big Guns - Similar to Small Guns, but this skill affects
+much bigger weapons: rocket launcher, mini-gun, flamer,
+and other large weapons. This skill is used automatically
+
+in combat when you attack with the appropriate weapon.
+Energy Weapons - Also like Small Guns, but it affects any
+ranged weapon that uses energy cells instead of
+conventional chemical propellants. This skill is used
+automatically in combat when you attack with the
+appropriate weapon.
+Unarmed - The skill of punching and kicking. Very few
+weapons will also use this skill (the armed version of
+Unarmed), like Brass Knuckles. You must not have an
+active item in one of your slots to use this skill to
+its full ability, however. ITEM1 is for punch attacks.
+ITEM2 covers using your feet (don’t ask, it involves some
+weird yoga practice.) Your character starts by just being
+able to punch or kick, but there are more unarmed
+techniques than that. As your character’s characteristics
+improve, the type of unarmed attack will change. These
+improvements are automatic, as long as the requirements
+are met. There are two different modes for each type of
+attack. Right-click on the Punch or Kick button to change
+the mode from primary to secondary. The Unarmed skill is
+automatically used when you attack.
+
+Primary Punch Attacks
+Strong Punch
+Effects: +3 damage
+AP Cost: 3
+Requires: Unarmed 55%, Agility 6
+Hammer Punch
+Effects: +5 damage, +5% critical chance
+AP Cost: 3
+Requires: Unarmed 75%, Agility 6, Strength 5, Level 6
+Haymaker
+Effects: +7 damage, +15% critical
+AP Cost: 3
+Requires: Unarmed 100%, Agility 7, Strength 5, Level 9
+Secondary Punch Attacks
+Jab
+Effects: +5 damage, +5% critical
+AP Cost: 6
+Requires: Unarmed 75%, Agility 7, Strength 5, Level 5
+Palm Strike
+Effects: +7 damage, +20% critical, armour piercing
+AP Cost: 6
+Requires: Unarmed 115%, Agility 7, Strength 5, Level 12
+Piercing Strike
+Effects: +10 damage, +40% critical, armour piercing
+AP Cost: 8
+Requires: Unarmed 130%, Agility 7, Strength 5, Level 16
+Primary Kick Attacks
+Strong Kick
+Effects: +5 damage
+AP Cost: 4
+Requires: Unarmed 40%, Agility 6
+
+Snap Kick
+Effects: +7 damage
+AP Cost: 4
+Requires: Unarmed 60%, Agility 6, Level 6
+Power Kick
+Effects: +9 damage, +5% critical
+AP Cost: 4
+Requires: Unarmed 80%, Agility 6, Strength 6, Level 9
+Secondary Kick Attacks
+Hip Kick
+Effects: +7 damage
+AP Cost: 7
+Requires: Unarmed 60%, Agility 7, Strength 6, Level 6
+Hook Kick
+Effects: +9 damage, +10% critical, armour piercing
+AP Cost: 7
+Requires: Unarmed 100%, Agility 7, Strength 6, Level 12
+Piercing Kick
+Effects: +12 damage, +50% critical, armour piercing
+AP Cost: 9
+Requires: Unarmed 125%, Agility 8, Strength 6, Level 15
+Melee Weapons - This covers the use of most melee
+weapons. Knives, spears, hammers are all melee weapons.
+The skill level is the base chance to hit your opponent,
+modified by your opponent’s armour class. Melee weapons
+have a greater chance of doing a critical hit. This skill
+is used automatically when you attack with a melee
+weapon.
+Throwing - Whenever a weapon is thrown, this skill gets
+used. Knives are melee weapons, but if you throw a dagger
+at your opponent, this skill will be used. Grenades are a
+good reason to improve this skill. If you miss, the
+thrown object still has to end up somewhere. It’s
+possible to throw a weapon and have it land right at your
+feet. If it’s a knife, no big deal. If it is grenade,
+that’s a really big deal. The maximum distance a weapon
+can be thrown is based on your character’s Strength. This
+
+skill is used automatically when you attempt to throw a
+weapon.
+First Aid - The skill can heal minor wounds only. When
+used successfully, it will heal a small amount
+of Hit Point damage. It can only be used a few times a
+day. This skill takes a few minutes to use, so it will
+advance the game clock by a few minutes.
+If you use a First Aid kit, you will increase your
+chance of successfully using this skill. Using a First
+Aid kit on a person will automatically use your First Aid
+skill (with a positive modifier) on that person. The
+supplies in a First Aid kit will eventually run out and
+the item will be automatically discarded.
+Doctor - This skill heals major wounds. Not only does it
+heal more HP damage than First Aid, it can also restore a
+crippled limb to full health (see page 53 for information
+about crippled limbs.) Like the First Aid skill, it can
+only be used successfully a few times a day. If all the
+uses of one of the healing skills are used up, it is
+still possible to use the other healing skill until it
+runs out of uses as well. Using this skill will advance
+the game clock by several hours.
+Using a Doctor’s Bag will increase your chance of
+successfully using this skill.
+
+Sneak - Sneaking makes it
+harder for your character to
+be detected. Using this skill
+is a toggle. You are either
+Sneaking, or you are not.
+When you are Sneaking, you
+don’t actually know if the
+skill is working properly.
+When you first start
+Sneaking, and every minute
+after, the computer rolls
+against your Sneak skill. If
+successful, all critters will
+have their Perception halved
+when trying to notice you.
+Normally, if your character runs, it will automatically
+turn Sneak off. You can tell if your character is trying
+to use this skill if the Sneak icon is displayed above
+the interface bar.
+Lockpick - When you use this skill on a locked door or
+container, the computer will roll against your Lockpick
+skilled modified by the difficulty of the lock. If
+successful, the lock will be picked. If you fail, you
+just lose the time spent trying to pick the lock. If you
+critically fail, the lock is jammed and cannot be picked
+until a long period of time has passed. Every attempt
+takes a few game minutes.
+A lockpick can be used to increase the chance of
+success. There are two different types of locks:
+mechanical and electronic. Use the proper lockpick for
+the type of lock. Lockpicks cannot be “used” up, but they
+can be broken or destroyed on a critical failure.
+Steal - The skill level of Steal determines the base
+chance of “removing” an item from another person or
+object without being noticed. Modifiers include: the
+facing of the target compared to your character (standing
+right in front of the target is a bad idea), the size of
+the object you are trying to steal (smaller objects are
+easier to steal than larger objects), and the number of
+You can
+actually use the Steal skill
+to plant items on a target.
+Just drag from your
+character’s inventory to
+theirs.  They get a chance
+to notice what you are
+doing, of course.  It works
+just like a normal Steal, but
+in reverse.
+NOTES
+
+objects you are trying to steal at one time (stealing a
+small number of objects is easier than stealing
+everything a person owns.) When you use this skill on a
+person, you will see a loot screen. Drag as many items as
+you want from the target’s inventory to your inventory.
+Each item you move will create an opportunity for the
+target to notice what you are doing. Their chance to
+notice your Steal action depends on your skill, the
+result of the Steal roll after all the modifiers, and
+their Perception. The higher their Perception, the more
+likely they are to notice your character if she screws
+up.
+Traps - This skill is used to spot, disarm, and plant
+traps and explosives. If you attempt to use a trapped
+item, you will have a chance to notice the trap based on
+your Traps skill or Perception (depends on the trap.) If
+you do not notice the trap, it will go off in your face.
+You can use the Traps skill to attempt to disarm the
+trap. If you succeed, the trap is disarmed. If you fail,
+you can always try again. If you critically fail, the
+trap goes off in your face. If you find a trap trigger
+on the floor, you will see the trigger appear. Use the
+Traps skill on the trigger to attempt to disarm it. If
+you find a trap on a container, or door, then you see a
+message in the display window. If you were attempting to
+open the trapped container or door, Fallout will stop
+you. Try again and you can set off the trap. The Traps
+skill is also used when you set and place explosives. To
+use dynamite, for example, do the following:
+Open inventory.
+Select the explosive and Use
+it.
+A timer will appear. Set the
+time you would like the
+explosive to go off. A Traps
+roll will be made. If you
+succeed, the trap will go off
+on time. If you fail, the trap
+will go off before you intended it to. If you critically
+fail, the trap goes off immediately.
+This is the timer. Use the + and - buttons to adjust
+
+the time. Press DONE when the time is set to your
+satisfaction. Press CANCEL to not set the timer on the
+explosive. Once you start a timer, you cannot stop the
+explosive from detonating.
+You can use an explosive to trap a door or container
+item. Simply use an explosive that is not currently on a
+timer on the door or container. The game will roll your
+Traps skill and, if things go well, the next person to
+open that door will get a major case of concussion and
+blast damage.
+Science - This skill is really used in two different
+ways. The active use of this skill is mostly used on
+computers and hi-tech pieces of equipment. This skill is
+also used passively to determine whether or not your
+character can understand or notice something scientific.
+This skill covers all the different types of scientific
+fields. Using this skill generally takes no game time.
+This skill often needs to be used before the Repair
+skill. It will give you a general idea of what is wrong.
+Repair - Use this skill to fix something that is broken,
+or break something that is fixed. Using the proper tool
+for the job will help increase the chance of success. The
+use of this skill will really depend on the situation you
+come across in the game. Some items may be easier than
+others to fix.
+Speech - This skill is only used in extended dialogues
+(see page 66.) Besides being used to present a convincing
+argument, and getting the NPC to agree with you, it is
+used to present a convincing lie and getting the NPC to
+agree with you. The difference between an argument and a
+lie is that if you blow the argument, the NPC generally
+will not want to slit your throat. You never get to use
+this skill actively while talking, as the lines that
+Speech rolls are used on are not marked. A higher Speech
+skill is useful for getting your way. You can use the
+Speech skill actively to start a conversation, but just
+clicking on the person is usually easier to do.
+Barter - The skill of trading goods is used automatically
+in the barter screen (see page 68.) Your Barter skill,
+
+along with many other factors, will be used to set the
+value of any goods that you are attempting to trade. The
+only game effect of this skill is to increase the value
+of your goods (and to meet the requirement of a few
+Perks.)
+Gambling - Games of chance will always exist. Whenever
+you come across a game of chance, this skill will be used
+to determine whether your character wins or loses. This
+skill is used automatically when you decide to have your
+character gamble in the game.
+Outdoorsman - This is used mostly on the World Map. It
+will determine if you can avoid a random encounter. It is
+also used to determine how far away from a critter you
+start a random encounter, along with your character’s
+Perception statistic. The Outdoorsman skill may also be
+used in specific encounters. Outdoorsman is never used
+actively.

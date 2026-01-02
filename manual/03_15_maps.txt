@@ -1,0 +1,158 @@
+============================================================
+MAPS
+============================================================
+
+Maps
+The game view just shows a small section of the Fallout 2
+world. There are three different types of maps besides
+the game view that show the world at different scales.
+From largest to smallest:
+World Map
+Town Map
+Game View
+Automap
+World Map
+The largest map in the game,
+the world map shows an overland
+view of the wasteland. You will
+use this map to move your
+character from town to town. You
+can only get to the world map by
+exiting a town via an “exit
+grid.” This is an example of
+what an exit grid looks like:
+Note that there are two types of exit grids. Green exit
+grids take you from one part of a town to another, and
+brown exit grids take you to the world map. Step on the
+exit grid to be automatically transported. You can use an
+exit grid to escape from a hostile location, but don’t
+expect a pleasant welcome when you return.
+The world map is divided into four different sections:
+Leaving
+the map via an exit
+grid is a great way
+to end combat!
+NOTES
+I
+
+Map Display - This is the view
+of the map. Areas that you have
+not explored are dark. The
+immediate area around your
+explorations is slightly
+illuminated. This means that
+your character has seen the
+contents of that area, but has
+not yet walked through that
+part of the world map. Green
+circles are important locations, towns usually, that you
+can visit. Large green circles have their own town map
+(see below.)
+Sun/Moon Display - You can see the current date and time
+through this indicator. This display will also show you
+if it is day or night at your current spot on the world
+map. Notice that as you move, the sun sets and rises.
+Many towns change depending on whether it is day or night
+when you arrive.
+Location List - As you discover important locations, a
+button for that location will be added to this list. If
+you ever want to visit a known location, simply click on
+that locations button and your character will start
+marching there immediately. You can scroll this list, if
+necessary.
+Town/World Button - This button will toggle between the
+town and world maps.
+World Map Movement
+To move around the world, move your cursor over your
+intended destination and click. Your character will begin
+moving there immediately. Movement is not instantaneous
+and may take days or weeks of game time. As you explore,
+darkened areas of the world map will be revealed.
+You can also use the location list to select a
+previously visited location to head for.
+When you reach your destination, a green triangle will
+appear. Click on the triangle to enter that location. You
+can always click on a new destination, if you want to
+keep exploring.
+
+The world of the wasteland is a difficult place to
+travel in. You have two obstacles -- terrain and random
+encounters. Either or both of these can slow down your
+travelling and make your life difficult.
+Terrain
+Some terrain is more difficult to travel through than
+others. There are four basic types of terrain:
+Mountain - The most difficult to move through. Mountain
+areas will force your character to move the slowest.
+Desert - This terrain is hot and dry. Movement is normal,
+however.
+City - Walking through this terrain is usually the
+fastest way to travel. Even with the ruins, cities are
+the easiest to travel through.
+Coastland - Similar to desert terrain. Movement is
+normal.
+Random Encounters
+When you are travelling on the world map, it is still
+possible to encounter other travellers or dangerous
+animals. These are known as random encounters, since you
+are never sure what you will be coming across, or when.
+Some areas of the map may have more encounters than
+others. Random encounters are usually hostile, but not
+always.
+Depending on your Outdoorsman skill, some Perks and
+whether or not you have the Motion Sensor, you may be
+able to detect a random encounter before it detects you.
+In this case, you are given the option of bypassing the
+encounter and continuing your journey, or going ahead
+with the encounter.
+Town Map
+The town map is a detailed representation of an important
+location, usually a town (thus the name.) Town maps give
+you an idea of what the location is, where the major
+buildings or points of interest within that location are,
+
+and a quick way of jumping into a town once you have
+explored it.
+To access a town map, click on the TOWN/WORLD button
+on the world map. One of the locations (most likely the
+most previously visited location) is displayed. To change
+town maps, click on a known location button in the
+location list. You can only view town maps for places
+that you have visited.
+The green triangles function just like the ones on the
+world map do. Click on one of them to jump to that part
+of town. To help you remember what triangle is associated
+with what part of that location, move the cursor over a
+triangle marker to reveal the marker name.
+Automap
+An automap is a shrunken view of a
+game view map. It is shrunken so
+you can see all of that map at
+once. The PIPBoy 2000 records all
+automaps, and can give you access
+to any automap that you have
+visited. To access the automap for
+the map your character is
+currently on, press the MAP button
+on the interface bar.
+The automap is a window that
+appears. Only the current level of
+the map you are on is displayed. All other levels (like
+the basement of a building, or a second story) are
+displayed through the PIPBoy.
+Notice that the automap only displays large objects,
+like walls and buildings. The function of an automap is
+to help you find your way around town.
+Your current location is marked with a solid red
+cross. Exit grids are orange.
+If you have the Motion Sensor as an active item, you
+can press the SCANNER button to reveal other critters
+within the automap. All other critters show up as red
+dots. You can only scan maps that your character is
+currently on.
+The HI/LO toggle button will change between high and
+low resolution. At high resolution, more detail is
+displayed on the map. Low resolution easier to read on
+
+some cluttered maps.
+Press the CANCEL button to return to the game.

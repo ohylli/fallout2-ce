@@ -1,0 +1,28 @@
+============================================================
+MAIN GAME SCREEN
+============================================================
+
+Main Game Screen
+This is the screen that you
+spend the majority of your time
+using. It shows your character
+and a view of the world around
+him or her.
+
+The screen is divided into two sections: the game view
+and the interface bar.
+The game view is the upper part of the screen where
+the action takes place. Your character, and the non-
+player characters (NPCs) inhabit this part of the screen.
+It is in the game view that you perform most of your
+actions: moving around, grabbing items, talking to
+people, targeting enemy critters in combat, opening
+doors, exploring, and more.
+The bottom part of the screen is the interface bar.
+You will use the interface bar to perform game-related
+activities: accessing inventory, selecting a weapon or
+weapon mode to attack with, accessing the character
+screen, selecting options, getting feedback from the
+display window, and more.
+Using your mouse, you will perform actions using
+different types of cursors.

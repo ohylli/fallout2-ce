@@ -1,0 +1,57 @@
+============================================================
+THE ACTION CURSOR
+============================================================
+
+The Action Cursor
+Fallout 2 uses an
+Action Cursor to show
+what actions can be
+performed at the
+current time. There are
+four basic modes the
+Action Cursor can be in
+when you are on the
+normal game screen.
+Movement (game view
+only)
+Command
+Targeting (turn-based
+combat only)
+Hand (inventory only)
+Cursors A Action leans
+X
+cimbiim
+3HUT*
+a Miuhmih
+ÿ 11It
+(j>
+TiriBlIn*
+ÿ USBTOhB
+5uiim
+ft lualiB
+A
+HnrlnttUr
+ÿ Dsn Invnrflgij On
+5*nil fHrKcitsn
+ÿ Use SKiIIUii
+Ei ImnhrvHhBl
+Push
+CikCBl
+ÿ
+
+Normally, the only two cursor types available in the
+normal game screen are the Movement and Command cursors.
+Targeting is only available when you are in the turn-based
+combat mode. The Hand cursor is only available in
+Inventory, where it and the Command cursor are available.
+Right-click to cycle between the available cursor
+types. Outside of combat, right-clicking will toggle
+between the Movement and Command cursor. In combat, the
+Targeting cursor is available by right-clicking when you
+see the Command cursor. Another right-click will cycle
+back to the Movement cursor.
+A left-click will perform an action that is based on
+the cursor type.
+See Combat, page 118, for more information on the
+Targeting cursor. See Inventory, page 45, for more
+information on the Hand cursor.

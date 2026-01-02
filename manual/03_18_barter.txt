@@ -1,0 +1,124 @@
+============================================================
+BARTER
+============================================================
+
+Barter
+Barter is the exchange of goods.
+Without a real monetary system,
+and a government to back it up,
+most people have resorted to
+trading goods in order to get by.
+To access the bartering
+interface, press the BARTER
+button from the dialogue screen.
+If the character wishes to barter
+with you, and most will, then the
+barter interface will slide up
+and cover the lower section of
+the screen.
+If you decide to cancel bartering, without making the
+deal, press the TALK button. You will be returned to the
+normal dialogue screen.
+To barter with an NPC, you
+must trade an equal amount of
+goods. Your Barter skill will
+modify the worth of the items in
+your inventory, since you will
+be better at making them seem
+more valuable. A high Barter
+skill will give your loot more
+value. A low Barter skill means
+that you have to give more of
+your items to get the same amount of goods from an NPC.
+Your inventory list is on the left-hand side of the
+screen. The equipment and items that the NPC is willing
+to barter away is on the right-hand side of the screen.
+The table between the two lists is where the bartering
+will actually take place. At the bottom of each side of
+the table is the total value for all items that are up
+for trade. As you add more items to your side, for
+example, the dollar value will rise. The dollar value on
+the NPC side of the table shows the total value of all
+items that you want to trade for.
+How to Barter
+Take inventory items that you are willing to give up, or
+no longer need, and place them on your side of the table
+Barter is
+used with non-party-
+member NPCs only.  NPCs
+that believe in you
+enough to join your
+cause, and your party,
+use a slightly different
+method of trading goods.
+See page 70 for more
+details.
+NOTES
+
+(the left.) Take the items
+that you want from the NPCs
+inventory list and place them
+on his side of the table (the
+right.) You cannot place
+items directly into the other
+sides table or inventory
+list. That would be a major
+no-no. You must use the
+table.
+If you move multiple items
+(like a bunch of ammo or
+Stimpaks), then you get the
+move multiple item window.
+Remember that you can type in
+the number of items to move,
+in addition to using the +
+and - buttons. Typing a large
+number of items works well when you are dealing with
+cash.
+Once you have balanced the two sides of the table with
+an equal amount of goods (or if the trade is in the
+favour of the NPC), then you can press the OFFER button
+to make the offer. If the NPC accepts, the goods will be
+exchanged automatically. Your new items will be added to
+the top of your inventory list.
+If the NPC does not accept the deal, you need to place
+more items on your side of the table or remove items from
+his side. Remember to watch the dollar values of the
+items at the bottom of the trading table. Press the OFFER
+button again when you have adjusted the trade.
+Price Influences
+There are many things that will determine the total value
+of your goods compared to what the NPC will barter them
+for.
+Obviously, your Barter skill is the single most
+important factor. Remember, the better your Barter skill,
+the more you can get for your items.
+The Barter skill of the NPC comes into play. Some NPCs
+also just charge more for their goods (shopkeepers for
+example.)
+Your reputation will modify the value of the trade.
+Not all trade is
+done by pure barter.  Some
+of the towns are printing
+money again.  Money makes a
+great way to store lots of
+value, since it is very light-
+weight and takes up no real
+room in your inventory.
+When you have the chance,
+convert your heavy loot into
+portable cash.
+NOTES
+
+Having a good reputation will give
+you a better price break.
+The NPCs personal reaction to
+your character will also modify the
+value of the goods being traded. If
+the NPC likes your character, she is
+more likely to give your character a
+break and a better deal.
+If you offer a really poor trade,
+it may actually insult the NPC and
+lower their opinion of your
+character.

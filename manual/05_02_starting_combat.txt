@@ -1,0 +1,41 @@
+============================================================
+STARTING COMBAT
+============================================================
+
+Starting Combat
+There are two ways combat can start. You can initiate it,
+or someone else can. You can start combat by left-
+clicking on the active item, if it is a weapon, or using
+the “A” quick key. NPCs will usually only start combat if
+they are hostile, or if you really anger them by doing
+something they hate.
+Anyway you look at it, once combat starts, you’d
+better be prepared to end it.
+The person who starts combat gets a free turn, then
+all combatants (people participating in the battle) are
+ordered in a list by the Sequence statistic. The critter
+with the highest Sequence gets to go first, then the
+critter with the next best Sequence and so on. Ties are
+determine by the best Agility, and if that is still tied,
+the best Luck. If it is still tied at that point, the
+
+computer just picks a random critter who is tied for that
+position.
+Each combatant, starting at the top of the list and
+working down, gets a chance to act. When everyone has
+gone, it starts all over again at the top of the list.
+When combat starts, the
+combat buttons in the lower
+right-hand side of the interface
+bar will be revealed. If the
+four lights around the buttons
+are bright green, it is your
+character’s turn. If the lights
+are red, it is a computer characters turn. When it is
+your character’s turn, you can act. When it is not, you
+must watch the events on screen and wait for the next
+turn.
+Each turn of combat is five seconds of game time. It
+might take longer of actual time to play out that turn.
+When it is your turn, you can think about your actions
+for as long as you like. There are no time limits here.

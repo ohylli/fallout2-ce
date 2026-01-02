@@ -1,0 +1,27 @@
+============================================================
+TYPES OF CHARACTERS
+============================================================
+
+types of characters in the Fallout world:
+Player Character - This is your alternate ego that exists
+within the Fallout world. This is the single most
+important character in the game. If the player character
+(PC) is killed the game is over. PCs are also the most
+detailed of all the characters in the game, having access
+to all statistics, traits, skills, perks and karmic
+slices of life. Grouped together, all those things are
+called characteristics.
+Non-Player Characters - These are the computer controlled
+people in the game. Every character except the PC will be
+a non-player character (NPC), by definition. NPCs are not
+as detailed as the PC, and only have a limited subset of
+characteristics.
+Party Members - It is possible for the player to find
+NPCs that will join the PC. These are called party
+members, since they are a member of your party, or group
+of characters. They will follow your character around,
+and you have a small amount of control over their
+actions, as compared to regular NPCs.
+Critters - This term is sometimes used to describe an
+NPC, usually a non-intelligent animal or monster, but it
+can include any NPC.

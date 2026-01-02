@@ -1,0 +1,204 @@
+============================================================
+INTERFACE BAR
+============================================================
+
+Interface Bar
+The bottom part of the
+main game screen is
+taken up by the
+Interface Bar. Don’t
+worry, this is a good thing. The Interface Bar looks like
+this:
+The Interface Bar allows you to give many different
+types of commands, and see feedback on how your character
+is performing.
+If you have a special cursor, like a combat targeting
+cursor, or a skill target cursor, and you move it over
+the Interface Bar, the cursor will disappear and change
+into the normal pointer. This will cancel your weapon
+attack or skill use. You will have to re-select that
+action if you still want to perform it.
+The Interface Bar is made up of the following
+components:
+Display Monitor - This monitor
+prints out feedback as you or
+other characters perform
+actions. These little messages
+are important, so try not to
+miss any. Fortunately, you can
+scroll back to older messages by
+moving the cursor over the display until if changes into
+a small arrow. At the top of the display, it will be an
+up arrow and left-clicking will scroll back to older
+messages. At the bottom of the display, the arrow points
+down and left-clicking will scroll to the newer messages.
+If older messages are being displayed when a new message
+is printed, the display will automatically jump to the
+most recent message.
+11! r
+i
+U 3
+ÿ mi-
+uir
+In
+my]
+.E *** J n*
+y ÿÿ mm
+ft
+There.
+.
+•Vou see: Rocks. *
+•You see: Rocks.
+•Rocks, rocks, rocks!
+Everywhere you look,
+rocks!
+I
+I
+
+Switch Active Item Button - You can have two items
+prepared to immediate use. These are your active items.
+You prepare these items in the Inventory screen (see page
+45) when you place items into the ITEM1 and ITEM2 slots.
+This button will toggle between the two items,
+effectively changing the Active Item Button (see below.)
+If ITEM1 is being displayed, clicking this button will
+switch it to ITEM2. And if ITEM2 is the Active Item,
+clicking this button will switch it to ITEM1.
+Inventory Button - Pressing this button, cleverly marked
+INV, will open the Inventory screen. If you do this
+before combat, it is free. If you do this during combat,
+it will cost you Action Points. Moral of the story: use
+Inventory outside of combat if you can help it. See page
+45 for what you can actually do on the Inventory screen.
+Action Points - This row of lights will tell you how many
+Action Points you have remaining. Action Points are only
+used in combat, during which time they will glow. Glowing
+lights mean that it is currently combat and currently
+your turn. When you use Action Points, the lights will
+blink off one at a time. When you get your full
+complement of Action Points at the start of a combat
+turn, the row of lights will light back up. While it is
+possible to have more than ten Action Points, only the
+first ten Action Points are actually displayed with this
+monitor. The lights will not start to blink off until you
+actually start using your last ten Action Points.
+Options Button - This button will display a list of
+options available as you play Fallout 2:
+SAVE GAME - This button will display the Save Game
+screen, where you can save your progress. This
+allows you to return to the game at a later date or
+restore any progress you have made in case of death or
+Other Nasty Things. See page 76.
+LOAD GAME - This will allow you to load a previously
+saved game by displaying the Load Game screen. See page
+78.
+PREFERENCES - This button displays the Preferences
+
+screen, where you can alter the way Fallout 2 plays. See
+page 79.
+EXIT - Quit the current game and return
+to the main menu. You may want to save
+your game before you do this, so Fallout
+2 will remind you before you actually go
+back to the main menu.
+DONE - Return to your current game of
+Fallout 2.
+Active Item Button - This is where the
+current active item is displayed. You can
+have two items prepared, ITEM1 and ITEM2. See the Switch
+Active Item button (above) for details on how to switch
+items.
+Left-clicking this button will use the active item or
+weapon. Right-clicking this large button will switch
+weapon modes.
+Besides the graphic of the current active item or
+weapon, additional important information is also
+displayed on this button.
+The Action Point (AP) cost to use this item or weapon
+in combat is displayed in the lower left-hand corner. In
+combat, if you do not have more AP than this number, you
+may not use this item or weapon until you gain additional
+AP.
+The mode, or how this item will be used, is displayed
+in the upper right-hand corner of the button. You can
+sometimes right-click to change this mode.
+SAVE
+E OT uA.ÿL
+
+Some weapons can also make targeted shots. If you do
+not have the Fast Shot trait, you will see a targeted
+shot icon appear in the lower right-hand corner as you
+switch modes on the weapon. If you have selected the Fast
+Shot trait for your character, you cannot make targeted
+shots, and you will never see the targeted shot icon.
+Ammo Bar - If the active item is
+a weapon that requires ammo, or
+an item that requires charges,
+then this bar will be displayed
+next to the active item button.
+This bar will give you a rough
+idea of how many shots or uses
+remain, before the weapon or
+item runs dry.
+If the bar is full, stretching
+from the top to the bottom of
+the button, then the ammo or
+charges are maxed out. As you
+use rounds of ammo, or charges
+of energy, the bar will drop.
+When you are dry, the bar will
+disappear completely.
+For more detailed
+information about the number of rounds or charges
+remaining, use an Examine on the weapon or item.
+Hit Point Counter - This counter displays your current
+Hit Points (HP) remaining. The colour of the counter will
+give you a rough idea of your current health:
+WHITE - Healthy
+YELLOW - Hurt
+RED 
+- About to Die
+If your HP ever reach 0, you die and the game ends.
+You will have to reload a previously saved game, or start
+the game over from the very beginning. You should save
+often, and in different save game slots, to make sure
+that you don’t have to start over from the very
+beginning. You should monitor this display, and use
+skills or items to increase your HP when they get low.
+
+Armour Class Counter - This counter displays your current
+Armour Class (AC), based on your character statistics,
+traits, and currently worn armour. During combat, this
+counter will go up and down. If you have any extra Action
+Points at the end of your combat turn, they are
+automatically converted to a bonus to your AC. Don’t
+panic if your AC constantly changes.
+Skilldex Button - Pressing this button will display the
+Skilldex window. See page 44.
+Map Button - When you press this button, it will open and
+display the Automap window for the current map and level.
+See page 59 for more information on Automaps.
+Character Button - The CHAR button can be pressed to
+switch to the Character screen. This is the screen that
+shows all of your characters statistics and skills. Very
+useful, and should always be used when the display
+monitor prints a message that you have gained an
+experience level. See page 49 for more information about
+the Character screen.
+PIPBoy Button - Pressing this button will display the
+RobCo PIPBoy 2000, a personal data assistant that will
+help record information about your travels. See page 57
+for details about this wonderful machine.
+Combat Buttons - Outside of combat, this section of the
+Interface Bar is covered by a panel. When you are
+involved in combat, the panel will slide back to reveal
+two combat buttons: END TURN, which will end your current
+turn and let the next person or creature have a chance to
+act, and END COMBAT, which will attempt to stop all
+hostilities. The End Combat button will not work if there
+are nearby hostile critters that want to continue doing
+bad things to you. Green lights
+around the combat buttons mean
+that it is your turn. Red lights
+mean that someone else is getting
+a chance to do bad things.

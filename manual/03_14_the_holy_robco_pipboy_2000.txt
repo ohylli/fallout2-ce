@@ -1,0 +1,113 @@
+============================================================
+THE HOLY ROBCO PIPBOY 2000
+============================================================
+
+The Holy RobCo PIPBoy
+2000
+One of the most holy artifacts
+to be found in the Fallout 2
+world is the RobCo PIPBoy 2000.
+This Personal Information
+Processor is highly sought
+after since few functioning
+units remain. While your
+character does not start off with this wonderful device,
+one of your first quests will be to retrieve it.
+The PIPBoy (as it is commonly called) is a handy
+device that you wear on your wrist. It stores information
+automatically for you, like a personal secretary, and
+also includes a clock and calender function for keeping
+track of time.
+Use the buttons on the left-hand side of the screen to
+select the primary function of the PIPBoy. All other
+commands will be entered directly on the screen of the
+PIPBoy. You can click on most lines of text to get more
+information.
+Functions of the PIPBoy 2000
+The various functions of the PIPBoy are described below.
+Remember that none of these functions are available until
+your character finds the PIPBoy.
+The Clock and Calender
+The upper left-hand corner of the PIPBoy screen shows the
+current date and time. The date is shown in
+Day:Month:Year format. The time is shown in military
+time, a 24-hour clock. When a 24-hour clock is used, an
+AM or PM notation is not required. Between 0000 and 1159
+are the morning hours, 1200 to 2359 are the evening
+hours. 1300 is the same as 1 o’clock in the afternoon.
+1800 is 6 o’clock, and so on.
+The button between the date and the time is an alarm
+clock. Press this button to show a list of timer settings
+in the main display. Select one of the timer settings,
+and game time will advance quickly. During this time,
+your character will rest or sleep. This means that you
+.v
+.
+I
+HCJ
+V* - I--..
+
+will gain more Hit Points than if your character
+continued to walk around or fight. Resting is also a good
+way of passing the time until the sun rises or sets.
+The various timer settings available:
+10 minutes
+30 minutes
+1 hour
+2 hours
+3 hours
+4 hours
+5 hours
+6 hours
+Until morning (0600 / 6:00AM)
+Until noon (1200 / 12:00PM)
+Until evening (1800 / 6:00PM)
+Until midnight (0000 / 12:00AM)
+Until healed
+Use the 10 minute to 6 hour timers if you need to
+perform a specific action at a particular time of day.
+Some events only occur during the night or during the
+day. Some shops are only open during daylight hours, for
+example.
+The “until” timers are a little more powerful. They
+will advanced the clock until the condition is meet. If
+you are low on healing items, and you don’t care if you
+waste some time, use the “Rest until healed” timer. This
+will advance the clock quickly, and it will keep your
+character resting until he is restored to full health.
+You can monitor the current/maximum number of hit points
+on this screen.
+While your character is resting, the clock will
+advanced quickly. Press ESC to wake up and cancel the
+remainder of the timer. 
+Status
+The primary function of your PIPBoy is to record your
+character’s current progress. All quests will be entered
+into this section of the PIPBoy when they are assigned to
+your character. You can press this button to display a
+list of the current and former quests. Quests that have
+been completed are crossed out. Select a quest to get
+
+more information on it.
+The Status function also displays data copied from
+holotapes, a kind of recordable media. Select an entry to
+display the data. If more than one page of data is
+available, use the NEXT and BACK text buttons to move
+through the data. To copy data from a holotape, use the
+Inventory screen to select the holotape and then use the
+Use action icon from the command cursor on it.
+Automaps
+Your PIPBoy can display an automap for any location that
+your character has visited. Press this button to display
+the list of locations. Select the primary location to
+display a list of all the submaps within that location.
+Select a map to display.
+
+Archives
+All movies are captured on the
+PIPBoy’s video recorder for later
+playback. Select any previously
+viewed movie to view it again.
+Close
+Press this button to power down the
+PIPBoy and return to the game.

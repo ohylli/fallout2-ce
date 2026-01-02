@@ -1,0 +1,159 @@
+============================================================
+DIALOGUE
+============================================================
+
+Dialogue
+Talking makes the world go around. So does sex. And while
+you may not be able to go to bed with every person in
+the game, at least you can talk to them. Most of the
+time, they will even talk back. Talking to people is an
+important part of your job, as an explorer, since it is
+one of the primary ways of getting information and
+quests.
+To talk to a person, use the command cursor and the
+Talk action icon. The Talk icon is the default action, so
+most of the time you only have to click on a person to
+start talking to them. If you are in the middle of
+combat, and trying to blow them away, don’t expect them
+to start a little chat about the weather at that point.
+Some NPCs will also start a conversation with you, when
+you get close enough to them. All dialogue works the same
+once a conversation is started.
+There are two types of dialogue: chatting and
+extended.
+
+Chatting Dialogue
+If an NPC has very little to
+say to you, and they don’t really
+want to hear what you have to
+say anyways, they will just chat
+with you. A line of dialogue will
+appear over their head in the
+main game view. Most of the time,
+this is something as simple as
+“Hello!”, but sometimes those
+sneaky game designers will put a
+“Hey, you’d better not move, or I
+will shoot you” type of line in
+there. In other words, most of
+the time,
+don’t worry what that person has to
+say to you. Sometimes, an important
+clue or order could be given to you
+via the chatting dialogue line.
+NPCs will also chat during
+combat. These are called combat
+taunts. Few combat taunts are
+pleasant. Fortunately, you can turn
+them off via the Preferences screen
+(see page 79.) Your character will
+never use combat taunts. We fully
+expect you to scream those out
+loud, and frighten your neighbours.
+If an NPC
+doesn’t have a head,
+that is not to say they
+are not important.  And
+if an NPC does have a
+head, that doesn’t make
+them critical to the
+game.
+NOTES
+J#
+
+Extended Dialogue
+When NPCs have something to say,
+and you can respond to their
+comments or ask questions, you
+will enter the extended dialogue
+screen. From here, you will get a
+view of the NPC, see what he or
+she has to say, and get a chance
+to respond to them. This screen
+will also allow you to Barter or
+Trade with the NPC, and review
+the current conversation.
+Some NPCs are special, and you
+will see a close-up of their
+head. Others are not so special,
+and you will just see a shot of this character just
+standing around in the game view.
+If an NPC does have a head, watch their facial
+expressions. They will give you a clue as to how the NPC
+really feels about your character.
+The NPCs dialogue will appear below their portrait or
+picture. If the text of what they have to say to you is
+too big to fit on the screen at once, only a small
+portion will be displayed at a time. The rest of the text
+will be displayed one screen at a time, until you see
+their entire speech. You can use the mouse cursor to
+review their speech, or advance it if you are a quick
+reader.
+Below the NPC’s speech, you will have one or more
+lines that your character can say. Exactly which lines
+that appear are based on your character. Your
+characteristics are the major factor, primarily
+Intelligence, but sometimes what skills you excel at.
+What else your character has done, or talked to people
+about, will also modify what options you have.
+If you only see [DONE], you are at the end of a
+conversation.
+NPCs will react differently to different lines. If
+your character says something stupid or inappropriate,
+some NPCs will get upset and others will just get on with
+their lives. Since having a higher Intelligence means
+that you get to see more options, you can choose between
+simple grunts and well-spoken diatribes against the
+Characters
+with a high Intelligence
+will have more options
+to select from when
+talking to NPCs.
+Something to think
+about when you select
+or create a character.
+NOTES
+
+capitalistic war-mongers. An Intelligence of three or
+less means that your character can only grunt and will be
+unable to converse like a sentient being. NPCs will have
+a hard time understanding characters with super low IN.
+Select a line of dialogue for your character to say by
+moving the mouse cursor over an option, and when the line
+highlights, click the left-button. The NPC will usually
+respond to that line of dialogue, and then you will be
+presented with more options. Continue making comments, or
+asking questions, until the NPC runs out of things to say
+or you really anger them and it starts combat.
+Some of the lines are questionable, and can make the
+NPC respond one way or another. These lines usually have
+some sort of characteristic roll associated with them.
+Usually Speech, but occasionally another skill or even a
+statistic. The most common usage of Speech is to lie to
+an NPC. The quality of your lie, and their ability (or
+inability) to see through your lie, depends greatly on
+your Speech skill.
+You can review an extended dialogue, to see what you
+or the NPC have said, by pressing the REVIEW button on
+this screen. A simple window will appear with the
+conversation printed verbatim.
+If the conversation is
+longer than can be printed on
+one screen, use the arrow keys
+to scroll the screen. Press the
+DONE button to return to the
+conversation. You can only
+review the current conversation
+with this NPC, and as soon as
+you quit the dialogue, the
+conversation will be lost. For
+you programmers out there, it
+gets sent to /dev/null.
+The only way to completely exit a conversation,
+however, is by getting to the end. Once you start talking
+to an NPC, you must see it through. One of your options
+will usually allow you to end the conversation at any time,
+and once you or the NPC run out of things to say you
+will see the [DONE] option, but until then you must
+continue to talk it out.
+pro

@@ -1,0 +1,34 @@
+============================================================
+MAIN MENU
+============================================================
+
+Main Menu
+When you start Fallout 2, after watching the introductory
+movie, you will see the Main Menu. This is probably the
+single most important screen in the entire game, since
+without it you can’t actually start playing.
+Select from the following:
+INTRO - Replay the intro movie. Use this to amaze your
+friends.
+NEW GAME - Start a new game. Create a character, or
+select a pre-generated character, and start playing
+Fallout 2 from the very beginning. If you have just
+installed Fallout 2, or you have never saved a game, you
+will need to press this button. See page 16 for more
+information on starting a new game.
+LOAD GAME - Once you have started a game and saved it in
+order to return to it at a later date without having to
+start a completely new game, this is the button for you.
+Pressing this button will take you to the Load Game
+screen (see page 78), where you can select from any of
+your previously saved games.
+CREDITS - Press this button to see a list of the fine
+people who have brought you Fallout 2. Your enjoyment is
+all they have thought about!
+EXIT - Pressing this button will return you to your
+normal operating system. You will not be asked to confirm
+the exit when you press this button. Zap! One second you
+are playing Fallout 2, the next second you are back to
+work. Life just isn’t fair.
+Also displayed on the Main Menu screen is the current
+version number of the game.

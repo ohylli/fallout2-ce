@@ -111,3 +111,11 @@ Located in `src/mapper/` - Map editor functionality, not part of main game.
 - FID (Frame ID) combines object type, art index, and animation info using `buildFid()`
 - PID (Prototype ID) encodes object type and proto index
 - Game uses isometric hex grid with 3 elevations
+
+
+## Resources
+
+The manual of the game can be found from the `manual/` directory. Each section
+of the manual is available in its own text file e.g.
+`03_04_creating_a_character.txt` or `05_04_action_points.txt`. The manual should
+be consulted when knowing how the game works from the user perspective is relevant.

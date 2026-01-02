@@ -1,0 +1,451 @@
+============================================================
+CREATING A CHARACTER
+============================================================
+
+Creating a Character
+The other option is to create your own character from
+scratch. Using the character creation screen, you will
+make choices that will determine how your character will
+start the game.
+For more information on character abilities, see the
+Character chapter and the following pages:
+Primary Statistics
+Page 22
+Derived Statistics
+Page 24
+Tag Skills
+Page 28
+Traits 
+Page 26
+
+You can also click on any
+element of the character screen
+to get more information from the
+info card in the lower right
+hand corner of the screen. If
+you want details about any
+statistic, skill or trait,
+simply click on the part in
+question. The card will change
+to show you a graphic cartoon of
+the statistic, skill, or trait and you will get a small
+text description.
+How to create your Character
+The easy way to create your character is to follow some
+simple steps. The character editor does not require that
+you follow of all these steps in order, so you can branch
+out and make little tweaks as you work on your character.
+1. Think of a concept for your Character.
+2. Select the Primary Statistics.
+3. Select up to two Traits.
+4. Choose three Tag Skills.
+5. Select the sex of your Character.
+6. Adjust the age of your Character.
+7. Type your Character’s name.
+8. Save your Character for future reference or
+changes.
+9. Start the game!
+Character Concept
+Start with a brief idea of what your character should be.
+Determine what kind of character you would like to play.
+Should the character be male or female? Strong or weak?
+Smart or dumb? Good with ranged weapons, melee weapons or
+martial arts? The answers to these questions, and others,
+will determine your character concept. Some characters
+are very specialised, others will be good in many
+different skills and be generalists.
+
+Primary Statistics
+Adjusting the seven primary
+statistics will give you the
+most control over your
+character. See page 22 for more
+detailed information on primary
+statistics.
+ST - Strength - The physical
+strength of your character. This statistic affects your
+ability to carry inventory items, do damage with melee
+weapons and use powerful weapons effectively.
+PE - Perception - The ability to see and hear. A high
+Perception is critical for sharpshooting characters.
+EN - Endurance - How tough your character is. Characters
+with a high Endurance can take more damage, and they are
+more resistant to poison and radiation.
+CH - Charisma - The ability to look good and act
+charming. If your character has a good Charisma, it will
+make your relationships with non-player characters (NPCs,
+see page 85) in the game easier.
+AG - Agility - How well your character moves. How far you
+can move in combat is directly related to the Agility
+score of your character. It will also affect the rating
+of many physical skills.
+IN - Intelligence - How bright and smart your character
+is. The number of skill points you get each experience
+level, and the starting ratings of many mental skills, is
+based on your character’s Intelligence.
+LK - Luck - This is the most unusual of all of the
+primary statistics. It covers nothing at all, a little
+bit of some things and everything. All at once. Luck
+affects many things in tiny amounts.
+You start with a base of 5 points in all of your
+primary statistics. This is average. Primary statistics
+vum
+! /Ivrg
+PE- -0-6H|/Ivrg
+|/Ivrg
+
+are valued from 1 to 10, with 1
+being the worst and 10 being the
+best. The following chart will
+give you an idea of the
+differences between the various
+levels.
+1) Very Bad
+2) Bad
+3) Poor
+4) Fair
+5) Average
+6) Good
+7) Very Good
+8) Great
+9) Excellent
+10) Heroic
+You also get 5 free CHAR POINTS that can be spent on
+your primary statistics. You must spend all of these free
+points before you can start the game. You can spend these
+free points in one statistic, spread them out over
+several statistics or in any combination you desire.
+If you need more points, since you may want to
+increase more than one or two statistics to higher
+levels, you can always decrease any number of statistics.
+You cannot lower a statistic below 1. Any free points
+gained from lowering your statistics will appear in the
+CHAR POINTS display. You must also spend these points
+before you can start the game.
+Click the
+small + and -
+buttons next to a
+statistic level
+name to adjust
+the statistic.
+NOTES
+
+Lowering your statistics is a drastic measure,
+however. It should be considered with care. Lowering your
+Intelligence below four, for example, can have serious
+consequences on what your character can say to other
+people in the Fallout world.
+Adjusting your primary statistics is the single most
+controllable thing you can do during character creation
+to define your character. The initial level of your
+skills, the derived statistics, and what you can excel at
+during the beginning of the game are based on your
+primary statistics. Choose wisely, as it is very
+difficult, if not impossible, to permanently modify your
+primary statistics after you are finished creating your
+character. Your skills will increase, and you will gain
+equipment that will allow your character to do different
+things, but your primary statistics will rarely change in
+any meaningful way.
+Derived Statistics
+Derived statistics are based on one or more primary
+statistics. While you cannot directly adjust a derived
+statistic, as you adjust your primary statistics, you
+will see the values of the derived
+statistics change. See page 88 for more
+information and detail about all of the
+derived statistics.
+HP - Hit Points - The amount of damage
+your character can take before buying the
+farm, croaking, taking a long dirt nap,
+and otherwise exiting the corporeal
+world. Based mostly on Endurance, but
+modified by ST as well. Fortunately, as
+you improve and gain experience levels,
+you will also gain more hit points.
+II.r r-amn
+31ÿ- Ilk
++
+Unt
+Q
+A»ien faprlhi
+TP
+Carry Dnqht
+IS#
+nvTpff Dangr
+ÿanaq»
+Ik
+Puian FIpi-
+Z5r
+Ra±iiTiHi R#%. 1
+\
+
+AC - Armour Class - How likely you are to be hit in
+combat. Slightly different than Damage Resistance
+(see below). High AC is better than low AC. Based
+strictly on Agility.
+AP - Action Points - How much you can do in a
+single turn of combat (see Combat, page 118). The
+higher the number, the better it is. Based solely
+on Agility.
+Carry Weight - The total amount of equipment you
+can lug around the world. Characters with high
+Strength scores can obviously carry more than
+characters with low Strength scores.
+Melee Damage - How much bonus damage your character
+does with melee weapons or in hand-to-hand combat.
+Bigger is better. Based on Strength.
+DR - Damage Resistance - If you do get hit, how
+much less damage to you take compared to the next
+fellow. Higher DR means you take less damage.
+Starts at 0% and goes up from there. Not based on
+any primary statistic.
+Poison Resistance - How much damage you take from
+poison attacks is based on this derived statistic.
+The larger your poison resistance, the less damage
+you take. Based on Endurance.
+Radiation Resistance - The larger your resistance
+to radiation, the less damage you will take when
+exposed to it. Based on Endurance.
+Sequence - This statistic determines when you get
+to take an action in a combat turn. It is based on
+your Perception.
+Healing Rate - How many points of damage you heal
+when you rest. Based on Endurance.
+
+Critical Chance - The chance of causing a critical blow,
+and doing some form of additional damage, is based on
+this statistic. This statistic is based solely on Luck.
+Traits
+Traits are characteristics that better define just
+exactly who your character is. They don’t really fit into
+a single statistic or location, but are instead just
+called Traits. They all have a good and a bad impact on
+your character. If you want the good side of a Trait, you
+must take the bad with it.
+Fortunately, Traits are optional. You do not have to
+take a Trait to finish your character. If you do want to
+select Traits, you may select up to two. You must do this
+during character creation, since you cannot select a new
+Trait once you start the game.
+To select a Trait, click on
+the small button next to the
+Trait name. Select Traits will
+be highlighted. Click the
+button of a highlighted Trait
+to deselect it. You can have at
+most two Traits selected at a
+time.
+Fast Metabolism - This will increase your Healing Rate,
+but reduce your radiation and poison resistances.
+Bruiser - This increases your Strength, but lowers your
+Action Points. Popular with the mean and nasty crowd.
+Small Frame - At the cost of a reduced carry weight, you
+gain some Action Points. You will not be able to carry as
+much inventory, and this can have a major effect after
+the beginning of the game.
+
+One Hander - You are more likely to hit with smaller,
+single-handed weapons, and less likely to hit with
+larger, two-handed weapons.
+Finesse - You do less damage, but have a greater chance
+of doing a critical hit.
+Kamikaze - You act before other people, since you have a
+higher Sequence, but you lose some Armour Class and are
+easier to hit.
+Heavy Handed - You do more damage in melee or hand-to-
+hand combat. And while you have the same chance to cause
+a critical hit, your critical hits are not as good as the
+next fellow.
+Fast Shot - You can use a projectile or thrown weapon
+more often each combat turn. The AP cost to use a weapon
+is reduced by one. Unfortunately, you cannot make
+targeted shots if you have this Trait. You will not even
+be able to switch to targeted shot mode if you are a
+Fast Shot.
+Bloody Mess - This has no real game effect, beyond the
+fact that you will always see the bloodiest way a person
+can die. This is based on the setting of the Violence
+Level in the preference screen (see page 77.)
+Jinxed - Everyone in the game is more likely to have a
+critical failure when fighting. That includes you, too.
+Good Natured - Your combat skills start lower than
+normal, but your skills in First Aid, Doctor, Speech and
+Barter start higher.
+Chem Reliant - Your chance to be addicted when using a
+Chem is higher, but you recover faster.
+
+Chem Resistant - Chems only
+affect you half as long as
+normal, but your chance to be
+addicted is reduced by half as
+well.
+Sex Appeal - This trait
+increases your chance of having
+a good reaction with members
+of the opposite sex.
+Unfortunately, this trait tends
+to annoy members of your sex.
+Jealous twits.
+Skilled - The trait increases
+the number of skill points you
+receive every new level of
+experience. The cost is that it takes longer to gain
+Perks, additional abilities, that also come from earning
+experience levels.
+Gifted - You have more innate abilities than most, but at
+a serious cost. All primary statistics are improved, but
+at a cost of lowered base skills and a reduced number of
+skill points as you advance in experience levels.
+Tag Skills
+Skills are learned abilities. You will be able to improve
+your Skills as you gain experience and learn more. All
+skills have a skill level, expressed as a percentage. The
+higher the skill level, the more likely you are able to
+succeed at using the skill.
+Tag Skills define what skills you are especially good
+at. They are specialiseations. You must select three Tag
+Skills before you can leave the character creation
+screen.
+Selecting what Skill to Tag is important. Tag Skills
+get an immediate +20% bonus, and more importantly,
+improve faster than normal skills. When you gain
+experience levels, you will gain a number of skill points
+to spend. Each skill point is doubled when spent on a Tag
+Skill. See page 111 for a detailed explanation of gaining
+To select a
+skill to Tag, click the small
+button next to the skill
+name.  The button will be
+lit, and the skill name
+highlighted.  To deselect
+the skill, in case you want
+to Tag another skill,
+simply click the button
+again.
+NOTES
+
+experience levels and skill points.
+For more information about the various skills, see
+page 91.
+Small Guns - The use of pistols and other small firearms
+in combat. Based on Agility.
+Big Guns - The use of bigger firearms and other massive
+ranged weapons. Based on Agility.
+Energy Weapons - Using energy weapons in ranged combat.
+Based on Agility.
+Unarmed - Using your fists and feet in hand-to-hand
+combat. Based off of the average of Strength and Agility.
+Melee Weapons - The use of melee weapons, like knives and
+spears, in battle. Based on the average of Strength and
+Agility.
+Throwing - How well you can aim a thrown object. This is
+used with grenades, throwing knives, and other tossed
+weapons. Based on Agility.
+First Aid - The healing of minor wounds. Based on
+Perception and Intelligence.
+Doctor - The healing of major wounds, and crippled or
+broken bones. Based on Perception and Intelligence.
+Sneak - The art of moving silently. Based solely on
+Agility.
+
+Lockpick - How skilled you are in defeating locks and
+other mechanisms designed to keep you out. Based on
+Perception and Agility.
+Steal - The skill of acquiring what is not yours. Can be
+used to steal items off of a person, or to give a person
+an item without them knowing about it. Based on Agility.
+Traps - The skill in spotting and disarming traps. Also
+used to set traps and explosives. Based on Perception and
+Agility.
+Science - Knowledge of all things scientific, like
+chemistry and computers. Also includes knowledge of
+machines, but not how to repair or jimmy them. Based only
+on Intelligence.
+Repair - The practical side of the Science skill. How to
+fix (or break) machines and other man-made devices. Based
+on Intelligence.
+Speech - How well you can talk to other people. A high
+speech skill can improve your chances of talking people
+into doing what you want them to do. Based off of
+Charisma.
+Barter - The skill of trading items. A good Barter skill
+will allow you to trade less and get more. Based on
+Charisma.
+Gambling - The skill of cards, dice and other gambling
+games. Based only on Luck.
+Outdoorsman - The knowledge of plants, animals and living
+in wide open areas. Based on Intelligence and Endurance.
+Name, Age and Sex
+Click on the NONE button in the upper left hand corner of
+the screen to change your name.
+
+You cannot change your name once
+you start the game, so pick
+something other than NONE, the
+character with no name.
+Your name is the key to your
+character. The name you pick
+should represent the concept
+behind your game.
+Your character’s age and sex
+will also define your character.
+And these attributes will have
+minor effects in the game world.
+Some non-player characters will react differently
+to your character if your character is male instead
+of female. Age, on the other hand, will rarely
+affect your character and there is no difference
+between older or younger characters. There is no
+penalty for growing too old, either, in the game
+world.
+Finishing your Character
+Once you have spent all of your character points on
+your primary statistics, selected any optional
+Traits, selected your three Tag Skills, set your
+name, sex and age, you are ready to begin.
+Click on the DONE button to start Fallout 2
+using this character.
+Click on the CANCEL button if you want to return
+to the character selection screen. The current
+character will be lost to time.
+Alternatively, you can click on the OPTIONS
+button, which will display a window
+with some options that are
+available only during character
+creation.
+Character Screen Options
+These options are only available
+from the character creation screen.
+That’s an
+old joke, but it’s
+still pretty
+funny!
+NOTES
+Mht W nil
+
+SAVE - This will save the current character to a file on
+your computer’s hard drive. If you click this button, a
+save character window will appear. Enter a file name and
+press ENTER to save the character. Use this if you want
+to pass the file around to your friends, or if you want
+to keep a copy of your starting character for posterity.
+Once you start the game, you cannot use the character
+editor to modify your character.
+LOAD - Click this button to load a previously saved
+character file. This will not load a regular save game.
+It will only load a character file saved through this
+window.
+PRINT TO FILE - This will save your character in a
+friendly, easy to read text file version. This will allow
+you to post your character to the Internet, or just print
+it out and hang it on the wall! You will be asked for a
+file name. Type one in and press ENTER. Then look in the
+Fallout 2 directory for a text file with that name.
+ERASE - If you click this button, it will erase the
+current character and let you start over from scratch.
+You will be asked for confirm this operation. For the
+sake of your little electron buddies that make up the
+current character, choose wisely.
+DONE - Clicking this button will return you to the
+character editor screen.

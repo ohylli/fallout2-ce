@@ -1,0 +1,494 @@
+============================================================
+PERKS
+============================================================
+
+Perks
+
+Perks are special abilities that your character can
+occasionally select when your
+character gains an experience
+level. These rewards are
+similar to traits, except
+everything is good. No bad
+stuff here.
+You can select one Perk
+every three levels (starting at level 3 -- so level 3, 6,
+9, 12, 15, 18 and so on) unless you have the Skilled
+trait, who get a Perk every four levels (level 4, 8, 12,
+16, 20 and so on.)
+The list of Perks that you can choose from are based
+on your character’s characteristics. Some Perks are only
+available if your character is of high enough level, for
+example. Your character must meet or exceed all of the
+requirements. Some Perks have no requirements. The
+requirements for a Perk are listed below.
+You will have the opportunity to pick a Perk when you
+enter the character screen after achieving a level that
+grants you a Perk. You may choose not to pick a Perk,
+but if you don’t select one before the next Perk-granting
+level, you lose the Perk. You can only have one Perk at
+most to pick.
+The Perk selection window will show all the Perks that
+are available to your character. You can select a Perk to
+read about it on the information card. Use the arrow
+buttons to scroll the list. Press the DONE button to take
+the highlighted Perk. Press the CANCEL button to hold off
+and pick the Perk the next time you enter the character
+screen.
+Some Perks can be selected multiple times. The maximum
+number of times the Perk can be selected is the number of
+ranks that Perk has. The number of ranks is also listed
+below.
+Perks that increase a skill will increase the skill by
+a number of skill points. These work just like normal
+skill points. Thus, if your characters base skill is
+pretty high, the increase will be smaller than if the
+base skill was low.
+The list of Perks is organised alphabetically.
+
+The Perk List
+Action Boy
+Each rank of this Perk will add an additional Action
+Point to your character’s total number of APs that you
+can spend each combat turn.
+Number of Ranks: 2
+Requirements: Agility 5, Level 12
+Adrenaline Rush
+When your character’s current Hit Points (HP) drops
+below 50% of her maximum HP, she gains +1 to Strength.
+This can raise your character’s Strength to a maximum of
+10. Lasts until the end of the current combat.
+Number of Ranks: 1
+Requirements: Strength 1 to 9, Level 6
+Awareness
+This Perk gives you more information when you Examine
+a critter. You can see their exact amount of hit points,
+and what weapon they are armed with (if any.)
+Number of Ranks: 1
+Requirements: Perception 5, Level 3
+Better Criticals
+The critical hits you cause in combat are more
+devastating. You gain a +20% bonus on the critical hit
+table, almost ensuring that more damage will be done.
+This does not affect the chance to cause a critical hit.
+Number of Ranks: 1
+Requirements: Perception 6, Luck 6, Agility 4, Level 9
+Bonus HtH Attacks
+Your character can make more hand-to-hand or melee
+style attacks per combat turn with this Perk. The AP cost
+to use a HtH or melee attack is reduced by one.
+Number of Ranks: 1
+Requirements: Agility 6, Level 15
+Bonus HtH Damage
+With this Perk, your character does more damage when
+using HtH or melee attacks. Each attack does +2 points of
+damage for each rank of this Perk.
+
+Number of Ranks: 3
+Requirements: Agility 6, Strength 6, Level 3
+Bonus Move
+For each rank of this Perk, your character can move an
+additional two hexes per turn of combat. The first hexes
+moved each turn cost no APs. At the first rank, your
+character would have to move three hexes just to be
+charged one AP. Bonus Move APs show up as yellow lights
+on the interface bar.
+Number of Ranks: 2
+Requirements: Agility 5, Level 6
+Bonus Ranged Damage
+Your character does +2 points of damage per round
+fired with ranged weapons, for each rank of this Perk.
+Number of Ranks: 2
+Requirements: Agility 6, Luck 6, Level 6
+Bonus Rate of Fire
+This Perk allows your character to shoot a little
+faster. Each ranged weapon attack costs one AP less to
+perform.
+Number of Ranks: 1
+Requirements: Agility 7, Intelligence 6, Perception 6,
+Level 15
+Cautious Nature
+This Perk increases Perception by +3 in random
+encounters to determine how far away your character
+starts from hostile critters.
+Number of Ranks: 1
+Requirements: Perception 6, Level 3
+Comprehension
+With this Perk, your character gains an additional
++50% to the number of skill points earned when reading
+educational books.
+Number of Ranks: 1
+Requirements: Intelligence 6, Level 3
+Cult of Personality
+This Perk will make your character’s Karma a positive
+
+modifier to all people. Everybody likes your character!
+Number of Ranks: 1
+Requirements: Charisma 10, Level 12
+Demolition Expert
+For characters that like to blow things up, there is
+nothing better than this Perk. Explosives set by this
+character do more damage and will
+always detonate on time.
+Number of Ranks: 1
+Requirements: Agility 4, Traps 90%, Level 9
+Dodger
+This Perk will lower the chance your character will be
+hit in combat by increasing the Armour Class by +5 per
+rank.
+Number of Ranks: 1
+Requirements: Agility 6, Level 9
+Earlier Sequence
+Your character will be more likely to move before
+other characters in combat with this Perk. Each rank of
+this Perk will increase the Sequence statistic by +2.
+Number of Ranks: 3
+Requirements: Perception 6, Level 3
+Educated
+Every rank of this Perk will add +2 skill points when
+your character gains an experience level.
+Number of Ranks: 3
+Requirements: Intelligence 6, Level 6
+Empathy
+You will get a better idea of what to say when you
+are speaking to an NPC when your character has this Perk.
+The lines of dialogue will be colour-coded. It us up to
+you to figure out what the colours actually mean.
+Number of Ranks: 1
+Requirements: Perception 7, Intelligence 5, Level 6
+Explorer
+This Perk will make it more likely that your character
+will run across strange and interesting random
+
+encounters.
+Number of Ranks: 1
+Requirements: Level 9 
+Faster Healing
+Characters with Faster Healing just plain heal faster.
+For each rank of this Perk, your character gains a +2 to
+the Healing Rate statistic.
+Number of Ranks: 3
+Requirements: Endurance 6, Level 3
+Fortune Finder
+Random encounters yield more money. Of course, you
+have to take it off the cold, dead bodies of your
+opponents.
+Number of Ranks: 1
+Requirements: Luck 8, Level 6
+Gambler
+This Perk adds +40 skill points to Gambling.
+Number of Ranks: 1
+Requirements: Gambling 50, Level 6
+Gain Agility
+Increases your Agility by +1 permanently.
+Number of Ranks: 1
+Requirements: Agility 1-9, Level 12
+Gain Charisma
+Increases your Charisma by +1 permanently.
+Number of Ranks: 1
+Requirements: Charisma 1-9, Level 12
+Gain Endurance
+Increases your Endurance by +1 permanently.
+Number of Ranks: 1
+Requirements: Endurance 1-9, Level 12
+Gain Intelligence
+Increases your Intelligence by +1 permanently.
+Number of Ranks: 1
+Requirements: Intelligence 1-9, Level 12
+
+Gain Luck
+Increases your Luck by +1 permanently.
+Number of Ranks: 1
+Requirements: Luck 1-9, Level 12
+Gain Perception
+Increases your Perception by +1 permanently.
+Number of Ranks: 1
+Requirements: Perception 1-9, Level 12
+Gain Strength
+Increases your Strength by +1 permanently.
+Number of Ranks: 1
+Requirements: Strength 1-9, Level 12
+Ghost
+In areas of darkness, or at night, characters with
+this Perk gain +20% to their Sneak skill.
+Number of Ranks: 1
+Requirements: Sneak 60%, Level 6
+Harmless
+Your character’s innocent demeanour makes stealing
+from people a little easier. +40 skill points to Steal.
+Number of Ranks: 1
+Requirements: Steal 50%, Karma > 49, Level 6
+Healer
+Each rank of this Perk will increase the number of Hit
+Points healed by the use of the First Aid or Doctor
+skills by 4-10 points. The second rank adds +8-20 points
+per use.
+Number of Ranks: 2
+Requirements: Perception 7, Agility 6, Intelligence 5,
+First Aid 40%, Level 3
+Heave Ho!
+For purposes of determining the maximum range of
+thrown weapons only, this Perk will increase Strength by
++2 for each rank.
+Number of Ranks: 3
+Requirements: Level 6
+
+Here and Now
+With this Perk, your character gains one experience
+level immediately.
+Number of Ranks: 1
+Requirements: Level 9
+HtH Evade
+If both item slots are empty, at the end of a combat
+turn, your character will gain 3 points of Armour Class
+for every unused Action Point (instead of the normal 1
+unused AP = +1 point of AC.)
+Number of Ranks: 1
+Requirements: Unarmed 75%, Level 12
+Kama Sutra Master
+This Perk confers great stamina and skill when doing
+the dirty.
+Number of Ranks: 1
+Requirements: Endurance 5, Agility 5, Level 3
+Karma Beacon
+Your Karma ran over someone’s Dogma. Karma is doubled
+for the purposes of dialogue and reactions.
+Number of Ranks: 1
+Requirements: Charisma 6, Level 9
+Lifegiver
+Everytime your character gains a level, gain an
+additional four Hit Points for each rank of this Perk.
+With two ranks of Lifegiver, that’s +8 HP each level!
+Number of Ranks: 2
+Requirements: Endurance 4, Level 12
+Light Step
+Characters with this Perk are much less likely to set
+off traps.
+Number of Ranks: 1
+Requirements: Agility 5, Luck 5, Level 9
+Living Anatomy
+This Perk confers +20 skill points to Doctor. Since
+characters with this Perk have greater knowledge of
+anatomy, they also do +5 points of damage with every
+
+attack to living creatures.
+Number of Ranks: 1
+Requirements: Doctor 60%, Level 12
+Magnetic Personality
+Characters with this Perk can attract an additional
+party member.
+Number of Ranks: 1
+Requirements: Charisma 1-9, Level 3
+Master Thief
+This Perk gives a one-time bonus of 20 skill points to
+the Lockpick and Steal skills.
+Number of Ranks: 1
+Requirements: Lockpick 50%, Steal 50%, Level 12
+Master Trader
+This Perk makes your items more valuable when
+bartering.
+Number of Ranks: 1
+Requirements: Charisma 7, Barter 60%, Level 9
+Medic
+This Perk gives a one-time bonus of 20 skill points to
+First Aid and Doctor.
+Number of Ranks: 1
+Requirements: First Aid 40% or Doctor 40%, Level 12
+More Criticals
+Characters with this Perk cause more critical hits in
+combat. Each rank adds +5 to the Critical Chance
+statistic.
+Number of Ranks: 3
+Requirements: Luck 6, Level 6
+Mr. Fixit
+This Perk gives a one-time bonus of 20 skill points to
+the Repair and Science skills.
+Number of Ranks: 1
+Requirements: Repair 40% or Science 40%, Level 12
+
+Mutate!
+Picking this Perk will also make you select one of
+your current Traits to remove. You then get a chance to
+pick another Trait. Weird, huh?
+Number of Ranks: 1
+Requirements: Level 9
+Mysterious Stranger
+When you select this Perk, there is a chance (30% +
+(2x Luck)) that your character will gain a temporary
+ally, but only in random encounters.
+Number of Ranks: 1
+Requirements: Luck 4, Level 9
+Negotiator
+This Perk gives a one-time bonus of +20 skill points
+to Speech and Barter.
+Number of Ranks: 1
+Requirements: Barter 50%, Speech 50%, Level 6
+Night Vision
+Your character can see better in darkness when you
+select this Perk. This reduces the negative for attacking
+in low-light conditions.
+Number of Ranks: 1
+Requirements: Perception 6, Level 3
+Pack Rat
+Each rank of this Perk adds +50 lbs. to your
+character’s Carry Weight statistic.
+Number of Ranks: 1
+Requirements: Level 6
+Pathfinder
+This Perk reduces your travel time on the World Map by
+25% for each rank.
+Number of Ranks: 2
+Requirements: Endurance 6, Outdoorsman 60%, Level 6
+
+Pickpocket
+Characters with this Perk do not suffer the negative
+modifiers for facing and size that are normally
+associated with Steal.
+Number of Ranks: 1
+Requirements: Agility 8, Steal 80%, Level 15
+Presence
+The initial reaction of NPCs are modified by +10% for
+each rank of this Perk.
+Number of Ranks: 3
+Requirements: Charisma 6, Level 3
+Pyromaniac
+This Perk will make your character do horrible things
+with fire -- to other people. +5 points of damage with
+fire-based weapons.
+Number of Ranks: 1
+Requirements: Big Guns 75%, Level 9
+Quick Pockets
+The cost to access Inventory during combat is only two
+AP with this Perk.
+Number of Ranks: 1
+Requirements: Agility 5, Level 3
+Quick Recovery
+It only costs one AP to stand up after being knocked
+down.
+Number of Ranks: 1
+Requirements: Agility 5, Level 6
+Rad Resistance
+Each rank of this Perk increases the Radiation
+Resistance statistic of your character by +15%.
+Number of Ranks: 2
+Requirements: Endurance 6, Intelligence 4, Level 6
+Ranger
+This Perk adds +20 skill points to Outdoorsman. It
+also makes finding special random encounters slightly
+easier.
+Number of Ranks: 1
+
+Requirements: Perception 6, Level 6
+Salesman
+Your character becomes an adept salesman with this
+Perk. +40 skill points to the Barter skill.
+Number of Ranks: 1
+Requirements: Barter 50%, Level 6
+Scout
+Your character can now scout a little farther on the
+World Map. This will increase the amount of the map you
+can see while exploring and make finding the special
+random encounters a little easier.
+Number of Ranks: 1
+Requirements: Perception 7, Level 3
+Sharpshooter
+For each rank of this Perk, increase Perception by +2
+for the purposes of determining the modifiers for range
+in combat.
+Number of Ranks: 1
+Requirements: Perception 7, Intelligence 6, Level 9
+Silent Death
+While Sneaking, characters with this Perk do double
+damage using a HtH or melee attack if they can hit their
+opponent in the back.
+Number of Ranks: 1
+Requirements: Agility 10, Sneak 80%, Unarmed 80%, Level
+Silent Running
+This Perk allows characters to run and still Sneak.
+Number of Ranks: 1
+Requirements: Agility 6, Sneak 50%, Level 6
+Slayer
+In HtH or melee combat, holders of this Perk do
+critical hits with a successful Luck roll.
+Number of Ranks: 1
+Requirements: Agility 8, Strength 8, Unarmed 80%, Level
+
+Smooth Talker
+Each rank of this Perk will increase the number of
+options your character has while talking to NPCs.
+Basically, characters will be able to say things they
+would not normally be able to discuss due to their
+Intelligence.
+Number of Ranks: 3
+Requirements: Intelligence 4, Level 3
+Snakeater
+This Perk adds +25% to the Poison Resistance
+statistic.
+Number of Ranks: 2
+Requirements: Endurance 3, Level 6
+Sniper
+Your character will do a critical hit with a ranged
+weapon with a successful Luck roll and this Perk.
+Number of Ranks: 1
+Requirements: Agility 8, Perception 8, Small Guns 80%,
+Level 24
+Speaker
+This Perk gives a one-time bonus of 40 skill points to
+the Speech skill.
+Number of Ranks: 1
+Requirements: Speech 50%, Level 9
+Stonewall
+Your character is only half as likely to be knocked
+down in combat.
+Number of Ranks: 1
+Requirements: Strength 6, Level 3
+Strong Back
+Each rank of this Perk increases the Carry Weight
+statistic by 50 lbs.
+Number of Ranks: 3
+Requirements: Strength 6, Endurance 6, Level 3
+
+Survivalist
+Gain 40 skill points in the
+Outdoorsman skill with this Perk.
+Number of Ranks: 3
+Requirements: Endurance 6,
+Intelligence 6, Outdoorsman 40%,
+Level 3
+Swift Learner
+Each rank of this Perk adds an
+additional +5% to your character’s
+experience point total whenever
+your character earns experience.
+Number of Ranks: 3
+Requirements: Intelligence 4,
+Level 3
+Tag!
+Pick an additional Tag skill.
+Number of Ranks: 1
+Requirements: Level 12
+Thief
+A one-time bonus of +10 skill points to Sneak,
+Lockpick, Steal and Traps.
+Number of Ranks: 1
+Requirements: Level 3
+Toughness
+Each rank of this Perk adds +10 to your character’s
+Damage Resistance statistic.
+Number of Ranks: 3
+Requirements: Endurance 6, Luck 6, Level 3
+Weapon Handling
+This Perk adds +3 to Strength for weapon minimum
+Strength checks.
+Number of Ranks: 1
+Requirements: Agility 5, Level 12
+It is
+rumoured that there
+are special Perks.  You
+may be awarded one of
+these Perks for
+completing special
+quests.  Keep your eye
+out for these special
+awards.
+NOTES

@@ -1,0 +1,176 @@
+============================================================
+PARTY MEMBERS
+============================================================
+
+Party Members
+It is possible to have other people join your character.
+You may have to talk them into it, solve a quest, pay
+them money or otherwise convince them that your character
+needs their services. Non-player characters that want to
+join your character’s party are few in number.
+The benefits of additional party members are many.
+They will assist you in combat, to some degree or
+another, and they will lend their experience and skills
+to yours. They can help you carry more equipment. They
+can offer their wisdom by giving you information and
+advice.
+And they are another target, meaning that combat will
+be a tiny little bit safer for your character.
+You have limited control over party members, however.
+You cannot control them directly in combat. You can give
+them orders before combat starts, but once the battle is
+on, they are their own person.
+Using the Talk action icon on a party member will give
+you access to the two parts you
+do have control over: their
+inventory and their basic
+combat strategies.
+Party Member
+Inventory
+Talk with a party member and
+you will see the extended
+You should
+remember to keep
+your NPCs well
+stocked up on
+Stimpaks, ammo and
+other perishables.
+NOTES
+
+dialogue screen. Notice that the BARTER button has been
+replaced with the TRADE button. Press the Trade button
+and the trading interface will slide up over the lower
+portion of the screen.
+Trading is similar to Barter (see page 68), but it has
+several important differences. First, the values at the
+bottom of the trading table show the total inventory
+weight of the characters involved.
+Second, and most importantly, trades do not have to be
+equal when you are trading with party members. Since your
+character is the leader of the party, you have complete
+control over who gets what.
+Drag items from your inventory to the table to give
+them to the NPC. Move items from the NPCs inventory list
+to the table if you want them. Press the TRADE button
+when you are done moving items. Press the TALK button to
+cancel the current trade.
+Party Member Combat
+Control
+Also on the extended dialogue
+screen of a party member is the
+COMBAT CONTROL button. Pressing
+it will slide the combat
+control interface over the
+lower portion of the screen.
+This panel shows some basic
+information about this NPC. You can also select many of
+the buttons to adjust the way the NPC acts. You can
+adjust the actions of the NPC at anytime except the
+middle of combat.
+
+This information is not adjustable:
+HP - Shows the current and maximum Hit Points of the NPC.
+Skill - This is the best non-combat skill that the NPC
+knows.
+Carrying - The current and maximum weight that this NPC
+can carry.
+Melee Dam - The current Melee Damage bonus for this NPC.
+APs - How many Action Points this NPC has.
+You can press the following buttons:
+Use Best Weapon - This will force the NPC to stop using
+their current weapon and use the best weapon in their
+inventory. The choice of the best weapon depends on the
+Weapon Preference of the NPC, something that is part of
+their Disposition (see below.) Unlike the player
+character, NPCs cannot use all weapon types. Individual
+NPCs will be trained in the use of different weapons. The
+newly selected weapon will be displayed.
+Use Best Armour - This will force the NPC to stop wearing
+their current armour and use the best armour in their
+inventory (which could be the armour they are currently
+wearing.) Unlike the player character, their image will
+not change when they wear new armour. Trust us, they are
+wearing the new duds, but you just can’t see it. The
+display will show what armour the NPC is wearing and they
+will get the benefit of the armour’s Armour Class, Damage
+Threshold and Damage Resistance.
+Disposition - This controls the way the party member acts
+in combat. Some NPCs do not allow particular dispositions
+to be set. If a really butch combat guy joins your party,
+he may just say no if you try and set him to the Coward
+disposition. Press one of the following to attempt to set
+the NPC to that disposition:
+Berserk
+Aggressive
+Defensive
+Coward
+
+Custom
+Each of the first four dispositions are preset. The
+fifth disposition, Custom, allows you, the player, to
+individually set the components that
+make up a disposition. And if you are asking just exactly
+what those components are, here you go:
+Burst - This controls how often the party member uses the
+selector switch on any burst-capable weapon they are
+using. Basically, this controls whether or not the NPC
+will shoot more than one round at a time, if they have a
+weapon that is capable of burst fire. Possible choices,
+in descending order of likelihood:
+Always
+Sometimes, don’t worry about hitting me.
+Be careful not to hit me.
+Be sure you won’t hit me.
+Be absolutely sure you won’t hit me.
+Run Away - This determines when the party member will
+decide to flee from combat. It is based on the percentage
+of HP remaining. The less hit points remaining, the more
+likely it is for the NPC to stop attacking and start
+looking for a back door to run out or a bush to hide
+under. Possible choices, in descending order of
+likelihood:
+Abject Coward
+Your finger hurts.
+You’re bleeding a bit.
+Not feeling good.
+You need a tourniquet.
+Never!
+Weapon Preference - This determines what kind of weapon
+the party member prefers to use. If you select Melee
+(only), Ranged (only) or Unarmed, then the party member
+will not attack if they cannot use their listed
+preference. Possible choices:
+Melee
+Melee then Ranged
+Ranged then Melee
+
+Ranged
+Unarmed
+Distance - This controls how the party member moves
+around in combat. Some of these will not be available or
+work properly, depending on the weapon preference.
+Possible choices:
+Stay close to me.
+Charge!
+Snipe the enemy.
+On your own.
+Stay where you are.
+Attack Who - This preference controls who the NPC will
+decide to attack, if they have a choice. Possible
+choices:
+Whomever is attacking me.
+The Strongest.
+The Weakest.
+Whomever you want.
+Whomever is closest.
+Chem Use - This final setting controls how often the NPC
+will use chems. Two of these settings allow the use of
+any chem, while the two Stimpak settings only allow the
+use of Stimpaks. NPCs can only use chems that they have
+in their inventory, so you will have ultimate control
+over what they can and can’t use. Possible choices:
+I’m clean.
+Stimpaks when hurt a bit.
+Stimpaks when hurt a lot.
+Any chem some of the time.
+Any chem, any time.

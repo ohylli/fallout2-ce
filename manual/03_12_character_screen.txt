@@ -1,0 +1,184 @@
+============================================================
+CHARACTER SCREEN
+============================================================
+
+Character Screen
+Use the character screen to
+access all the information
+about your character. On this
+screen, you can see detailed
+information about all of your
+character’s statistics, traits,
+perks, skills, and karmic
+results. You will also use the
+character screen to improve
+your character when you
+increase in experience levels.
+You must access the character screen from the
+interface bar
+
+This section of the manual explains how the character
+screen works. For detailed information about the
+characteristics (statistics, skills, traits, perks and
+karmic kabobs) found on this screen, refer to the
+Character Reference chapter, starting on page 84.
+The primary purpose of the character screen is to give
+you information about the status of your character: am I
+critically hurt? if so, where? poisoned? how many
+experience points do I have? when do I go up a level?
+how many extra skill points do I have? what are my exact
+skill levels? and so on.
+The character screen should be accessed as soon as you
+get a new experience level.
+The character screen in the game is slightly different
+than the character screen you might have used if you
+created a new character or modified a pre-generated
+character. There are a couple of important differences,
+most notably, you cannot modify your character’s
+statistics, and the select Trait area has been replaced
+by Perks, Karma and Kills.
+And you cannot change your name. Hopefully, you
+selected something other than NONE and it is a name that
+you like.
+You can click on any text or object of importance on
+this screen, and the information card in the lower right-
+hand corner will change to display more information about
+the statistic, skill, reputation (and so on) that you
+selected.
+If your character ever gains a new characteristic that
+you are not familiar with, use the information card. It
+helps.
+
+Basic Info and Statistics
+The top of the screen shows your Name, Age and Sex. On
+the right side, below that information, are your current
+primary statistics.
+Immediately below that information is an important
+little box that contains your current level, experience
+point total, and the experience required to gain the next
+level. Since increasing your level will improve your
+skills, and occasionally give you access to new abilities
+called Perks (see page 101 for more information on those
+vital and nifty powers), you should monitor this area
+closely. It may be worth it to waste an additional rat
+(animal, human or otherwise) in order to get those last
+20 points of XP.
+Level - Your current experience level. The higher the
+better. Increasing your level is some times called
+“levelling”, which you can do to entire towns if you are
+of high enough level.
+EXP - Your current experience point total. You gain
+experience from solving problems, completing quests,
+using your skills successfully, and of course, killing
+Those That Stand In Your Way. The higher your current
+level, the more XP it takes to increase levels. (The next
+bit of info will show you how much experience you need.)
+Next Level - The total amount of experience you need
+before you gain a level of experience. If you’ve seen the
+movie, “A Bridge Too Far,” you will understand what it is
+like to look at this value sometimes.
+Hit Points and Medical Information
+Your current and maximum hit points will be shown in this
+area. Remember, when your current hit points get too low,
+you are in danger of dying an early (or just unlucky)
+death. Be prepared, keep healing items ready and use your
+healing skills as often as possible.
+The information under your character’s HP totals is
+very important. It shows any critical damage your
+character may have taken. In a perfect world, they should
+be dull green. In this case, bright is bad. If a line is
+
+in bright green, like the rest of the screen, you have
+been inflicted by something horrible and potentially
+life-threatening.
+Poisoned - This means that you have been poisoned (by
+rattle-snakes, giant scorpions from Hell, or Iguana-on-a-
+Stick that has gone bad from sitting out in the sun too
+long.) Note that this is dangerous, but not necessarily
+fatal. Poison does damage over time. The more poison that
+you have been infected with, the longer you will take
+damage. Fortunately, as the poison starts to wear off, it
+takes longer and longer to damage you again.
+Radiated - Everyone in the post-nuclear world has some
+amount of radiation. Heck, if you live on a tall
+mountain, you will absorb some rads every year. And don’t
+use those new fangled “Microwaves,” as they can be very
+bad for your health. When you start the game, you will
+have very little to no measurable radiation. You can
+still encounter freak areas of radiation, but you are
+more likely to run into radiation-infected creatures that
+mean to do you harm. The more accumulated radiation
+damage you have, the worse the effect of additional
+radiation on your body. Since radiation damage takes a
+while to truly affect you, you would be wise to monitor
+this characteristic. You can tell exactly how much
+radiation you have been exposed to by using a Geiger
+counter. Some doctors may be able to treat radiation
+damage, and there are two types of drugs that can help.
+The following are specific types of damage: crippled
+limbs (or crippled eyes) that have a detrimental effect
+on your character. They can only be healed with the use
+of the Doctor skill. First Aid has no affect on this type
+of damage. Generally, you can only get a crippled limb or
+eye from a critical hit in combat.
+Eye Damage - If your character takes a bad blow to her
+eyes or head, she can be crippled in the eyes. Until the
+eye damage is healed, your character will have a reduced
+Perception. This will affect your character’s ability to
+spot things and will affect ranged combat dramatically.
+Crippled Right/Left Arm - If your character takes a
+
+serious blow to one of
+his arms, it may be
+crippled. It could be
+the arm, or the wrist,
+or the hand that is
+seriously hurt. In any
+case, if one arm is
+crippled, your
+character cannot use
+two-handed weapons. If
+both arms are
+crippled, your
+character is in a
+serious hurt and
+cannot use any weapons
+at all.
+Crippled Right/Left
+Leg - A critical hit
+to your character’s
+leg may cause that leg
+to be crippled. If one
+leg is crippled, it
+will cost more Action
+Points (AP) to move.
+One crippled leg also
+makes it impossible to
+run. If both legs are crippled, the AP cost to move is
+increased even more. Most characters, with average
+amounts of APs, will barely be able to move with two
+crippled legs. Naturally, having both legs crippled means
+you still cannot run. Non-combat walking speed is not
+affected, but this is pretty much a sham to protect your
+character from ruffians and other nogood-doers. Get to a
+doctor right quick! Well, as quick as your crippled
+character can...
+If you see
+messages in the
+display window telling you that
+you have been exposed to
+radiation, you would be a wise
+player to use another savegame
+slot until you discover what foul
+thing has been done to you.
+Radiation damage can permenately
+lower your statistics, do HP
+damage, or kill you outright.  It all
+depends on the amount of
+radiation.  Note, that the most
+lethal amount of radiation still
+takes a small amount of time
+before the really bad effects
+take affect. Save often, and use
+those different slots!
+NOTES

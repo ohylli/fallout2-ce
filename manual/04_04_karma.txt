@@ -1,0 +1,63 @@
+============================================================
+KARMA
+============================================================
+
+Karma
+These characteristics are earned automatically based on
+your actions. All actions have consequences, and your
+actions will earn you some type of Karma.
+Karma
+Karma is the private result of your characters actions.
+Kill a good person, and your Karma heads towards the
+negative. Kill a bad person or monster, and your Karma
+climbs up.
+Karma is expressed as a number.
+Beginning characters start with a Karma of 0. The only
+other way a character can have a Karma of 0 is if they
+balance their actions, doing both good and bad in equal
+amounts. This is actually hard to do.
+If the actions of your character lean towards the
+good, the Karma value will rise. Get a positive Karma
+high enough, and your character will earn a Karmic title.
+The higher your Karma, the better the title.
+On the other hand, if your character performs bad
+deeds, then your Karma will drop. It can actually go
+
+negative, which means you’ve been a bad boy (or girl.)
+The lower it drops, the badder your character is. If the
+Karma gets really low, your character can earn a Karmic
+title. The worse the Karma, the better the title (if you
+like going in that direction.)
+Karmic titles can have an affect on your character,
+but only after a certain point. It takes a lot for your
+character’s inner personality to shine through (or in the
+case of bad Karma, ooze through.)
+The difference between Karma and Reputation is that no
+one has to watch you perform your actions to affect your
+Karma. Your character knows, and that’s good enough for
+his soul.
+Reputation (Town)
+If you perform deeds in front of people, you will
+eventually earn a Reputation. Most Reputations are based
+on a town, since that’s where people live and tend to
+watch each other do things.
+Like Karma, Reputations are expressed as numbers. The
+higher the rep, the better it is. The lower the rep, the
+more notorious your character is. 
+Many towns will trade with other towns, or eventually
+communicate with them, so your character’s reputation in
+one town will affect her reputation in other parts of the
+wasteland. It may take time, however, and the influence
+depends on the link between the two towns.
+Reputation will modify what people think of your
+character. “Good” non-player characters like good reps.
+“Bad” NPCs like bad reps. “Good” NPCs do not like bad
+reps. “Bad” NPCs do not like good reps.
+Reputation can affect what NPCs think of your
+character, bartering deals and the NPCs likelihood of
+being hostile.
+Reputation (Special)
+You can earn special Reputations by performing certain
+deeds. These can be good or bad reps. You will see them
+appear in the Karma area of the character screen. These
+will have some game affect, usually of a serious manner.

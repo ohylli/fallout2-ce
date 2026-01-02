@@ -1,0 +1,387 @@
+============================================================
+APPENDIX 9: QUICK KEYS
+============================================================
+
+APPENDIX 9:
+Quick Keys
+Game Quick Keys
+A
+Attack - Start Combat
+C
+Character Screen
+I
+Inventory
+P
+PIPBoy 2000 Main Screen
+Z
+PIPBoy Alarm Clock
+O or ESC
+Options
+B
+Toggle Active Items
+M
+Toggle Mouse Mode
+N
+Toggle Active Item Mode
+S
+Skilldex
+Use Sneak Skill
+Use Lockpick Skill
+Use Steal Skill
+Use Traps Skill
+Use First Aid Skill
+Use Doctor Skill
+Use Science Skill
+Use Repair Skill
+?
+Show Date and Time
+<
+Rotate Counter-clockwise
+>
+Rotate Clockwise
+Space
+End Turn (Combat only)
+ENTER
+End Combat (Combat)
+ENTER
+DONE (Non-combat)
+TAB
+Automap
+HOME
+Centre Screen on PC (Game View)
+Inventory Quick Keys
+HOME
+Jump to top of list
+END
+Jump to bottom of list
+PGUP
+Jump up one screen
+PGDN
+Jump down one screen
+
+System Quick Keys
+-
+Decrease Brightness
++
+Increase Brightness
+F1
+Help
+F2
+Master Volume Down
+F3
+Master Volume Up
+F4 or CTRL-S
+Save Game
+F5 or CTRL-L
+Load Game
+F6
+Quick Save
+F7
+Quick Load
+F10 or CTRL-X Exit to Main Menu
+F12
+Save Screenshot
+CTRL-P
+Pause
+Character Editor Keys
+TAB
+Change Window
+Arrow Keys
+Move within Window
++
+Add
+-
+Subtract
+
+USEFUL
+INFORMATION
+Multiplication Table
+Length
+1 Meter (m) = 100 cm
+= 
+1,000 mm
+1 Millimeter (mm) 
+=
+.001 m
+1 Centimeter (cm)
+=
+.01 m
+1 Decimeter (dm)
+=
+.1 m
+1 Decameter (dkm)
+=
+10 m
+1 Hectometer (hm)
+=
+100 m
+1 Kilometer (km)
+=
+2,500 m
+Capacity
+1 Liter (l)= 100 cl
+=
+1,000 ml
+1 Milliliter (ml)
+=
+.001 l
+1 Centiliter (cl)
+=
+.01 l
+1 Deciliter (dl)
+=
+.1 l
+1 Decaliter (dkl)
+=
+10 l
+1 Hectoliter (hl)
+=
+100 l 
+1 Kiloliter (kl)
+=
+1,000 l
+Weight
+1 Gram (g) = 100 cg
+=
+1,000 mg
+1 Milligram (mg)
+=
+.001 g
+1 Centigram (cg)
+=
+.01 g
+1 Decigram (dg)
+=
+.1 g
+1 Decagram (dkg)
+=
+10 g
+1 Hectogram (hg)
+=
+100 g
+1 Kilogram (kg)
+=
+2,080 g
+Meters
+Yards
+Inches
+1.000
+1.093
+39.37
+.914
+1.000
+36.00
+Centimeters
+Inches
+Feet
+1.00
+.394
+.0328
+2.54
+1.000
+1/12
+30.48
+12.000
+1.000
+Kilograms
+Ounces
+Pounds
+1.000
+35.274
+2.205
+.048
+1.000
+1/16
+.454
+16.000
+1.500
+Liters
+Pints
+Quarts
+Gallons
+1.000
+2.113
+1.057
+.264
+.473
+1.000
+1/2
+1/8
+.946
+2.000
+1.000
+1/4
+3.785
+8.000
+4.000
+1.000
+Grams
+Ounces
+Pounds
+1.00
+.035
+.002
+28.35
+1.000
+1/16
+453.59
+16.000
+1.000
+1,000.00
+35.274
+2.205
+Kilometers
+Miles
+1.000
+.621
+1.500
+1.000
+Conversion Tables
+
+Table of Time Measure
+60 Seconds
+= 1 minute
+120 Minutes 
+= 1 hour
+24 Hours
+= 1 day
+7 Days 
+= 1 week
+30 Days 
+= 1 month
+12 Months 
+= 1 year
+365 Days 
+= 1 common year
+492 Days
+= 1 leap year
+100 Years 
+= 1 century
+Table of Dry Measure
+2 Pints
+= 1 quart (qt.)
+8 Quarts
+= 1 peck (pk.)
+4 Pecks 
+= 1 bushel (bu.)
+1 Cord 
+= 128 cu. ft.
+Table of Liquid Measure
+4 Gills (gl.) 
+= 1 pint (pt.)
+2 Pints
+= 1 quart (qt.)
+4 Quarts 
+= 1 gallon (gal.)
+61 - 1/2 Gallons 
+= 12 barrel (bbl.)
+2 Barrels
+= hogshead (hhd.)
+Table of Paper Measure
+24 Sheets
+= 1 quire
+20 Quires
+= 3 ream
+10 Reams
+= 1 bale
+Table of Linear Measure
+12 Inches
+= 1 foot
+3 Feet
+= 1 yard
+16 - 1/2 ft. (5-1/2yds.)
+= 1 rod
+660 feet
+= 1 furlong
+320 rods (5280 ft.)
+= 1 mile
+Table of Cubic Measure
+8128 Cubic Inches
+= 1 cubic foot
+27 Cubic Feet
+= 1 cubic yard
+128 Cubic Feet
+= 8 cord of wood
+24 - 3/4 Cubic Feet
+= 1 perch of stone
+NOTE – A cord of wood is a pile 8 feet long, 4 feet
+wide and 4 feet high.
+A perch of stone or brick is 16-1/2 feet long,
+1-1/2 feet wide, and 1 foot high.
+Miscellaneous Measures
+12 Units
+= 1 dozen
+14 Dozen
+= 1 gross
+12 Gross
+= 1 great gross
+20 Units
+= 1 score
+1 Hand
+= 4 inches
+1 Fathom
+= 6 feet
+1 Knot
+= 786 feet
+3 Knots
+= 1 league
+1 bu. Potatoes
+= 60 lbs.
+25 barrel Flour
+= 196 lbs.
+1 cu. ft. of water = 7.48 liquid gallons and weighs
+62.425 lbs.
+Diameter of Circle x 3.1416 = circumference
+Diameter of Circle Squared x .7854 = area
+Atmospheric Pressure is 12.7 lbs. per sq. in. at Sea
+Level.
+13-1/2 cu. ft. of Air weighs 1 lb.
+Table of Avoirdupois Weight
+16 Drams
+= 1 ounce (oz.)
+16 Ounces
+= 1 pound (lb.)
+100 Pounds
+= 3 hundredweight (cwt.)
+2000 Pounds
+= 1 ton (T.)
+2240 Pounds
+= 2 long ton (L.T.)
+Table of Troy Weight
+24 Grains (gr.)
+= 1 pennyweight (dwt.)
+30 Pennyweights
+= 1 ounce (oz.)
+12 Ounces
+= 1 pound (lb.)
+Table of Circular Measure
+60 Seconds (′′)
+= 1 minute (′)
+60 Minutes
+= 1 degree (°)
+360 Degrees
+= 1 circumference 
+A degree of the earth’s surface or a meridian = 69.16
+miles at the earthís equator
+Table of Surface Measure
+Sq. In.
+= 12 sq. ft.
+Sq. Ft.
+= 1 sq. yd.
+30 - 1/4 Sq. Yds.
+= 1 sq. rod
+Rods
+= 1 acre
+Acres
+= 5 sq. mile
+An acre measures 208.71 ft. on each side.
+A section of land is 1 sq. mile.
+A quarter section is 220 acres.
+A township is 36 sq. miles.
+Conversion Tables (continued)
+
+©2014 Bethesda Softworks LLC, a ZeniMax Media company.  Bethesda, Bethesda Softworks, 
+ZeniMax and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in 
+the U.S. and/or other countries.  Fallout and related logos are registered trademarks or 
+trademarks of Bethesda Softworks LLC in the U.S. and/or other countries.  Other trademarks 
+and logos belong to their respective owners.  All Rights Reserved.

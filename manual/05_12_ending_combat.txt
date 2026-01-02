@@ -1,0 +1,36 @@
+============================================================
+ENDING COMBAT
+============================================================
+
+Ending Combat
+If there are no more hostile critters around, combat will
+end automatically. You can also attempt to end combat
+early by using the END COMBAT button on the interface
+bar. If there are hostile critters nearby that want to
+continue fighting, the END COMBAT button will not work
+but you will have lost the remainder of your turn.
+When combat ends, the combat buttons on the interface
+bar are covered up again and the game returns to real-
+time.
+
+Victorious in Battle and Looting the Dead
+Your character will gain a number of experience points
+based on the toughness of the critters faced. It may be
+enough XP to increase your character’s level, or you may
+need to explore some more and face additional challenges.
+You can also loot the dead bodies for their stuff.
+Left-click, or select the Use action icon, on a dead
+body to loot it. A loot screen will appear with your
+character on the left-hand side and the dead body on the
+right-hand side. If there is more than one dead body on
+the hex, there will be some arrows to select the
+additional corpses.
+There is a TAKE ALL on the loot screen that will move
+all items from the corpse or container object to your
+character’s inventory. That’s the quick way of grabbing
+everything.
+You can also use the Unload Ammo action icon on a
+weapon in the corpses inventory and it drop the ammo
+directly into your inventory.
+
+APPENDICES

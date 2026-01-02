@@ -1,0 +1,43 @@
+============================================================
+MOVEMENT CURSOR
+============================================================
+
+Movement Cursor
+The default cursor is the movement cursor. It looks like
+a hex. Hex is short for hexagon, a six-sided polygon.
+Characters in Fallout 2 can be facing one of six
+directions. The movement cursor will control where your
+character can move to in the game view. Move this cursor
+around the screen. If you cannot move to the location
+under the hex, a red X will appear in the centre of the
+cursor. There are two ways to move: walking and running.
+One of the preferences, Running, will change the default
+move type. See page 79 for more details about the
+preferences.
+Walking
+If you left-click when the movement cursor is displayed,
+your character will attempt to walk to that location,
+using the shortest path available. The shortest path to
+some destinations is not always the best one. If the
+shortest path looks dangerous to you, use small steps and
+walk carefully around that ticking box lying in the
+centre of the corridor with the large red BOMB letters on
+it. The setting of the Running preference may change the
+default action of the left-click.
+
+Running
+If you press SHIFT and left-click when the movement
+cursor is displayed, your character will run to the
+desired location using the shortest path available. This
+assumes that the Running preference is set to the default
+of Normal. If the preference is instead set to Always, a
+simple left-click will make your character run, and you
+must hold SHIFT and left-click to make your character
+walk.
+You can always interrupt your character while he or
+she is moving with another movement command.
+Things that affect movement
+If your character has a crippled leg or two, see Damage
+(page 131), your character cannot run. Movement during
+turn-based combat is limited and requires the spending of
+action points. Moving one hex requires one action point.

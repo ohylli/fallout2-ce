@@ -1,0 +1,40 @@
+============================================================
+ARMOUR
+============================================================
+
+Armour
+Armour is protective clothing that can reduce the effect
+of damage in combat. It is highly suggested that you find
+armour, wear it and upgrade whenever possible.
+The better the armour, the more damage it can protect
+against. There are three different statistics that
+determine the quality of the armour and how much damage
+it can stop.
+
+Armour Class - This is the chance that the armour will
+force the attack to miss, usually by deflecting the shot.
+The higher the Armour Class (AC), the better the armour.
+The AC acts as a negative modifier on the attackers
+chance to hit. Example: A ganger is wearing Leather
+armour, which is AC15. A desert ranger has a to hit
+chance of 65%, after all other modifiers. The chance to
+hit the target is only 50%.
+Damage Threshold - If a character in armour is hit, then
+the first thing armour can do is block the damage. Damage
+Threshold (DT) is subtracted from the initial amount of
+damage (what the target would take if it weren’t for the
+armour.) Example: The desert ranger hits the ganger from
+the above example. The attack does 20 points of damage.
+Owie! The DT of Leather armour is 4. The first four
+points of the rangers attack is stopped cold, leaving
+only 16 points of damage.
+Damage Resistance - The armour can also absorb the energy
+of the attack and spread it out over a larger area,
+reducing the damage proportionally. Damage Resistance
+(DR) is the percentage of damage, after the DT, that the
+attack is reduced by. Example: The ganger is in hurt
+shape. Fortunately, Leather armour has a DR of 20%, which
+reduces the 16 points of damage to 13 points. Here’s the
+math: 16 - (16 x .2 = 3.2 (round down to 3)) = 13. The
+Leather armour stopped a little over a third of the total
+damage.

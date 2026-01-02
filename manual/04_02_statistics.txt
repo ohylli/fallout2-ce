@@ -1,0 +1,210 @@
+============================================================
+STATISTICS
+============================================================
+
+Statistics
+There are two types of statistics: Primary and Secondary.
+Primary statistics are set during character creation and
+will rarely change during the course of the game.
+Secondary statistics are derived from the primary
+statistics.
+Primary Statistics
+Strength - This statistic is used in the secondary
+statistics Carry Weight, Melee Damage, and Hit Points.
+
+All weapons have a minimum Strength requirement, as well.
+If your character’s Strength is not high enough to use
+the weapon properly, the chance to hit is modified by -
+20% for each point of low Strength. A high enough skill
+can offset the low Strength modifier. You will be warned
+by a message in combat if your character’s ST is too low.
+Examine the weapon for more details about its ST
+A note about dice rolls.
+Dice?  In a computer role-playing game?  Well, Fallout 2 is
+a true, back to basics role-playing game.  These games were
+originally played, and still are, at a table with paper, pencil,
+and dice.  Fallout 2 stays true to those origins.  Some
+parts of the manual will refer to rolls.  In this case, Fallout
+2 is rolling against one of your characteristics with
+“virtual” dice.
+There are two types of rolls: checks and results.
+Checks are rolls against your characteristics, usually to
+see if you can accomplish a particular task (like shooting
+someone in the back.)  If the computer rolls below your
+characteristic, a statistic or skill, then you succeed.  If
+the computer rolls above the characteristic, you fail.  The
+computer will roll dice that are appropriate to the
+characteristic and there can be modifiers.  There is always
+a chance of failure, regardless of how high the
+characteristic.  There is not always a chance for success,
+especially if you have a particularly low characteristic.
+Results are random numbers that are generated when you
+succeed or fail at a task.  A result may be the amount of
+damage done by a firearm, or how much damage you take
+from a trap, or how many hit points you heal by using a
+Stimpak.
+Fallout 2 will handle all of this for you.  We are telling you
+this so you get a better idea of what is happening “under
+the hood.”  In addition, a strong understanding of
+probabilities will help
+you succeed when you play the game.
+NOTES
+
+requirement.
+Perception - This is used in the Sequence secondary
+statistic, and several skills (Lockpick, Traps, First Aid
+and Doctor.) The primary use of this statistic is
+determing the maximum distance your character can shoot a
+ranged weapon effectively. The better the PE score, the
+farther your character can shoot. Perception is also used
+by the computer to determine if your character notices
+the small details, traps and how far away you start from
+a random encounter.
+Endurance - The Hit Point, Poison Resistance, Radiation
+Resistance, and Healing Rate secondary statistics are
+based on Endurance, which also modifies the starting
+level of your character’s Outdoorsman skill. Endurance is
+used by the computer in combat to see if you can resist
+the effects of some critical hits (like blows to the
+head) and not get knocked down, or knocked out.
+Charisma - No secondary statistics are based on Charisma.
+It does heavily influence the Barter and Speech skills.
+Charisma is used to determine the maximum number of NPCs
+that will join your party. You can only have Charisma
+divided by two, round down, number of party members. It
+is also important in determining the initial reaction of
+NPCs to your character. Characters with high Charisma
+scores will be better liked. The game will compare your
+character’s Charisma to the NPC’s Charisma. NPCs with
+high Charisma scores will be more resistant to the charms
+of your character.
+Agility - This statistic is the basis for the Armour
+Class and Action Point secondary statistics. It modifies
+the most skills as well, especially combat skills.
+Agility is used by the computer whenever your character
+must perform some physical act of dexterity (to avoid a
+trap, for example.)
+Intelligence - No secondary statistics use Intelligence.
+Many of the non-combat skills use it for the base values,
+however. Intelligence is a very important statistic when
+talking to characters. It will determine what you can and
+
+can’t say to NPCs. Characters with high Intelligence
+scores will be able to speak intelligently and ask more
+profound questions. Intelligence also determines the
+number of skill points your character gains each level.
+Luck - The Critical Chance secondary statistic is based
+on Luck, so is the Gambling skill. Luck is used in combat
+to determine how often you get critical hits, and how
+good those critical hits are. Luck is also used by the
+computer to see if good or bad things happen to you.
+Characters with high Luck scores are more likely to come
+across special random encounters.
+Derived Statistics
+Hit Points - This stat determines if your character lives
+or dies after being shot in the chest, or takes other
+types of damage. Your current and maximum hit points are
+shown on the character screen, and the interface bar
+shows you your current HP, since it is such an important
+stat to see. When your character takes damage, you will
+see a message in the display window. For example, “You
+are hit for 16 points of damage. Ouch.” If you had 30 HP
+when that message came up, you now have 14 HP. See that
+message again and you are dead unless you healed some HP
+damage. Skills, such as First Aid and Doctor, or healing
+items, like Stimpaks, can reduce the amount of HP damage
+
+your character has sustained. You can never “heal” more
+damage than your maximum HP total.
+Armour Class - This statistic reduces the chance of an
+opponent to hit your character during combat. If you have
+an AC of 30%, which is pretty high, all characters that
+attempt to attack you have a -30% to their chance to hit,
+in addition to the other modifiers (such as darkness,
+range, and cover.) If you never get hit, there is no
+chance of your character taking damage.
+Action Points - This is number of actions your character
+can take during a single turn of combat. Individual
+actions have different AP costs. You can only perform an
+action if you have enough AP to cover the cost. Walking,
+for example, costs one AP per hex moved. If you have no
+AP remaining, you cannot move. The AP cost of using an
+item is listed on the active item button on the interface
+bar. Other actions are listed in the combat section, on
+page 118.
+Carry Weight - This is the total amount of weight your
+character can carry in her inventory. Almost all items
+have a weight, in pounds, which you can discover by doing
+an Examine on the item. The total number of items,
+multiplied by their weight per item, equals your
+character’s total inventory weight. This must be below
+your character’s Carry Weight, or when you put an item
+down your character may not be able to pick it back up.
+Melee Damage - This is the amount of damage added to the
+upper end of hand-to-hand and melee attacks. It is
+possible to have a Melee Damage of 5 and still do only
+one point of damage when you attack, based on armour and
+the fact that this stat adds to the maximum amount of
+random damage done, not the minimum. If a weapon does 1-4
+points of damage (which you can see on the inventory
+screen), and your character has a Melee Damage of 2, that
+weapon would do 1-6 points of damage before being
+modified by the armour of your target.
+Damage Resistance - This is the general amount of damage
+that your character is strong enough to just shrug off.
+
+Every attack will be reduced by this percentage. In
+conjunction with armour, which will have it’s own Damage
+Resistance and another stat called Damage Threshold (see
+page 135), every attack will do less damage to your
+character’s Hit Point total. Example: Your character is
+hit for 10
+points, a Damage Resistance of 10% would reduce that to 9
+points.
+Poison Resistance - The amount of poison your character
+takes is reduced by this percentage. If your character
+takes 20 points of poison, and has a PR of 20%, then the
+final amount of poison taken would be 16 points. Over
+time, this 16 points will be reduced to 0 and your
+character will no longer be affected by poison. The more
+points of poison that affects your character, the less
+amount of time before you take damage from the poison.
+Radiation Resistance - This stat reduces the amount of
+radiation your character is exposed to by this
+percentage. This stat can be temporarily increased by
+taking Rad-X, a chem. Some types of armour will also
+affect the amount of radiation damage your character is
+exposed to. This statistic will not help against
+previously exposed radiation.
+Sequence - The greater the value of this statistic, the
+more likely your character is to go first in a turn of
+combat. Generally, the character that starts combat gets
+an action and then all critters that are involved in that
+combat are sequenced (get it) into a list. The critter
+with the highest Sequence value goes first on the list,
+and it works its way down from there. A high Sequence
+does not mean that a character gets to go multiple times
+before slower Sequenced characters. The larger the
+battle, the more opponents, the more valuable this
+statistic becomes. As new critters are added to a battle,
+they will be sequenced in according to their Sequence
+statistic.
+Healing Rate - This stat determines the number of Hit
+Points healed when your character rests or travels. When
+your character rests, and can catch his wind, the current
+
+HP total will be increased by the Healing Rate every
+couple of hours. It is only effective when the character
+rests or travels. When travelling, healing is slower than
+while resting, too, but that usually doesn’t matter since
+more time is spent travelling than resting overnight.
+Critical Chance - This is the base chance to cause a
+critical hit in combat. Characters with high combat
+skills, or high quality weapons, will also score more
+critical hits. The difference between a successful combat
+roll and the proper weapon skill is modified by a formula
+and added to the Critical Chance stat. Then another roll
+is made, and if it is under the modified Critical Chance,
+a critical hit is scored. And that is a completely
+different table that depends on the type of critter you
+are attacking, and where you hit them.

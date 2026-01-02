@@ -1,0 +1,97 @@
+============================================================
+ACTION POINTS
+============================================================
+
+Action Points
+The number of actions you can take each turn are
+determined by a character’s total number of Action Points
+(AP), the more APs your character has, the more things
+she can do.
+You will spend your character’s APs when you perform
+an action, when you are out of APs your turn is over.
+Fortunately, you get all of your APs back at the start of
+the next turn.
+
+The number of action points your character has is
+located over the active item button on the interface bar.
+The AP lights only show the first ten AP your character
+has. If your character has more than 10 AP remaining,
+those action points will not be shown. When you spend
+enough APs so that less than ten are remaining, the
+number of lights representing APs will start to wink off.
+Different actions cost different amounts of APs. It
+costs very little to walk one hex (one AP to be
+specific), but it costs more to walk several hexes.
+Attacking with a knife is faster than aiming with a
+rifle, so the knife attack will cost less AP to perform.
+Actions in Combat
+The following chart will give you an idea of the number
+of APs required to perform an action. The actual amount
+may vary, depending on your character and what item your
+character uses.
+Action
+Base AP Cost
+Movement
+1 AP per hex
+Hand to Hand (HtH) Attack
+3 AP
+Melee Weapon Attack
+4 AP
+Ranged Attack (single)
+5 AP
+Ranged Attack (burst)
+6 AP
+Targeted Attack (single)
+6 AP
+Reloading Ammo
+2 AP
+Accessing Inventory
+4 AP
+Opening a door or other action
+3 AP
+Toggling active items
+0 AP
+Switching weapon modes
+0 AP
+Movement
+The AP cost to move is shown in the middle of the
+movement cursor when you pause the cursor for a moment
+over the destination hex. If there is a red X in the
+centre of the cursor, then you do not have enough AP to
+move that far, or there is something (or someone)
+blocking your access to that hex.
+
+Running in combat has no bonus or penalty.
+You can reserve enough AP to move and still use your
+active item by holding down the CTRL key while clicking
+to move. If you want enough AP left over to shoot your
+target, but you want to get as close as possible to the
+target in order to reduce the range penalty to a minimum,
+use reserve movement. Example: Your character has nine AP
+remaining. Your current weapon is a Colt 6520. It costs
+five AP to shoot that weapon in non-targeted mode. If you
+hold down CTRL while clicking on a hex that is eight
+hexes away, you will only move (9-5) four hexes towards
+the destination hex. You will still have five AP
+remaining, just enough to shoot the pistol.
+Attacking
+The number of AP required to make an attack depends on
+the type of weapon used (if any) and the type of attack.
+Weapons that are big and bulky will require more AP to
+use than smaller weapons. The AP cost for the attack is
+always shown in the lower left-hand corner of the active
+item button.
+All ranged weapon attacks are assumed to be aimed.
+Ammunition is scarce. Every shot must count.
+Targeted shots are aimed shots that your character
+spends more time performing. Targeted shots require an
+additional AP to perform.
+To attack, right-click on the active item button
+(which should contain a weapon or be empty, if you want
+to use Unarmed attacks) until the button is displaying
+the attack mode you want to use. Left-click on the button
+to get a targeting cursor. Move the targeting cursor over
+the target and left-click again to attack.
+You can continue to attack in a turn until you run out
+of APs to pay for an attack. It is possible to use two
+different types of attacks, as well.

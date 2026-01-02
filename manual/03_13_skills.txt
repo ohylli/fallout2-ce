@@ -1,0 +1,118 @@
+============================================================
+SKILLS
+============================================================
+
+Skills
+All of your character’s skills and their current level
+are displayed here. Your character’s current skill point
+total, gained from experience levels, will be displayed
+on the Skill Point counter. You can spend these skill
+points to improve your skills, or you can save them for
+use at a later time. Since it costs more skill points to
+improve a skill as it increases in skill level, it makes
+sense to store a small number of skill points. Just
+remember that every skill point you store is one that you
+could be using!
+To spend skill points, simply click on the skill to
+highlight it and move the skill point spending bar to
+that skill. Press the + or - buttons to increase or
+decrease the number of skill points you are spending on
+that skill. You cannot decrease the number of skill
+points in a particular skill below where it started when
+you entered the character screen at this time.
+See page 115 for information about Experience Points,
+Levels and new skill points.
+Perks, Karma & Kills
+This section of the screen contains three different
+displays. Click on a tab to switch to that display. You
+can choose from:
+Perks - This display shows your character’s current
+Perks, or special abilities that you gain every few
+levels. For most normal characters, every three levels
+you will have the ability to choose from a list of Perks.
+Characters that have the Skilled trait must advance four
+levels before they can choose a new Perk. Each Perk will
+appear as a separate entry. If you selected the Perk
+multiple times to increase the ability of the Perk, that
+rank will appear as a number next to the Perk name. Click
+on a Perk to view the information card about it.
+Use the arrow buttons to scroll the list up or down if
+you have too many Perks to view on one screen at the
+same time.
+At the bottom of this display, you will see your
+chosen traits.
+
+Karma - As the player, you will make choices for your
+character and those choices will have ramifications. The
+results of your choices will be found on this display.
+For good or bad, your actions will change your character.
+This display basically shows three types of information:
+Karma score, town reputations and special reputations.
+Your charcter’s Karma score is kind of a one-shot
+indicator of the results of all the actions you have
+taken up to now. A positive number means that you have
+basically acted as a good guy. A negative number means
+that you have been the bad guy. Imagine it as a scale.
+Every good deed and bad deed that you do, regardless if
+it is noticed by the outside world, is recorded. Bad
+deeds will lower your Karma, while good deeds will raise
+your Karma. A Karma that hovers around zero means that
+you are basically neutral, or you are like a newborn
+child -- you haven’t had a chance to prove yourself one
+way or the other.
+Reputation is also a measure of your deeds, but only
+if other people witness your actions. Each location will
+think of you differently, but some locations can hear
+about your deeds from one town or the other, and will
+thusly be modified by your reputation in other towns. A
+positive reputation is good, a negative one is bad and
+one that is close to zero is neutral. It is possible to
+have a really good reputation in a town, and have a
+really low Karma (in this case, you are a stinker and no
+one knows about you, yet.) It is also possible to have a
+poor rep and good Karma (you do good things, but no one
+has noticed.)
+Your character can earn Special Reputations for doing
+actions that are really spectacular, either good or bad.
+Special Reputations will modify what people think of you,
+and can give you additional positive or negative
+modifiers.
+Kills - This display simply shows the number of critters
+(including humans) that you have slain in battle, by
+critter type. If you kill a bunch of rats, for example,
+you can refer to this card to see just how many rats you
+have killed since you started Fallout 2. While this does
+serve no real purpose, since you gain experience points
+for each kill and that is recorded in a different
+
+location, it does serve as an excellent tool for bragging
+rights.
+Information Card
+This card will update to show you more detailed
+information about the currently selected statistic,
+skill, perk, trait, karmic bobble, or anything else that
+is selectable on the character screen.
+It also has a cute picture depicting the chosen
+characteristic in action. Sometimes, cute is not the
+proper word to be used.
+Print, Cancel and Done
+The following options are available at the bottom of the
+character screen.
+Print - Pressing this button will save the current record
+of your character as a text file on your own computer.
+Show it to your friends, or post it on the Internet. When
+you press this button, a window will appear. Type the
+name of the text file in this window. When you hit the
+ENTER key on your keyboard, the text file will be saved.
+If you want, you can then copy this text file to your
+printer, or open it with a text editor and print it out
+from there.
+Cancel - Returns to the game. All changes that you have
+made to this character since you entered this screen will
+be lost. If you spend some skill points, or if you
+purchase a Perk that you later regret, press this button
+and, with a wave of a magic wand, everything will be as
+it was!
+Done - Accepts any changes that you have made and returns
+you to the game. The typical way of exiting the character
+screen.

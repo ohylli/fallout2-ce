@@ -1,0 +1,71 @@
+============================================================
+PROBABILITIES
+============================================================
+
+Probabilities
+Attacks in combat are not a sure thing. People are moving
+around, trying really hard not to be hit. Armour deflects
+blows that otherwise would have done damage.
+Weapon attacks will often refer to a “chance to hit.”
+You can see this chance when you move the targeting
+cursor over a legal target. The number is the percentage
+chance, after modifiers, of actually hitting the target.
+The higher this number, the more likely you will be able
+to hit.
+Some examples:
+10% chance to hit - You should only be able to hit the
+target one out of every ten times.
+If you want
+to reload and use a
+healing item on the same
+turn, it is cheaper to
+open inventory and do
+everything there.  And if
+you go to inventory to
+use a healing item, you
+should remember to reload
+any ranged weapons at
+the same time.
+NOTES
+
+50% chance to hit - You should
+hit half the time and miss the
+other half.
+95% chance to hit - You should
+hit 19 out of 20 times, so you
+will rarely miss. This, by the
+way, is the maximum chance to
+hit. Even with super high
+skills, and all the modifiers, you have a maximum chance
+of 95% to hit.
+Your chance to hit is based on the appropriate weapon
+skill and it is modified by the range, light level,
+armour, cover your target has, and if the attack is
+targeted, the specific location you are trying to hit.
+For ranged weapons, the distance between your
+character and your target is critical. The closer your
+character is to the target, the better the chance to hit.
+Your Perception is the base factor for how far away a
+target can be before it gets harder to hit it. If the
+target is really close, you will even have a positive
+modifier to your to hit chance.
+If your target is in the dark, it will be harder to
+see them accurately. Targets that are hard to see are
+hard to hit. The light level of the target will modify
+your chance to hit. The darker it is, the harder it will
+be to hit them.
+Armour provides protection by actually deflecting the
+attack. Attacks that are deflected, or bounce in the case
+of really heavy armour, do no damage. Neat. The negative
+modifier to a to hit roll is the Armour Class (AC) of
+the armour. See page XX for more details about armour and
+how it can help you even if you are hit.
+Any obstacle between you and your target is considered
+cover. People, barrels, trees are all cover. You cannot
+shoot through walls, but it might be possible to shoot
+through a window.
+See page 130 for details about targeted attacks. The
+different locations on the target may be selected. Each
+location may have a different modifier to the to hit
+chance, but offers the opportunity to increase the amount
+of damage done.

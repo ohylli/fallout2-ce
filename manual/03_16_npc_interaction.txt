@@ -1,0 +1,16 @@
+============================================================
+NPC INTERACTION
+============================================================
+
+NPC Interaction
+Non-player characters (NPCs) are the people besides your
+character that inhabit the Fallout 2 world. Much of your
+time will be spent interacting with them on some level or
+another (even if it is with the blade of your dagger, or
+a couple rounds of .44), and you must be prepared to do
+so.
+There are two types of NPCs, those that are party-
+members and those that are not. Party-member NPCs are
+your friends (or at least they are pretending to be your
+friends) or people tagging along with you for a while.
+Those that are not, are everyone else in the world.

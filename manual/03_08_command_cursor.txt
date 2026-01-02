@@ -1,0 +1,134 @@
+============================================================
+COMMAND CURSOR
+============================================================
+
+Command Cursor
+The command cursor is the way of telling your character to
+interact with the environment and other people. Right-
+click until the command cursor is displayed.
+Use this cursor to point to an object or person that
+you wish to interact with. If you move the cursor over an
+object or person, and let it rest for a brief moment, an
+icon will appear next to the command cursor. This icon
+will tell you what the default action is if you left-
+click the mouse button while the cursor is over this
+object or person. You do not have to wait for the icon
+to appear before you click! To perform the default
+action, left-click once.
+To perform another action instead of the default
+action, move the command cursor over an object or person,
+and left-click and hold. You must hold the left mouse
+button until a list of action icons appears. One of the
+action icons will be highlighted. Move the mouse up and
+down to change the highlighted action icon. Release the
+left mouse button to perform the highlighted action. The
+bottom action icon will always be Cancel (see below.)
+Pausing the command cursor over an object or person
+will also display the name of the object or person in the
+display window on the interface bar. To get more
+
+information about that item or critter, use the Examine
+action icon (see below as well.)
+Action Icons
+USE ITEM/GET
+Performing this action will attempt to pick up a small
+item (like a rock) or manipulate a large item (like a
+door.) You can only pick up inventory items, and you can
+only use scenery items. If you have enough room in your
+inventory, the item you pick up will be added to the top
+of your inventory. If you Get a dead body, you will have
+a chance to loot them for all they were worth.
+You can get inventory items, loot dead bodies, and use
+scenery items.
+EXAMINE
+Using this action will give you more detail about an
+object or person. You will get a longer description of
+the item or person, often with important information
+(like how much ammo is left in a gun, or how wounded a
+person appears to be.) In the main game view, this long
+description will appear in the display window. In
+Inventory, this long description appears in the character
+display window.
+You can examine almost anything in Fallout 2.
+USE SKILL ON
+To use one of your active skills on the targeted
+object or person, select this action icon. The skilldex
+will be displayed and you can select one of the skills.
+Some skills will not work on the targeted object or
+person (trying to Lockpick a screaming mad ganger is
+pretty silly.)
+You can use this action on any object or person that a
+skill can be used on.
+DROP ITEM
+Only available in Inventory. If you no longer want to
+carry an inventory item, especially if it is getting a
+little crowded in your back pocket, or wherever you keep
+all those guns and ammo, then use this action on an item.
+The dropped item will appear at your feet. Use this
+action carefully, since the dropped item may disappear
+
+from that location at a later date. If you drop a really
+important item, it may be possible that you cannot finish
+the game.
+This works on any item in your Inventory.
+ROTATE CHARACTER
+To rotate your character clockwise, use this action
+icon. Every click of the mouse will rotate your character
+one hex-side. There is no Action Point cost for this
+action in combat. Your character will automatically
+rotate to face the proper direction for most actions that
+you peform.
+This action icon only works on your character.
+TALK
+Use this action to start talking with an intelligent
+creature, or at least make the attempt to open
+communication. It also works on some computers, but not
+all. If a person has little to say, it will appear over
+their head in the main game view. If they want to
+actually listen to what you have to say, then it will
+open the Dialogue screen and you will be able to carry on
+an extended conversation with them. See page 64 for more
+information on the Dialogue screen.
+This action icon works on people, intelligent
+creatures and some computers.
+
+USE INVENTORY ITEM ON
+If you want to use an item from your Inventory on a
+person or object, then this action is the fastest way to
+accomplish that task. When you select this action icon on
+a legal target, a small version of your Inventory will
+appear. Scroll through your Inventory, if necessary, and
+select the item you wish to use, and your character will
+attempt to use it on the target. Obviously, the item must
+be appropriate. Using a stimpak on a door isn’t going to
+do much, while those lockpicks have little chance when
+used on a dog (unless it is a really weird dog.) This
+action does not Barter or Trade with a person. You must
+do that through the Dialogue screen.
+This action will work on people, critters and scenery
+objects.
+UNLOAD AMMO
+If you want to remove ammo from a weapon, use this
+action icon. It will work in the Inventory screen and the
+loot screen, when you are pilfering from the dead. You
+can use this action to remove the valuable ammo from the
+heavy gun, or change ammo types in your favourite
+firearm. The ammo will be added to the top of your
+inventory.
+This action icon only works on weapons that contain
+ammunition, and only in the Inventory and loot screens.
+PUSH
+Select this action icon when the screen is crowded and
+your path is blocked. It will ask all nearby critters to
+move out of your way. Some will respond, but others,
+especially guards, will not follow your directions. If
+that door is blocked by Ivan the Slow-witted, then this
+is your command.
+Only available on your character, and only affects
+some nearby people and critters.
+CANCEL
+If you do not want to perform any of the above actions
+on the target, select the cancel action and it will be as
+if nothing happened. This is always the bottom action
+icon.
+Always available, from everywhere to everything.

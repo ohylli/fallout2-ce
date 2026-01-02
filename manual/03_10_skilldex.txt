@@ -1,0 +1,56 @@
+============================================================
+SKILLDEX
+============================================================
+
+Skilldex
+Some skills are used
+automatically. When you shoot a
+gun in combat, the proper gun
+skill will automatically be used.
+Other skills require that you
+actively use them. These skills
+are available through the
+Skilldex.
+Click on the Skilldex button
+on the Interface Bar, or use the
+Use Skill On action icon to
+access the Skilldex.
+The Skilldex will display a
+list of all the possible skills
+that you could use in this situation. Not all skills will
+apply, so you must pick the proper skill.
+There are a total of eight skills that you can choose
+from on the Skilldex. Each skill name is a button. Next
+to the button is a counter, showing your current level in
+the skill on the adjacent button. As usual, high numbers
+are better and show your percentage chance of succeeding
+in the use of that skill. The skill level is before
+modifiers, so it’s possible to have a really high skill
+and still fail.
+Click on a skill button to use that skill. All skills,
+except for Sneak, will require you to pick a target. If
+you accessed the Skilldex through the command cursor with
+the Use Skill On action icon, then the target has already
+been chosen. If you use the Skilldex button off the
+Interface Bar, you will have to choose the target. In
+this case, the cursor will change to a targeting cursor.
+Move it over the target, and left-click. To not use the
+skill after all, right-click or move the cursor over the
+Interface Bar.
+The Sneak skill does not require a target, since you
+can be the only target. Instead, the Sneak skill works
+like a toggle. If you are not sneaking, use the Sneak
+skill to start sneaking around. If you are sneaking, use
+the Sneak skill again to stop sneaking. While you are
+using the Sneak skill, a little indicator will appear
+just on top of the Interface Bar.
+You can also
+press the 1 through 8
+keys on your keyboard to
+access the skills quickly,
+without having to resort
+to the Skilldex.  This can
+save your valuable time,
+especially if you are doing
+a repetitive action.
+NOTES

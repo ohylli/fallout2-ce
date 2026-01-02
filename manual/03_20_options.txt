@@ -1,0 +1,261 @@
+============================================================
+OPTIONS
+============================================================
+
+Options
+Options allow you to save your game, load a
+previously saved game, change the
+preferences, or exit the game and return
+to the main menu. The various options are
+accessed by pressing the options button
+(the Big “O”) on the interface bar.
+When you press the options button on
+the interface bar, this small window with
+five different options will appear. Press one of these
+buttons to access that option. Save Game, Load Game, and
+Preferences are all complex enough that they need their
+own sections (see below.) The other two buttons are
+pretty straight-forward and are briefly explained here:
+Exit - This returns you the main menu. Since it does not
+automatically save your game, another window will appear
+asking you to confirm this action.
+Done - Closes the options window and returns to the game.
+Save Game
+When you want to stop playing,
+or if you want to save your
+progress so if something Really
+Bad happens you don’t have to
+start over from the very
+beginning, then you want to use
+this option. Saving your game
+often is a good idea, especially
+if you are in a dangerous area
+or if you get a bad feeling about what is just around
+the corner.
+There are ten save game slots. A save game slot will
+hold one save game file, so you can save up to ten
+different locations or positions at a time.
+Once you save ten save games, you will have to select
+one of the older games to overwrite when you decide to
+save a new game.
+When you first start playing Fallout 2, all ten slots
+will be empty. Each slot will say EMPTY, just to prove
+IffAD fiflnE
+EXIT GAME
+
+our point.
+To see what a save game
+slot contains, left-click
+once on a slot. A picture of
+where you saved the game will
+appear, along with a small
+text description showing the name, game date, and time of
+the saved location.
+To save a game, double-left-click on a slot, or select
+the slot and press the DONE button. Type a description
+that makes sense to you. Press ENTER on your keyboard, or
+press the DONE button. If you chance you mind, and do not
+want to use this slot, press CANCEL.
+The game will be saved, and you will get a message
+informing you if the everything went well. The most
+common problem when saving is if you run out of free hard
+disk space. The longer you play, the larger the save game
+file will get.
+Load Game
+When it comes time to return to
+a previously saved game, then
+you will want to use this
+screen. This is also the same
+screen available from the main
+menu.
+The load game screen is very
+similar to the save game
+screen.
+The list of the ten save game slots is displayed on
+the left-hand side of the screen. A small picture of the
+currently selected save game is displayed on the upper
+right-hand side. A description of that same save game is
+just below the picture.
+To load a game, double-left-click on the appropriate
+slot or left-click once on the slot to select it and then
+press the DONE button.
+If you do not want to load a game, press the CANCEL
+button.
+CANCEL
+
+Preferences
+These preferences control
+aspects of the game. All the
+preferences here can be
+adjusted by you, the player. In
+this way, you are given a
+chance to modify the game to
+your liking.
+All of the preferences below
+have two or more settings. One of the settings will be
+the default setting, which is set back at the Fallout
+factory by well-trained professionals. Don’t worry,
+however, they won’t get upset if you decide to deviate
+from the norm and change the default setting.
+There is a philosophy about saving
+games.  Some people say that you should only have one
+savegame file, and you should rarely save to it.  These
+people believe that this increases the danger of playing
+the game, and is thus more dramatic.  Others claim that you
+should be able to save before every combat, be able to
+replay every action and have unlimited saves.  Since the
+Fallout 2 development team is pretty nice, we tend to lean
+towards the latter.  You are allowed to save up to 10 save
+games, using slots, at pretty much anytime.  Should you
+save every few steps?  Well, it’s up to you.  We do highly
+suggest that you use multiple slots when you save.  Start
+with slot 1, and then use slot 2, then slot 3 and so on.  Only
+use slot 1 again when you have gone through all ten slots.
+This way, if something really bad happens to your
+character or savegame, you have a fairly recent backup of
+the game and you won’t lose much progress.  But the
+frequency of your game saving, and how you use it to play
+the game, is entirely in your hands.
+NOTES
+
+The options are listed in the brackets following the
+name of the preference. The underlined option is the
+factory-set default option.
+Game Difficulty [Easy, Normal, Hard]
+This preference controls the overall difficulty of
+reaction and other non-combat related rolls. Negative
+reaction modifiers are halved, and all non-combat rolls
+are made with a +20% bonus if set to Easy. If set to
+Hard, all negative reaction rolls are increased by 25%,
+and all non-combat skills are reduced by 10%.
+You can adjust this preference at anytime during the
+game. There is no penalty or reward for using any of the
+settings.
+Combat Difficulty [Wimpy, Normal, Rough]
+Controls the difficulty of combat. On Wimpy level, all
+opponents have a negative modifier to hit you, do less
+damage and take fewer targeted shots. On the Rough
+setting, they will hit you more often, do more damage and
+tend to take more targeted shots.There is no penalty or
+reward for using any of the settings, and you can change
+this preference whenever you wish.
+Combat Speed [Slider: [Normal -> Fastest, Player
+Checkbox]
+This slider controls how fast the non-player
+characters move and attack during combat (actually, just
+how fast they animate -- they still get their normal
+amount of attacks, but it just looks like they are moving
+quickly.)
+If the Player checkbox is clicked on, then the player
+will also be animated quickly.
+If combat is moving a little too slow for you, move
+the slider to the right until combat is humming along at
+the speed you like.
+Combat Taunts [On, Off]
+This preference turns the combat taunt messages on and
+off. If you get tired of the little quotes that non-
+player characters say during combat, then turn this
+preference off.
+The player character never says a combat taunt.
+
+Combat Messages [Verbose, Brief]
+When set to Verbose, combat messages will be more
+detailed with “flavour” text. If set to Brief, the
+messages will contain the same information but they will
+be shorter, since they only contain the critical stuff.
+Target Highlight [On, Off, Targeting Only]
+When set to On, this preference will always highlight
+characters during combat. When set to Off, you will never
+get a highlight. When set to Targeting Only, the
+highlights will only appear when you are actually using a
+targeting cursor in combat.
+The colour of the highlight will give you detailed
+information about the character. See page 116 in the
+Combat section for more details.
+Violence Level [None, Minimal, Normal, Maximum Blood]
+This preference controls what happens when a character
+is killed in the game. On Maximum Blood, you will see the
+most violent, gruesome deaths possible. Normal shows most
+of the deaths, but doesn’t show a couple of the really
+bloody ones. Minimal shows characters falling over in a
+pool of blood. None just shows the characters falling
+over.
+Since there is no practical difference in the game
+(except that it is a little more difficult to tell dead
+characters from unconscious characters with the None
+setting), you can set it to whatever setting you like.
+Notice that Maximum Blood is the default setting, and
+Normal is not. That should be a scary indicator of what
+the development team considers normal...
+Text Delay [Slider: Slow -> Normal -> Faster]
+This preference controls how long floating text and
+dialogue screen messages are displayed. Slow speed text
+messages are displayed for twice as long
+as normal. Faster speed messages are only displayed for
+half the normal amount of time.
+
+Language Filter [On, Off]
+There is some naughty language in Fallout 2. When the
+Language Filter is used, this text will appear as “&^!@!”
+instead of the more normal “!@&^@%!”. Hmm. This manual is
+using a language filter. The setting of this preference
+is left to the user.
+Running [Normal, Always]
+If set to Always, your character will run instead of
+walk when you left-click with the movement cursor, and
+you must shift-click to make the character walk. Normal
+is the default setting, where left-click is walk and
+shift-click is run.
+A note to our younger players:
+If you are under the age of 17, you should look at
+the little black rating on the box to this game.  It says
+Mature.  We mean it.  There are some really adult
+situations that occur in this game.  There are couple
+of preferences that you can set to make it more likely
+that your parents will not kick you out of the house if
+they discover you playing this game.  Click the Language
+Filter to On, and click the Violence Level to Normal or
+Minimal.
+A note to parents: If you discover your child playing
+this game with all the settings set to their normal
+Mature levels, we don’t actually suggest that you kick
+your kid out of the house.  That would be really rude.
+NOTES
+
+Master Audio Volume
+[Slider: Off -> Quiet -> Normal -> Loud]
+This preference controls the overall volume of the
+audio. If set to Off, it overrides all other audio
+preferences. The Music, Sound Effects and Speech volume
+controls will all adjust their volume based on the master
+audio volume control.
+Music/Movie Volume
+[Slider: Off ->>Quiet -> Normal -> Loud]
+This slider controls the volume of the music and the
+audio during the cinematic movie sequences.
+Sound Effects Volume
+[Slider: Off -> Quiet -> Normal ->>Loud]
+This slider controls the volume of the sound effects.
+Speech Volume
+[Slider: Off -> Quiet -> Normal -> Loud]
+Controls the volume of the digitised speech some
+characters use.
+
+Brightness Level
+[Slider: Normal -> Brighter]
+This preference controls the how bright the graphics
+are on your screen. For some computers, video cards and
+monitors, you may need to turn the brightness level up a
+notch or two to see the darker screens better.
+Mouse Sensitivity [Slider: Normal -> Faster]
+This slider controls how fast the mouse cursor moves.
+The higher the setting, the faster the mouse.
+Item Highlight [Off, On]
+If set to On, when you move the command cursor over an
+item on the ground, that item will be highlighted. If set
+to Off, you will have more difficulty finding items on
+the ground.
+Subtitles [Off, On]
+This preference controls any subtitles during
+cinematic movie sequences. If set to On, you will see
+text displayed at the bottom of the movie.

@@ -1,0 +1,29 @@
+============================================================
+INVENTORY
+============================================================
+
+Inventory
+If you press the INV button on
+the interface bar, it will cost
+four AP to open inventory. If
+you do not have the four AP,
+you cannot open inventory.
+Once you open inventory,
+however, you can perform as
+many actions in there as you
+want. If you do nothing at
+all, it still costs the four
+AP. If you attempt to open
+inventory again on the same
+turn, it will cost an
+additional four AP.
+Other Actions
+If you perform actions that require a reasonable amount
+of work and time, like opening a door, it will cost three
+AP. Some skills or actions require so much game time that
+they cannot be used in a combat turn. Specifically, First
+Aid and Doctor skills cannot be used in combat.
+Some interface issues require no time at all in the
+larger scheme of things. Right-clicking on the active
+item button to change weapon modes requires no APs.
+Neither does switching between the two active item slots.

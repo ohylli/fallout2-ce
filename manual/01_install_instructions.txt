@@ -1,0 +1,56 @@
+============================================================
+INSTALL INSTRUCTIONS
+============================================================
+
+INSTALLATION
+Thank you for purchasing Fallout 2: A Post Nuclear Role
+Playing Game from Interplay Productions. You are about to
+enter a world of mutants, radioactivity, big guns and
+vacuum tubes. Before you can start playing, you need to
+install Fallout 2 on your computer and do a very simple
+setup procedure.
+BEFORE YOU BEGIN
+You should have the following in your Fallout 2 survival
+kit:
+* Fallout 2 Game CD-ROM
+* The Fallout 2 Manual
+* Interplay Productions Reference and 
+Troubleshooting Guide 
+The basic requirements to run the game are:
+* IBM or 100% compatible Pentium™
+90 w/16 Megs of RAM
+* Windows® 95/98/NT w/ DirectX 3.0a or higher 
+* DirectX certified SVGA card
+* 4X CD-ROM drive
+* 100% Compatible Microsoft Mouse required 
+* DirectX certified sound card
+WIN95/98/NT INSTALLATION INSTRUCTIONS
+If you have Win95/98/NT installed on your computer, you
+should install the Win95 version of Fallout 2. DirectX
+must be installed prior to running SETUP.
+To install the Win95/98/NT version of Fallout 2,
+follow these steps:
+(1) Insert the Fallout 2 CD-ROM into your CD-ROM
+drive.
+
+(2) If you have Autoplay enabled, then you will
+shortly see an Autoplay menu. Click on the Install
+button.
+(3) If you do not have Autoplay enabled, open the CD-
+ROM and double-click on the SETUP icon.
+(4) If necessary, you will need to install DirectX
+3.0a or higher. You can install it from the
+Autoplay menu, or run DXSETUP.EXE from the DirectX
+directory on the CD-ROM.
+To Uninstall, go to the Control Panel -> Add/Remove
+Programs, select FALLOUT 2 and click on the Add/Remove
+button. The uninstaller only removes the files installed
+by the installer. Any files created after install (config
+files, save games, etc.) must be removed by hand.
+README FILE
+The README.TXT file on the CD contains up to date
+information that was not available when the manual went
+to press. We suggest you view the README to get the
+latest information and changes. You can do this from the
+Win95/98/NT Autoplay menu by clicking on the View Readme
+button.

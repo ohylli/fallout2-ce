@@ -1,0 +1,44 @@
+============================================================
+TARGETED SHOTS
+============================================================
+
+Targeted Shots
+Most attacks are done just
+trying to hit the opponent. But
+if the character takes a little
+more time, it is possible to
+make a more difficult attack
+that can do more damage. These
+are known as targeted attacks.
+Not all attacks can be targeted. Burst and explosive
+weapons cannot make targeted attacks. Characters that
+have the Fast Shot trait will never even see the targeted
+shot icon.
+Right-click on a weapon in the active item button
+until a small targeting icon appears in the lower right-
+hand corner of the button. Left-click on the button to
+select the targeting cursor. The colour is red to remind
+you that this is a targeted shot. Left-click on the
+target.
+A window will appear showing a wireframe of the target
+and all the specific locations
+you can target.
+You can attack one of eight
+different locations. Each
+location, like an arm or leg,
+is easier or harder to hit.
+Your adjusted to hit chance is
+shown next to the location
+name. A to hit chance of “--”
+means your character has no chance of success, the attack
+is just too difficult for a character of that skill.
+Click on a location name to attempt the attack. Press the
+CANCEL button if you decide the targeted attack is not
+worth it. A normal attack always goes for the torso.
+Targeted attacks have a higher chance of scoring a
+critical hit. The more difficult the location was to hit,
+the higher the chance of actually doing a critical hit.
+The type of critical hit that is achieved is also based
+on the location of the targeted hit. Hitting a person in
+the head can do more damage than hitting them in the left
+leg.

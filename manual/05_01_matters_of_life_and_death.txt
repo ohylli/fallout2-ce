@@ -1,0 +1,28 @@
+============================================================
+MATTERS OF LIFE AND DEATH
+============================================================
+
+Matters of Life and Death
+As you explore the post-nuclear world, you will
+eventually come into conflict with other characters or
+creatures. Sometimes you can solve these problems with
+diplomacy or stealth, depending on what your character is
+good at. Sometimes it is going to come down to who has
+the bigger gun.
+And who can use it better...
+Combat in Fallout 2 is turn-based. While the rest of
+the game is “real-time,” meaning that while you are
+moving other characters may move as well, a turn-based
+game is different. The way it works is that your
+character gets a chance to act, then the next person does
+all of his actions, and then the next person and so on.
+When everyone has had a chance to act, the turn is over
+and the whole thing starts over again at the top.
+When everyone else is dead or they have fled, the
+combat is over and the game reverts back to real-time. If
+your character dies, then the game is over.
+This chapter on combat will often refer to hexes. A
+hex is short for hexagon, or a six-sided polygon. Hexes
+are a way of managing distance and movement. Each hex is
+one meter. A target ten hexes away is ten meters away, or
+roughly thirty feet.

@@ -1,0 +1,104 @@
+============================================================
+DAMAGE
+============================================================
+
+Damage
+Damage is the result of a successful attack in combat.
+The more damage you do, the more likely your opponent
+will be killed, knocked out, knocked down or just plain
+put out of the fight.
+Damage can also occur from traps or other non-combat
+sources.
+Hit Points - Damage removes HP. The amount of damage is
+always shown as an amount of HP damage. A critter’s
+current HP is equal to their maximum HP minus all the
+damage they have taken. When a critter’s HP reaches 0,
+that critter is dead. If the player character loses all
+of his HP, the game is over.
+Critical Hits - Some attacks are just more deadly than
+others. The attack may have hit a critical spot, or was
+swung with a extra effort, or was just a lucky attack.
+These critical hits can cause more damage or have some
+other nasty effect on the poor recipient of the hit. The
+chance to cause a critical hit is based on the Critical
+Chance statistic, if the attack was targeted or not, and
+what the difference was between the attacker’s skill and
+the final number rolled by the computer.
+Some common critical hit effects:
+Extra Damage - x1.5, x2 or even x3 points of damage.
+Crippled Limb - The attack was so good it disabled a
+limb.
+Ignore Armour - The attack bypasses armour and
+completely affects the target.
+Unconsciousness - The attack knocks the target out.
+The amount of time the target will remain unconscious is
+based on their Endurance. The higher the EN, the quicker
+the target recovers.
+Knockdown - The target is knocked to the ground. It
+will require them to spend a small amount of AP to get
+
+up the next turn.
+Instant Death - Some critical hits are just so brutal
+the target is instantly slain, usually in a very
+spectacular manner.
+The type of effect achieved by the critical hit
+depends on the target, and the actual location of a
+targeted shot.
+Critical Failures - It is entirely possible that the
+attack was so screwed up, that the attacker did something
+really stupid. This is known as a critical failure, and
+is usually not a good thing. Critical failures can happen
+to the PC, as well as all other critters. Critical
+failures happen to the attacker, which can include your
+character.
+Trying to make a targeted shot with a really low
+chance to hit increases the chance that your character
+will suffer from a critical failure. The Jinxed trait
+means that everyone will suffer from more critical
+failures.
+The type of critical failure depends on the weapon
+used. Characters making unarmed attacks are not immune to
+the dread power of critical failures.
+Some common critical failure effects:
+Running out of ammo - The magazine was damaged, or the
+ammo malfunctioned.
+Jammed Weapon - Oops! The weapon may jam and require
+time to repair.
+Loss of AP - The attacker did something stupid, like
+brain fart.
+Dropped Weapon - The attacker loses grip on his weapon
+and it falls to the ground.
+Weapon Explodes - This is bad. Only really likely with
+explosive or energy weapons.
+Hit Unintentional Target - The attacker misses his
+original target and hits someone else.
+
+Damage Self - The attacker somehow hurts herself.
+There are other critical failure effects. Have fun
+finding them out.
+Poison - Poison is a nasty type of attack. Poison does
+damage over time. Many creatures can do poison damage,
+along with their regular HP attacks. Anti-venom can
+reduce the effect of poison. The more poison a character
+has been affected by, the longer it takes before the
+poison is gone, and the more damage the poison while do
+on the way out.
+See Poison Resistance for more info on poison, page
+91.
+Radiation - Radiation is an invisible attack. You will
+not see the radiation that kills you. Some critters can
+cause radiation damage, in addition to their normal
+damage. Radiation does not normally leave your system,
+either. You must use drugs or other curative processes to
+remove radiation. And the more radiation in your system,
+the more likely it is to damage you and the worse the
+effect.
+See Radiation Resistance on page 91 for more about
+radiation.
+Unconsciousness - This usually occurs from a critical
+hit. During this time, the unconscious critter will fall
+to the ground and can do nothing until he recovers. The
+recovery time is based on Endurance.
+Death - There are two ways to die: lose all of your hit
+points or be unconscious and the only remaining critters
+around you are hostile. We suggest you do neither.

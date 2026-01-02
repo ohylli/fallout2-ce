@@ -1,0 +1,82 @@
+============================================================
+EXPERIENCE
+============================================================
+
+Experience
+As your character survives, and succeeds at overcoming
+the obstacles in his path, he will gain experience
+points. When a certain number of experience points are
+obtained, your character will increase in level. When
+that happens, your character will gain more Hit Points,
+more skill points and the occasional Perk.
+Experience points can be given to your character for
+killing critters in combat, solving problems, and using
+skills successfully. The more difficult the critter,
+problem or skill use, the more experience points your
+character will be awarded with.
+It requires more experience points to increase in
+level, the higher level your character is. Go up in
+levels, and you need even more experience to get to the
+next level.
+A level is just a generalised measure of how much
+experience your character has earned, and how capable
+your character is.
+The amount of experience required to gain the next
+level is shown on your character screen.
+\
+
+Level
+XP Required
+1,000
+3,000
+6,000
+10,000
+15,000
+21,000
+28,000
+36,000
+45,000
+55,000
+66,000
+78,000
+91,000
+105,000
+120,000
+136,000
+153,000
+171,000
+190,000
+210,000
+and so on...
+Every new level gains your character the following:
+Hit Points - Add 3+(1/2 Endurance) to your maximum HP
+total.
+Skill Points - Gain 5+(2x Intelligence) skill points.
+Your character will occasionally gain a Perk, every
+three or four levels.
+There is no maximum level. You can continue to gain
+experience and improve your character, but it takes more
+and more experience to increase levels as you play.
+
+Skill Points
+Every new experience level will give your character a
+number of skill points that you can spend to improve your
+character’s skills. It is harder to improve a skill that
+is at a higher level. When your character spends skill
+points to improve a skill, it will cost more skill points
+if the skill is of a higher level.
+Tag skills improve faster. They gain +2% instead of
+the normal +1%.
+The number of skill points your character gains each
+level is dependent on their Intelligence (the higher the
+Intelligence, the more skill points), and whether or not
+your character has the Skilled trait or the Educated
+perk.
+Spending Skill Points
+To spend skill points, simply click on the skill to
+highlight it and move the skill point spending bar to
+that skill. Press the + or - buttons to increase or
+decrease the number of skill points you are spending on
+that skill. You cannot decrease the number of skill
+points in a particular skill below where it started when
+you entered the character screen at this time.

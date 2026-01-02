@@ -1,0 +1,65 @@
+============================================================
+MELEE WEAPONS & HTH COMBAT
+============================================================
+
+Melee Weapons & HtH Combat
+The use of melee weapons and unarmed combat is
+collectively known as Hand to Hand combat (HtH). This
+sort of combat occurs at very close ranges. Most of the
+time the two opponents will be adjacent, at a range of
+one hex. Some melee weapons can attack an opponent that
+is two hexes away. Anything beyond that, you need a
+ranged weapon. This type of combat can be very deadly,
+since most attacks are faster and the chance for a
+critical hit is increased.
+HtH combat has a major disadvantage: if you can hit
+your opponent, he can hit you. With ranged weapons, you
+can fire from a distance, and if your opponent is not
+similarly armed, you can plink at them as they approach.
+The good thing about HtH combat: less ammunition is
+used, and the attacks are generally a little faster to
+perform, letting your character take additional actions.
+
+SWING & THRUST - These are
+attack types common to melee
+weapons. Melee weapons have a
+base amount of damage, plus they
+get a bonus from Strength (the
+Melee Damage statistic.)
+Many melee weapons can make a targeted attack. This
+attack costs an additional AP to perform, but is more
+likely to cause damage. See page 130 for targeted
+attacks.
+RELOAD - Some melee weapons require power cells, a type
+of ammo. If the power level gets low in the weapon, use
+this option to recharge the weapons battery.
+PUNCH - If ITEM1 is empty in
+inventory, you can make punch
+attacks. The better your unarmed
+skill, and other
+characteristics, the more damage
+your
+punches will do. Basic punch damage is based off of your
+character’s Melee Damage stat. Characters that work on
+improving their Unarmed skill will learn how to throw
+more and more powerful punches. Some punches require
+other characteristics as well.
+See the Unarmed skill description starting on page 89
+for more information.
+KICK - ITEM2 in inventory must
+be empty so you can make kick
+attacks. Kicks do more damage,
+but require more AP. Kick damage
+is modified by Melee Damage.
+Characters that specialise in
+Unarmed can do better and better kicks as they learn
+more. Other characteristics are required to learn this
+more advanced kicks.
+See the Unarmed skill description starting on page 91
+for more information.
+Ij .....
+"
+r tJWI*1
+IW 3
+SRAD KICK
+\P 4

@@ -1,0 +1,94 @@
+============================================================
+RANGED WEAPONS
+============================================================
+
+Ranged Weapons
+Weapons that can be used a range of one hex, two hexes
+or more are called ranged weapons. They often have some
+sort of finite range, but that is often 15, 20 or more
+hexes away.
+Anything from a gun to a thrown rock can be a ranged
+weapon. If you can attack farther than two hexes away, it
+must be a ranged weapon.
+Weapon Modes
+By right-clicking on the active item button, you can
+chance the weapon mode. Not all weapons will have all
+modes.
+SINGLE - This will fire one shot from the weapon. One
+round of ammo will be used. The computer will roll one
+chance to hit. If it succeeds, the shot hits and does
+damage. If it fails, nothing happens except you spent
+some APs that could have been better used.
+Single shots may also be targeted, if your character
+does not have the Fast Shot trait. The targeting symbol
+will appear in the lower right-hand corner of the active
+item button when you are in targeted shot mode. See page
+126 for more info on these kinds of attacks.
+
+BURST - This mode will use
+multiple rounds of ammunition.
+Every type of burst weapon will
+have a different rate of fire
+(ROF), which determines the
+number of rounds fired with a
+single action. Burst weapons use ammo faster, but
+generally have a better chance to hit overall.
+Every single bullet will get an individual chance to
+hit. Even with a low skill, burst weapons with a high ROF
+will usually hit something.
+And something is the key word. Burst weapons not only
+attack the target, but any other potential target with
+the cone shaped area of effect.
+A burst is capable of covering many hexes and hitting
+all targets within that area. Most of the bullets are
+aimed at the primary target. The rest of the bullets can
+strike anybody within the cone. Friends, enemy’s,
+helpless sheep, whatever is in the cone that is centred
+around your target. Each bullet will do the weapons
+listed amount of damage. If all rounds hit, a burst
+weapon can do an awful lot of damage.
+However, if are right on top of an enemy, and you
+burst them -- they will be riddled by all the bullets.
+The cone needs a minimum of a few hexes to work.
+Besides potentially using a lot of ammo, burst shots
+may not be targeted. You just don’t have the fine control
+necessary to bring the sight to target with all the
+recoil.
+THROW - This will toss the
+weapon at the enemy target. This
+is generally a shorter ranged
+attack than other ranged
+weapons. The exact range will
+depend on the Strength statistic
+of the character throwing the weapon.
+Grenades, knives and rocks can all be thrown. If you
+have an identical item in your inventory, it will
+automatically be loaded into the same slot. This lets you
+toss frag grenades like they are going to nuke the
+factory in five minutes and you’d better use all that you
+can.
+}
+T
+
+All thrown weapons have to land somewhere. Even if a
+thrown weapon misses the target, it will land on the
+ground somewhere around you or the target. Grenades have
+a tendency to do bad things if this happens.
+RELOAD - Weapons that require ammo can be reloaded. You
+must have the identical kind of ammo in your inventory.
+The weapon will be maxed out, or all of your inventory
+ammo will be used, whichever comes first.
+The ammo bar next to the active item button shows if a
+weapon requires ammo, and how close it is to needing a
+reload. The lower the bar, the more likely you will be
+reloading in the very near future. Burst weapons that
+have a high ROF use a lot of ammo. Single-shot weapons,
+like rocket launcher’s, also need to be reloaded quite
+often.
+Besides using this method to reload, which only costs
+two AP, you can spend four AP and open inventory. Once in
+inventory, you can perform as many inventory actions as you
+would like. Including swapping weapons, ammo type, using
+healing items and so on.
+Examine the weapon in inventory to get an exact count
+of the remaining ammo, if you are interested.
