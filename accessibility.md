@@ -17,6 +17,13 @@ We use [Tolk](https://github.com/dkager/tolk) - a screen reader abstraction libr
 - Enter activates selected option
 - Announces "Main Menu" + current selection
 
+**Character Selection (New Game):**
+- Arrow keys (Left/Right) switch between 3 premade characters
+- T key starts game with selected character
+- M key modifies selected character, C creates new, B/ESC goes back
+- Announces "Character Selection" + character name + biography on screen open
+- Announces character name + biography when switching characters
+
 ### Usage
 
 1. Download Tolk from https://github.com/dkager/tolk/releases
@@ -40,6 +47,7 @@ tolkExit();                           // Cleanup
 - `src/tolk.h` - Public API
 - `src/tolk.cc` - Implementation with dynamic DLL loading
 - `src/mainmenu.cc` - Main menu keyboard navigation
+- `src/character_selector.cc` - Character selection screen accessibility
 
 ### Implementation Notes
 

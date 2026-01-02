@@ -4,6 +4,7 @@
 #include <string.h>
 
 #include <algorithm>
+#include <string>
 #include <vector>
 
 #include "art.h"
@@ -31,6 +32,7 @@
 #include "stat.h"
 #include "svga.h"
 #include "text_font.h"
+#include "tolk.h"
 #include "trait.h"
 #include "window_manager.h"
 
@@ -89,6 +91,10 @@ static bool characterSelectorWindowRenderBio();
 static bool characterSelectorWindowFatalError(bool result);
 
 static void premadeCharactersLocalizePath(char* path);
+
+// Accessibility helpers
+static std::string characterSelectorGetBio();
+static void characterSelectorAnnounceSelection(bool includeMenuName);
 
 // 0x51C84C
 static int gCurrentPremadeCharacter = PREMADE_CHARACTER_NARG;
@@ -160,6 +166,9 @@ int characterSelectorOpen()
     colorPaletteLoad("color.pal");
     paletteFadeTo(_cmap);
 
+    // Accessibility: announce character selection screen and initial character
+    characterSelectorAnnounceSelection(true);
+
     int rc = 0;
     bool done = false;
     while (!done) {
@@ -226,6 +235,8 @@ int characterSelectorOpen()
             }
 
             characterSelectorWindowRefresh();
+            // Accessibility: announce new character selection
+            characterSelectorAnnounceSelection(false);
             break;
         case KEY_ARROW_RIGHT:
             soundPlayFile("ib2p1xx1");
@@ -237,6 +248,8 @@ int characterSelectorOpen()
             }
 
             characterSelectorWindowRefresh();
+            // Accessibility: announce new character selection
+            characterSelectorAnnounceSelection(false);
             break;
         }
 
@@ -895,6 +908,60 @@ static bool characterSelectorWindowFatalError(bool result)
 {
     characterSelectorWindowFree();
     return result;
+}
+
+// Get the biography text for the current character
+static std::string characterSelectorGetBio()
+{
+    std::string bio;
+
+    char path[COMPAT_MAX_PATH];
+    snprintf(path, sizeof(path), "%s.bio", gCustomPremadeCharacterDescriptions[gCurrentPremadeCharacter].fileName);
+    premadeCharactersLocalizePath(path);
+
+    File* stream = fileOpen(path, "rt");
+    if (stream != nullptr) {
+        char line[256];
+        while (fileReadString(line, sizeof(line), stream)) {
+            // Remove trailing newline if present
+            size_t len = strlen(line);
+            if (len > 0 && line[len - 1] == '\n') {
+                line[len - 1] = '\0';
+            }
+            if (!bio.empty()) {
+                bio += " ";
+            }
+            bio += line;
+        }
+        fileClose(stream);
+    }
+
+    return bio;
+}
+
+// Announce the current character selection to screen reader
+static void characterSelectorAnnounceSelection(bool includeMenuName)
+{
+    std::string announcement;
+
+    if (includeMenuName) {
+        announcement = "Character Selection. ";
+    }
+
+    // Get character name
+    const char* name = objectGetName(gDude);
+    if (name != nullptr) {
+        announcement += name;
+    }
+
+    // Get biography
+    std::string bio = characterSelectorGetBio();
+    if (!bio.empty()) {
+        announcement += ". ";
+        announcement += bio;
+    }
+
+    tolkSpeak(announcement.c_str(), true);
 }
 
 void premadeCharactersInit()
