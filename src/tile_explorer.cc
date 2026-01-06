@@ -15,6 +15,9 @@ namespace fallout {
 // Exploration cursor tile position (-1 means cursor is at player position)
 static int gTileExplorerCursorTile = -1;
 
+// Visual cursor object for showing exploration position on screen
+static Object* gTileExplorerVisualCursor = nullptr;
+
 // Maximum number of objects to announce before saying "and more"
 static const int kMaxAnnouncedObjects = 10;
 
@@ -27,6 +30,56 @@ static const char* kDirectionNames[] = {
     "west",
     "northwest",
 };
+
+// Helper to create visual cursor (lazy initialization)
+// Called only when cursor is first needed, after game systems are fully initialized
+static void tileExplorerCreateVisualCursor()
+{
+    if (gTileExplorerVisualCursor != nullptr) {
+        return; // Already created
+    }
+
+    // Create visual cursor using hex cursor art (FID 1) with yellow outline
+    int fid = buildFid(OBJ_TYPE_INTERFACE, 1, 0, 0, 0);
+    if (objectCreateWithFidPid(&gTileExplorerVisualCursor, fid, -1) == 0) {
+        // Set yellow outline to distinguish from red mouse cursor
+        objectSetOutline(gTileExplorerVisualCursor, OUTLINE_TYPE_32, nullptr);
+
+        // Set flags to prevent interactions and saving
+        gTileExplorerVisualCursor->flags |= (OBJECT_NO_REMOVE | OBJECT_NO_SAVE
+            | OBJECT_LIGHT_THRU | OBJECT_SHOOT_THRU | OBJECT_NO_BLOCK);
+
+        // Make it flat (rendered on ground)
+        _obj_toggle_flat(gTileExplorerVisualCursor, nullptr);
+
+        // Initially hidden
+        Rect rect;
+        objectHide(gTileExplorerVisualCursor, &rect);
+    }
+}
+
+// Helper to update visual cursor position and visibility
+static void tileExplorerUpdateVisualCursor()
+{
+    // Lazy initialization: create cursor on first use (after game systems are ready)
+    tileExplorerCreateVisualCursor();
+
+    if (gTileExplorerVisualCursor == nullptr) {
+        return;
+    }
+
+    Rect rect;
+    if (gTileExplorerCursorTile == -1) {
+        // Hide cursor when in "following player" mode
+        objectHide(gTileExplorerVisualCursor, &rect);
+    } else {
+        // Show cursor at the exploration position
+        objectSetLocation(gTileExplorerVisualCursor, gTileExplorerCursorTile, gElevation, &rect);
+        objectShow(gTileExplorerVisualCursor, nullptr);
+        objectEnableOutline(gTileExplorerVisualCursor, nullptr);
+    }
+    tileWindowRefreshRect(&rect, gElevation);
+}
 
 // Helper to get the effective exploration tile (cursor or player position)
 static int tileExplorerGetEffectiveTile()
@@ -42,6 +95,24 @@ static int tileExplorerGetEffectiveTile()
 
 void tileExplorerInit()
 {
+    // Clean up any existing cursor first to prevent memory leak on re-init
+    if (gTileExplorerVisualCursor != nullptr) {
+        tileExplorerExit();
+    }
+
+    gTileExplorerCursorTile = -1;
+    // Visual cursor is created lazily in tileExplorerUpdateVisualCursor()
+    // when first needed, after game systems are fully initialized
+}
+
+void tileExplorerExit()
+{
+    if (gTileExplorerVisualCursor != nullptr) {
+        // Remove flags before destroying (consistent with game_mouse.cc pattern)
+        gTileExplorerVisualCursor->flags &= ~(OBJECT_NO_SAVE | OBJECT_NO_REMOVE);
+        objectDestroy(gTileExplorerVisualCursor, nullptr);
+        gTileExplorerVisualCursor = nullptr;
+    }
     gTileExplorerCursorTile = -1;
 }
 
@@ -50,6 +121,7 @@ void tileExplorerResetToPlayer()
     if (gDude != nullptr) {
         gTileExplorerCursorTile = gDude->tile;
     }
+    tileExplorerUpdateVisualCursor();
 }
 
 bool tileExplorerMove(int direction)
@@ -75,6 +147,10 @@ bool tileExplorerMove(int direction)
 
     // Update cursor position
     gTileExplorerCursorTile = newTile;
+
+    // Update visual cursor
+    tileExplorerUpdateVisualCursor();
+
     return true;
 }
 
@@ -93,6 +169,12 @@ void tileExplorerAnnounceCurrentTile()
     // Iterate through objects at this tile on current elevation
     Object* obj = objectFindFirstAtLocation(gElevation, tile);
     while (obj != nullptr) {
+        // Skip the visual cursor itself (don't announce it to screen reader)
+        if (obj == gTileExplorerVisualCursor) {
+            obj = objectFindNextAtLocation();
+            continue;
+        }
+
         // Skip hidden objects
         if ((obj->flags & OBJECT_HIDDEN) == 0) {
             // Skip floor tiles (OBJ_TYPE_TILE) as they're not interesting

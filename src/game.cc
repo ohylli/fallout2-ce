@@ -442,6 +442,7 @@ void gameExit()
 {
     debugPrint("\nGame Exit\n");
 
+    tileExplorerExit();
     tolkExit();
 
     // SFALL

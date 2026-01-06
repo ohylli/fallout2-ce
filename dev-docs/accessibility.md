@@ -40,6 +40,8 @@ Allows exploration of the game world tile by tile without moving the player char
 | Shift+F | Announce distance and direction from player |
 | Home | Return cursor to player position |
 
+**Visual Indicator:** A yellow/amber hex outline shows the cursor position on screen. This helps sighted users assisting blind players, developers testing the feature, and users with partial vision who benefit from both audio and visual feedback.
+
 - Announces objects at each tile (items, NPCs, doors, containers, etc.)
 - Says "Empty" for tiles with no interesting objects
 - Says "Edge of map" when cursor reaches map boundary

@@ -3,8 +3,11 @@
 
 namespace fallout {
 
-// Initialize tile explorer module
+// Initialize tile explorer module (creates visual cursor)
 void tileExplorerInit();
+
+// Cleanup tile explorer module (destroys visual cursor)
+void tileExplorerExit();
 
 // Reset exploration cursor to player position
 void tileExplorerResetToPlayer();
