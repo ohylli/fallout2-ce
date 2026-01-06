@@ -24,6 +24,28 @@ We use [Tolk](https://github.com/dkager/tolk) - a screen reader abstraction libr
 - Announces "Character Selection" + character name + biography on screen open
 - Announces character name + biography when switching characters
 
+**Tile Explorer (In-Game):**
+
+Allows exploration of the game world tile by tile without moving the player character. The exploration cursor is independent from the player position and persists until reset.
+
+| Key | Action |
+|-----|--------|
+| Shift+A | Move cursor West |
+| Shift+W | Move cursor Northwest |
+| Shift+E | Move cursor Northeast |
+| Shift+D | Move cursor East |
+| Shift+X | Move cursor Southeast |
+| Shift+Z | Move cursor Southwest |
+| F | Repeat current tile info (objects at cursor) |
+| Shift+F | Announce distance and direction from player |
+| Home | Return cursor to player position |
+
+- Announces objects at each tile (items, NPCs, doors, containers, etc.)
+- Says "Empty" for tiles with no interesting objects
+- Says "Edge of map" when cursor reaches map boundary
+- Works in all game states including combat
+- Cursor stays in place when player moves (reset with Home key)
+
 ### Usage
 
 1. Download Tolk from https://github.com/dkager/tolk/releases
@@ -48,6 +70,9 @@ tolkExit();                           // Cleanup
 - `src/tolk.cc` - Implementation with dynamic DLL loading
 - `src/mainmenu.cc` - Main menu keyboard navigation
 - `src/character_selector.cc` - Character selection screen accessibility
+- `src/tile_explorer.h` - Tile explorer public API
+- `src/tile_explorer.cc` - Tile explorer implementation
+- `src/game.cc` - Tile explorer key handlers (in `gameHandleKey()`)
 
 ### Implementation Notes
 
@@ -60,11 +85,15 @@ Pattern for adding keyboard navigation to menus:
 ### Integration Points
 
 Currently integrated in `src/game.cc`:
-- `gameInitWithOptions()` - calls `tolkInit()` and `tolkSpeak()` after debug mode setup
+- `gameInitWithOptions()` - calls `tolkInit()`, `tolkSpeak()`, and `tileExplorerInit()`
+- `gameHandleKey()` - handles tile explorer keyboard shortcuts
 - `gameExit()` - calls `tolkExit()` during shutdown
 
 ## Future Work
 
+- Nearby object scanner (find objects around player, integrate with tile explorer)
+- Player movement via tile explorer (move player to explored tile)
+- Object interaction via tile explorer (use/examine objects at cursor)
 - Other menus (options, load/save, character creation)
 - Dialog text reading
 - Combat messages

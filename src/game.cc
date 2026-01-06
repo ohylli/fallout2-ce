@@ -62,6 +62,7 @@
 #include "svga.h"
 #include "text_font.h"
 #include "tile.h"
+#include "tile_explorer.h"
 #include "tolk.h"
 #include "trait.h"
 #include "version.h"
@@ -186,6 +187,8 @@ int gameInitWithOptions(const char* windowTitle, bool isMapper, int font, int a4
 
     tolkInit();
     tolkSpeak("Fallout 2 loaded", true);
+
+    tileExplorerInit();
 
     interfaceFontsInit();
     fontManagerAdd(&gModernFontManager);
@@ -601,6 +604,18 @@ int gameHandleKey(int eventCode, bool isInCombatMode)
         showPause(false);
         break;
     case KEY_UPPERCASE_A:
+        // Shift+A: Tile explorer move West
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            if (tileExplorerMove(ROTATION_W)) {
+                tileExplorerAnnounceCurrentTile();
+            } else {
+                tolkSpeak("Edge of map", true);
+            }
+            break;
+        }
+        // Fall through to lowercase handler for non-shift case
+        [[fallthrough]];
     case KEY_LOWERCASE_A:
         if (interfaceBarEnabled()) {
             if (!isInCombatMode) {
@@ -724,7 +739,76 @@ int gameHandleKey(int eventCode, bool isInCombatMode)
             }
         }
         break;
+    // Tile explorer navigation keys (Shift+W/E/D/X)
+    case KEY_UPPERCASE_W:
+        // Shift+W: Tile explorer move Northwest
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            if (tileExplorerMove(ROTATION_NW)) {
+                tileExplorerAnnounceCurrentTile();
+            } else {
+                tolkSpeak("Edge of map", true);
+            }
+        }
+        break;
+    case KEY_UPPERCASE_E:
+        // Shift+E: Tile explorer move Northeast
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            if (tileExplorerMove(ROTATION_NE)) {
+                tileExplorerAnnounceCurrentTile();
+            } else {
+                tolkSpeak("Edge of map", true);
+            }
+        }
+        break;
+    case KEY_UPPERCASE_D:
+        // Shift+D: Tile explorer move East
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            if (tileExplorerMove(ROTATION_E)) {
+                tileExplorerAnnounceCurrentTile();
+            } else {
+                tolkSpeak("Edge of map", true);
+            }
+        }
+        break;
+    case KEY_UPPERCASE_X:
+        // Shift+X: Tile explorer move Southeast
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            if (tileExplorerMove(ROTATION_SE)) {
+                tileExplorerAnnounceCurrentTile();
+            } else {
+                tolkSpeak("Edge of map", true);
+            }
+        }
+        break;
+    // Tile explorer info keys (F and Shift+F)
+    case KEY_UPPERCASE_F:
+        // Shift+F: Announce distance and direction from player
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            tileExplorerAnnounceDistanceFromPlayer();
+        }
+        break;
+    case KEY_LOWERCASE_F:
+        // F: Repeat current tile info
+        tileExplorerAnnounceCurrentTile();
+        break;
     case KEY_UPPERCASE_Z:
+        // Shift+Z: Tile explorer move Southwest
+        if (gPressedPhysicalKeys[SDL_SCANCODE_LSHIFT] != KEY_STATE_UP
+            || gPressedPhysicalKeys[SDL_SCANCODE_RSHIFT] != KEY_STATE_UP) {
+            if (tileExplorerMove(ROTATION_SW)) {
+                tileExplorerAnnounceCurrentTile();
+            } else {
+                tolkSpeak("Edge of map", true);
+            }
+            break;
+        }
+        // Fall through to lowercase handler for non-shift case
+        [[fallthrough]];
     case KEY_LOWERCASE_Z:
         if (interfaceBarEnabled()) {
             if (isInCombatMode) {
@@ -751,6 +835,9 @@ int gameHandleKey(int eventCode, bool isInCombatMode)
         } else {
             _tile_scroll_to(gDude->tile, 2);
         }
+
+        // Reset tile explorer cursor to player position
+        tileExplorerResetToPlayer();
 
         break;
     case KEY_1:
