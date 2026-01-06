@@ -9,7 +9,7 @@ C++17 with the same original gameplay, engine bugfixes, and quality of life
 improvements. It runs on Windows, Linux, macOS, Android, and iOS.
 
 This is a fork of the orignal repository. Its aim is to make the game accessible
-for blind screen reader users. See `accessibility.md` for details of the current status.
+for blind screen reader users. See `dev-docs/accessibility.md` for details of the current status.
 
 ## Build Commands
 
@@ -115,7 +115,20 @@ Located in `src/mapper/` - Map editor functionality, not part of main game.
 
 ## Resources
 
+### Manual
+
 The manual of the game can be found from the `manual/` directory. Each section
 of the manual is available in its own text file e.g.
 `03_04_creating_a_character.txt` or `05_04_action_points.txt`. The manual should
-be consulted when knowing how the game works from the user perspective is relevant.
+be consulted when knowing how the game works from the user perspective is
+relevant.
+
+## Development documentation
+
+Folder `dev-docs` contains various documentation files about the game and the
+accessibility work.
+
+- `dev-docs/accessibity.md` The core accessibility implementation status
+  document.
+- `dev-docs/world.md` how the game represents the game world and how it could be
+  inspected for accessibility.
