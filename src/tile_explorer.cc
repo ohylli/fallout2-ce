@@ -4,6 +4,9 @@
 #include <string.h>
 
 #include "art.h"
+#include "debug.h"
+#include "game_mouse.h"
+#include "geometry.h"
 #include "map.h"
 #include "object.h"
 #include "obj_types.h"
@@ -36,14 +39,21 @@ static const char* kDirectionNames[] = {
 static void tileExplorerCreateVisualCursor()
 {
     if (gTileExplorerVisualCursor != nullptr) {
+        debugPrint("TileExplorer: cursor already exists\n");
         return; // Already created
     }
 
-    // Create visual cursor using hex cursor art (FID 1) with yellow outline
+    debugPrint("TileExplorer: creating visual cursor\n");
+
+    // Create visual cursor using hex cursor art (FID 1)
     int fid = buildFid(OBJ_TYPE_INTERFACE, 1, 0, 0, 0);
-    if (objectCreateWithFidPid(&gTileExplorerVisualCursor, fid, -1) == 0) {
-        // Set yellow outline to distinguish from red mouse cursor
-        objectSetOutline(gTileExplorerVisualCursor, OUTLINE_TYPE_32, nullptr);
+    int createResult = objectCreateWithFidPid(&gTileExplorerVisualCursor, fid, -1);
+    debugPrint("TileExplorer: objectCreateWithFidPid returned %d, cursor=%p\n", createResult, gTileExplorerVisualCursor);
+
+    if (createResult == 0) {
+        // Set outline (same style as game mouse hex cursor)
+        int outlineResult = objectSetOutline(gTileExplorerVisualCursor, OUTLINE_PALETTED | OUTLINE_TYPE_2, nullptr);
+        debugPrint("TileExplorer: objectSetOutline returned %d\n", outlineResult);
 
         // Set flags to prevent interactions and saving
         gTileExplorerVisualCursor->flags |= (OBJECT_NO_REMOVE | OBJECT_NO_SAVE
@@ -55,30 +65,80 @@ static void tileExplorerCreateVisualCursor()
         // Initially hidden
         Rect rect;
         objectHide(gTileExplorerVisualCursor, &rect);
+        debugPrint("TileExplorer: cursor created and hidden, flags=0x%x, outline=0x%x\n",
+            gTileExplorerVisualCursor->flags, gTileExplorerVisualCursor->outline);
+    } else {
+        debugPrint("TileExplorer: FAILED to create cursor object\n");
     }
 }
 
 // Helper to update visual cursor position and visibility
 static void tileExplorerUpdateVisualCursor()
 {
+    debugPrint("TileExplorer: updateVisualCursor called, cursorTile=%d, gElevation=%d\n",
+        gTileExplorerCursorTile, gElevation);
+
     // Lazy initialization: create cursor on first use (after game systems are ready)
     tileExplorerCreateVisualCursor();
 
     if (gTileExplorerVisualCursor == nullptr) {
+        debugPrint("TileExplorer: cursor is NULL, aborting update\n");
         return;
     }
 
-    Rect rect;
+    Rect rect = { 0, 0, 0, 0 };
     if (gTileExplorerCursorTile == -1) {
         // Hide cursor when in "following player" mode
+        debugPrint("TileExplorer: hiding cursor (tile=-1)\n");
         objectHide(gTileExplorerVisualCursor, &rect);
+        tileWindowRefreshRect(&rect, gElevation);
     } else {
         // Show cursor at the exploration position
-        objectSetLocation(gTileExplorerVisualCursor, gTileExplorerCursorTile, gElevation, &rect);
-        objectShow(gTileExplorerVisualCursor, nullptr);
-        objectEnableOutline(gTileExplorerVisualCursor, nullptr);
+        debugPrint("TileExplorer: attempting to show cursor at tile %d, elevation %d\n",
+            gTileExplorerCursorTile, gElevation);
+
+        // Position the cursor (don't need the rect from this)
+        int locResult = objectSetLocation(gTileExplorerVisualCursor, gTileExplorerCursorTile, gElevation, nullptr);
+        debugPrint("TileExplorer: objectSetLocation returned %d\n", locResult);
+
+        if (locResult == 0) {
+            debugPrint("TileExplorer: cursor tile=%d, elevation=%d, flags=0x%x, outline=0x%x\n",
+                gTileExplorerVisualCursor->tile, gTileExplorerVisualCursor->elevation,
+                gTileExplorerVisualCursor->flags, gTileExplorerVisualCursor->outline);
+
+            // Show the cursor and use this rect for refresh (like gameMouseObjectsShow does)
+            Rect showRect;
+            int showResult = objectShow(gTileExplorerVisualCursor, &showRect);
+            debugPrint("TileExplorer: objectShow returned %d, showRect=(%d,%d,%d,%d)\n",
+                showResult, showRect.left, showRect.top, showRect.right, showRect.bottom);
+
+            if (showResult == 0) {
+                objectEnableOutline(gTileExplorerVisualCursor, nullptr);
+
+                debugPrint("TileExplorer: after show - flags=0x%x, outline=0x%x\n",
+                    gTileExplorerVisualCursor->flags, gTileExplorerVisualCursor->outline);
+
+                // Verify object is in the tile's object list
+                bool foundInList = false;
+                Object* obj = objectFindFirstAtLocation(gElevation, gTileExplorerCursorTile);
+                while (obj != nullptr) {
+                    if (obj == gTileExplorerVisualCursor) {
+                        foundInList = true;
+                        break;
+                    }
+                    obj = objectFindNextAtLocation();
+                }
+                debugPrint("TileExplorer: cursor in tile list: %s\n", foundInList ? "YES" : "NO");
+
+                // Use showRect for refresh (same pattern as gameMouseObjectsShow)
+                debugPrint("TileExplorer: calling tileWindowRefreshRect with showRect=(%d,%d,%d,%d)\n",
+                    showRect.left, showRect.top, showRect.right, showRect.bottom);
+                tileWindowRefreshRect(&showRect, gElevation);
+            }
+        } else {
+            debugPrint("TileExplorer: objectSetLocation FAILED\n");
+        }
     }
-    tileWindowRefreshRect(&rect, gElevation);
 }
 
 // Helper to get the effective exploration tile (cursor or player position)
@@ -118,8 +178,12 @@ void tileExplorerExit()
 
 void tileExplorerResetToPlayer()
 {
+    debugPrint("TileExplorer: resetToPlayer called, gDude=%p\n", gDude);
     if (gDude != nullptr) {
         gTileExplorerCursorTile = gDude->tile;
+        debugPrint("TileExplorer: set cursorTile to gDude->tile=%d\n", gDude->tile);
+    } else {
+        debugPrint("TileExplorer: gDude is NULL, cursorTile unchanged (%d)\n", gTileExplorerCursorTile);
     }
     tileExplorerUpdateVisualCursor();
 }
