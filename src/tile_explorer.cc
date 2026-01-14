@@ -1,5 +1,6 @@
 #include "tile_explorer.h"
 
+#include <math.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -18,15 +19,80 @@ static int gTileExplorerCursorTile = -1;
 // Maximum number of objects to announce before saying "and more"
 static const int kMaxAnnouncedObjects = 10;
 
-// Direction names for announcements (indexed by ROTATION_NE..ROTATION_NW)
-static const char* kDirectionNames[] = {
+// 8 cardinal direction names for announcements (N=0, NE=1, E=2, SE=3, S=4, SW=5, W=6, NW=7)
+static const char* kCardinalDirectionNames[] = {
+    "north",
     "northeast",
     "east",
     "southeast",
+    "south",
     "southwest",
     "west",
     "northwest",
 };
+
+// Calculate 8-way cardinal direction from tile1 to tile2 for announcements.
+// Returns 0-7: N=0, NE=1, E=2, SE=3, S=4, SW=5, W=6, NW=7
+// Returns -1 if tiles are the same or invalid.
+static int tileGetCardinalDirectionTo(int tile1, int tile2)
+{
+    if (tile1 == tile2) {
+        return -1;
+    }
+
+    int x1, y1, x2, y2;
+    if (tileToScreenXY(tile1, &x1, &y1, 0) != 0) {
+        return -1;
+    }
+    if (tileToScreenXY(tile2, &x2, &y2, 0) != 0) {
+        return -1;
+    }
+
+    // Calculate delta (invert Y for standard math coordinates where Y increases upward)
+    double dx = static_cast<double>(x2 - x1);
+    double dy = static_cast<double>(y1 - y2); // Inverted: screen Y down, math Y up
+
+    // Handle edge case where both deltas are zero
+    if (dx == 0.0 && dy == 0.0) {
+        return -1;
+    }
+
+    // Calculate angle in radians using atan2
+    // atan2 gives: East=0, North=PI/2, West=PI/-PI, South=-PI/2
+    double angleRad = atan2(dy, dx);
+
+    // Convert to degrees
+    double angleDeg = angleRad * 180.0 / 3.14159265358979323846;
+
+    // Transform so North=0: rotate 90 degrees
+    // Standard atan2: E=0, N=90, W=180, S=-90
+    // We want: N=0, E=90, S=180, W=270
+    angleDeg = 90.0 - angleDeg;
+
+    // Normalize to 0-360
+    while (angleDeg < 0.0) {
+        angleDeg += 360.0;
+    }
+    while (angleDeg >= 360.0) {
+        angleDeg -= 360.0;
+    }
+
+    // Add 22.5 degrees (half sector) to center sectors on cardinal directions
+    // This makes North cover 337.5-22.5 degrees
+    angleDeg += 22.5;
+    if (angleDeg >= 360.0) {
+        angleDeg -= 360.0;
+    }
+
+    // Divide by 45 to get direction index 0-7
+    int direction = static_cast<int>(angleDeg / 45.0);
+
+    // Clamp to valid range (safety)
+    if (direction < 0) direction = 0;
+    if (direction > 7) direction = 7;
+
+    return direction;
+}
 
 // Helper to get the effective exploration tile (cursor or player position)
 static int tileExplorerGetEffectiveTile()
@@ -147,18 +213,19 @@ void tileExplorerAnnounceDistanceFromPlayer()
 
     // Calculate distance and direction from player to cursor
     int distance = tileDistanceBetween(gDude->tile, cursorTile);
-    int direction = tileGetRotationTo(gDude->tile, cursorTile);
+    int direction = tileGetCardinalDirectionTo(gDude->tile, cursorTile);
 
-    // Bounds check for direction array
-    if (direction < 0 || direction >= ROTATION_COUNT) {
-        direction = ROTATION_NE;
+    // Should not happen since we checked tiles are different, but safety fallback
+    if (direction < 0) {
+        tolkSpeak("At player position", true);
+        return;
     }
 
     char announcement[256];
     if (distance == 1) {
-        snprintf(announcement, sizeof(announcement), "1 tile %s", kDirectionNames[direction]);
+        snprintf(announcement, sizeof(announcement), "1 tile %s", kCardinalDirectionNames[direction]);
     } else {
-        snprintf(announcement, sizeof(announcement), "%d tiles %s", distance, kDirectionNames[direction]);
+        snprintf(announcement, sizeof(announcement), "%d tiles %s", distance, kCardinalDirectionNames[direction]);
     }
 
     tolkSpeak(announcement, true);
