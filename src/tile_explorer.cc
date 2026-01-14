@@ -1,5 +1,6 @@
 #include "tile_explorer.h"
 
+#define _USE_MATH_DEFINES
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
@@ -62,7 +63,7 @@ static int tileGetCardinalDirectionTo(int tile1, int tile2)
     double angleRad = atan2(dy, dx);
 
     // Convert to degrees
-    double angleDeg = angleRad * 180.0 / 3.14159265358979323846;
+    double angleDeg = angleRad * 180.0 / M_PI;
 
     // Transform so North=0: rotate 90 degrees
     // Standard atan2: E=0, N=90, W=180, S=-90
