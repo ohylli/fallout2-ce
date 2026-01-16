@@ -87,15 +87,46 @@ typedef struct Object {
 ### Object Types
 
 ```cpp
-OBJ_TYPE_ITEM      // Weapons, ammo, consumables, misc items
+OBJ_TYPE_ITEM      // Items (see Item Subtypes below)
 OBJ_TYPE_CRITTER   // NPCs and enemies
-OBJ_TYPE_SCENERY   // Doors, containers, stairs, ladders
+OBJ_TYPE_SCENERY   // Scenery (see Scenery Subtypes below)
 OBJ_TYPE_WALL      // Walls and barriers
 OBJ_TYPE_TILE      // Floor tiles
-OBJ_TYPE_MISC      // Miscellaneous objects
+OBJ_TYPE_MISC      // Exit grids, script triggers, visual effects
 ```
 
-Extract object type from FID: `FID_TYPE(object->fid)`
+Extract object type from PID: `PID_TYPE(object->pid)`
+
+### Item Subtypes
+
+Items (`OBJ_TYPE_ITEM`) have subtypes defined in `proto_types.h:26-35`:
+
+```cpp
+ITEM_TYPE_ARMOR      // Wearable protection
+ITEM_TYPE_CONTAINER  // Lootable containers (lockers, desks, chests)
+ITEM_TYPE_DRUG       // Consumables (stimpaks, chems)
+ITEM_TYPE_WEAPON     // Weapons
+ITEM_TYPE_AMMO       // Ammunition
+ITEM_TYPE_MISC       // Miscellaneous usable items
+ITEM_TYPE_KEY        // Keys for locked objects
+```
+
+Access via: `proto->item.type` after calling `protoGetProto(obj->pid, &proto)`
+
+### Scenery Subtypes
+
+Scenery (`OBJ_TYPE_SCENERY`) has subtypes defined in `proto_types.h:37-45`:
+
+```cpp
+SCENERY_TYPE_DOOR        // Doors (can be opened/closed/locked)
+SCENERY_TYPE_STAIRS      // Stairs (elevation/map transitions)
+SCENERY_TYPE_ELEVATOR    // Elevators (multi-floor access)
+SCENERY_TYPE_LADDER_UP   // Ladder going up
+SCENERY_TYPE_LADDER_DOWN // Ladder going down
+SCENERY_TYPE_GENERIC     // Decorative/interactive props (NOT containers)
+```
+
+Access via: `proto->scenery.type` after calling `protoGetProto(obj->pid, &proto)`
 
 ### Important Object Flags
 
@@ -319,13 +350,35 @@ Approach options:
 2. **Radius search** - spiral out ring-by-ring (see combat.cc:4021 for pattern)
 3. **All objects of type** - use `objectListCreate()`, sort by distance
 
-Key interactable scenery types:
+**Important for navigation** (scenery):
 ```cpp
-SCENERY_TYPE_DOOR
-SCENERY_TYPE_STAIRS
-SCENERY_TYPE_LADDER_UP
-SCENERY_TYPE_LADDER_DOWN
-SCENERY_TYPE_GENERIC  // Containers, etc.
+SCENERY_TYPE_DOOR        // Doors
+SCENERY_TYPE_STAIRS      // Stairs
+SCENERY_TYPE_ELEVATOR    // Elevators
+SCENERY_TYPE_LADDER_UP   // Ladders up
+SCENERY_TYPE_LADDER_DOWN // Ladders down
+```
+
+**Important for looting** (items):
+```cpp
+ITEM_TYPE_CONTAINER      // Containers (lockers, desks, chests)
+// Also: any OBJ_TYPE_ITEM on ground is lootable
+```
+
+**Filter out:**
+```cpp
+SCENERY_TYPE_GENERIC     // Decorative props - NOT containers
+```
+
+**Detecting containers:**
+```cpp
+if (PID_TYPE(obj->pid) == OBJ_TYPE_ITEM) {
+    Proto* proto;
+    protoGetProto(obj->pid, &proto);
+    if (proto->item.type == ITEM_TYPE_CONTAINER) {
+        // It's a container (locker, desk, chest, etc.)
+    }
+}
 ```
 
 ### OBJ_TYPE_MISC Objects
