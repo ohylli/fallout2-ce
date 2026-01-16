@@ -328,6 +328,37 @@ SCENERY_TYPE_LADDER_DOWN
 SCENERY_TYPE_GENERIC  // Containers, etc.
 ```
 
+### OBJ_TYPE_MISC Objects
+
+Misc objects (PID type 5, i.e., PIDs starting with `0x5`) include:
+
+- **Exit grids** (PIDs `0x5000010` - `0x5000017`) - Teleport player to another map or location. **Relevant for navigation.**
+- **Spatial script triggers** (PID `0x500000C`) - Invisible script triggers. Not player-visible.
+- **Visual effects** - Blood pools, explosion effects, decay remains. Purely cosmetic.
+
+**For nearby object scanning**, only exit grids are relevant:
+
+```cpp
+#include "proto.h"  // for isExitGridPid()
+
+if (PID_TYPE(obj->pid) == OBJ_TYPE_MISC) {
+    if (isExitGridPid(obj->pid)) {
+        // Announce as "Exit" - important for navigation
+    }
+    // Skip other misc objects (visual effects, script triggers)
+}
+```
+
+Exit grid destination data is stored in `obj->data.misc`:
+```cpp
+typedef struct MiscObjectData {
+    int map;       // Destination map ID
+    int tile;      // Destination tile
+    int elevation; // Destination elevation
+    int rotation;  // Player rotation on arrival
+} MiscObjectData;
+```
+
 ### Elevation Awareness
 
 - Always filter queries by `gElevation`
