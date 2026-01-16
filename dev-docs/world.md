@@ -128,6 +128,59 @@ SCENERY_TYPE_GENERIC     // Decorative/interactive props (NOT containers)
 
 Access via: `proto->scenery.type` after calling `protoGetProto(obj->pid, &proto)`
 
+### Critter Kill Types
+
+Critters (`OBJ_TYPE_CRITTER`) are classified by kill type, defined in `proto_types.h:106-126`:
+
+```cpp
+KILL_TYPE_MAN          // Human males
+KILL_TYPE_WOMAN        // Human females
+KILL_TYPE_CHILD        // Children
+KILL_TYPE_SUPER_MUTANT // Super mutants
+KILL_TYPE_GHOUL        // Ghouls
+KILL_TYPE_BRAHMIN      // Brahmin
+KILL_TYPE_RADSCORPION  // Radscorpions
+KILL_TYPE_RAT          // Rats
+KILL_TYPE_FLOATER      // Floaters
+KILL_TYPE_CENTAUR      // Centaurs
+KILL_TYPE_ROBOT        // Robots
+KILL_TYPE_DOG          // Dogs
+KILL_TYPE_MANTIS       // Mantises
+KILL_TYPE_DEATH_CLAW   // Deathclaws
+KILL_TYPE_PLANT        // Plants
+KILL_TYPE_GECKO        // Geckos
+KILL_TYPE_ALIEN        // Aliens
+KILL_TYPE_GIANT_ANT    // Giant ants
+KILL_TYPE_BIG_BAD_BOSS // Boss creatures
+```
+
+Access via: `critterGetKillType(obj)` from `critter.h`
+
+### Critter Hostility (Team System)
+
+Critters belong to teams. Team membership determines friend/foe status:
+
+```cpp
+obj->data.critter.combat.team  // Critter's team number
+// Team 0 = player's team (friendly)
+// Other teams = different faction (potentially hostile)
+```
+
+**Detecting friendly vs hostile:**
+```cpp
+// Same team as player = friendly
+bool isFriendly = (obj->data.critter.combat.team == gDude->data.critter.combat.team);
+
+// Party member check (companions)
+#include "party_member.h"
+bool isCompanion = objectIsPartyMember(obj);
+```
+
+**For accessibility, categorize as:**
+- **Party member**: `objectIsPartyMember(obj)` returns true
+- **Friendly NPC**: `team == 0` but not party member
+- **Hostile/Other**: `team != 0`
+
 ### Important Object Flags
 
 ```cpp
