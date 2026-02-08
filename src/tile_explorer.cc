@@ -35,7 +35,7 @@ static const char* kCardinalDirectionNames[] = {
 // Calculate 8-way cardinal direction from tile1 to tile2 for announcements.
 // Returns 0-7: N=0, NE=1, E=2, SE=3, S=4, SW=5, W=6, NW=7
 // Returns -1 if tiles are the same or invalid.
-static int tileGetCardinalDirectionTo(int tile1, int tile2)
+int tileGetCardinalDirectionTo(int tile1, int tile2)
 {
     if (tile1 == tile2) {
         return -1;
@@ -235,6 +235,13 @@ void tileExplorerAnnounceDistanceFromPlayer()
 int tileExplorerGetCursorTile()
 {
     return gTileExplorerCursorTile;
+}
+
+void tileExplorerSetCursorTile(int tile)
+{
+    if (tileIsValid(tile)) {
+        gTileExplorerCursorTile = tile;
+    }
 }
 
 } // namespace fallout
