@@ -19,6 +19,7 @@
 #include "platform_compat.h"
 #include "settings.h"
 #include "svga.h"
+#include "tile_explorer.h"
 
 namespace fallout {
 
@@ -651,6 +652,7 @@ static void tileRefreshGame(Rect* rect, int elevation)
     _obj_render_pre_roof(&rectToUpdate, elevation);
     tileRenderRoofsInRect(&rectToUpdate, elevation);
     _obj_render_post_roof(&rectToUpdate, elevation);
+    tileExplorerRenderCursor(gTileWindowBuffer, gTileWindowPitch, &rectToUpdate, elevation);
     gTileWindowRefreshProc(&rectToUpdate);
 }
 
