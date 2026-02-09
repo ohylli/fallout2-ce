@@ -226,6 +226,8 @@ target_sources(${EXECUTABLE_NAME} PUBLIC
     "src/text_object.h"
     "src/tile.cc"
     "src/tile.h"
+    "src/object_scanner.cc"
+    "src/object_scanner.h"
     "src/tile_explorer.cc"
     "src/tile_explorer.h"
     "src/tolk.cc"

@@ -87,13 +87,39 @@ Pattern for adding keyboard navigation to menus:
 ### Integration Points
 
 Currently integrated in `src/game.cc`:
-- `gameInitWithOptions()` - calls `tolkInit()`, `tolkSpeak()`, and `tileExplorerInit()`
-- `gameHandleKey()` - handles tile explorer keyboard shortcuts
+- `gameInitWithOptions()` - calls `tolkInit()`, `tolkSpeak()`, `tileExplorerInit()`, and `objectScannerInit()`
+- `gameHandleKey()` - handles tile explorer and object scanner keyboard shortcuts
 - `gameExit()` - calls `tolkExit()` during shutdown
+
+**Object Scanner (In-Game):**
+
+Scans the entire map for interactive objects, sorted by distance to the player. Moves the tile explorer cursor to each object for future movement/interaction integration.
+
+| Key | Action |
+|-----|--------|
+| Page Down | Next object in current category |
+| Page Up | Previous object in current category |
+| Ctrl+Page Down | Switch to next category |
+| Ctrl+Page Up | Switch to previous category |
+| End | Refresh scanner |
+
+- Categories: All, Characters, Items, Entrances
+- Characters: all critters (NPCs, enemies, party members, dead critters)
+- Items: all item types (weapons, armor, containers, drugs, ammo, misc, keys)
+- Entrances: doors, stairs, elevators, ladders, exit grids
+- Announces: object name, distance, direction, position in list (e.g. "Sulik, 3 tiles northeast, 1 of 5")
+- Category switch announces category name with first object (e.g. "Characters: Sulik, 3 tiles northeast, 1 of 5")
+- Empty categories announce "CategoryName: empty"
+- Automatically rescans when map or elevation changes
+- Moves tile explorer cursor to each scanned object
+
+### Files
+
+- `src/object_scanner.h` - Object scanner public API
+- `src/object_scanner.cc` - Object scanner implementation
 
 ## Future Work
 
-- Nearby object scanner (find objects around player, integrate with tile explorer)
 - Player movement via tile explorer (move player to explored tile)
 - Object interaction via tile explorer (use/examine objects at cursor)
 - Other menus (options, load/save, character creation)

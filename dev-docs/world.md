@@ -87,15 +87,99 @@ typedef struct Object {
 ### Object Types
 
 ```cpp
-OBJ_TYPE_ITEM      // Weapons, ammo, consumables, misc items
+OBJ_TYPE_ITEM      // Items (see Item Subtypes below)
 OBJ_TYPE_CRITTER   // NPCs and enemies
-OBJ_TYPE_SCENERY   // Doors, containers, stairs, ladders
+OBJ_TYPE_SCENERY   // Scenery (see Scenery Subtypes below)
 OBJ_TYPE_WALL      // Walls and barriers
 OBJ_TYPE_TILE      // Floor tiles
-OBJ_TYPE_MISC      // Miscellaneous objects
+OBJ_TYPE_MISC      // Exit grids, script triggers, visual effects
 ```
 
-Extract object type from FID: `FID_TYPE(object->fid)`
+Extract object type from PID: `PID_TYPE(object->pid)`
+
+### Item Subtypes
+
+Items (`OBJ_TYPE_ITEM`) have subtypes defined in `proto_types.h:26-35`:
+
+```cpp
+ITEM_TYPE_ARMOR      // Wearable protection
+ITEM_TYPE_CONTAINER  // Lootable containers (lockers, desks, chests)
+ITEM_TYPE_DRUG       // Consumables (stimpaks, chems)
+ITEM_TYPE_WEAPON     // Weapons
+ITEM_TYPE_AMMO       // Ammunition
+ITEM_TYPE_MISC       // Miscellaneous usable items
+ITEM_TYPE_KEY        // Keys for locked objects
+```
+
+Access via: `proto->item.type` after calling `protoGetProto(obj->pid, &proto)`
+
+### Scenery Subtypes
+
+Scenery (`OBJ_TYPE_SCENERY`) has subtypes defined in `proto_types.h:37-45`:
+
+```cpp
+SCENERY_TYPE_DOOR        // Doors (can be opened/closed/locked)
+SCENERY_TYPE_STAIRS      // Stairs (elevation/map transitions)
+SCENERY_TYPE_ELEVATOR    // Elevators (multi-floor access)
+SCENERY_TYPE_LADDER_UP   // Ladder going up
+SCENERY_TYPE_LADDER_DOWN // Ladder going down
+SCENERY_TYPE_GENERIC     // Decorative/interactive props (NOT containers)
+```
+
+Access via: `proto->scenery.type` after calling `protoGetProto(obj->pid, &proto)`
+
+### Critter Kill Types
+
+Critters (`OBJ_TYPE_CRITTER`) are classified by kill type, defined in `proto_types.h:106-126`:
+
+```cpp
+KILL_TYPE_MAN          // Human males
+KILL_TYPE_WOMAN        // Human females
+KILL_TYPE_CHILD        // Children
+KILL_TYPE_SUPER_MUTANT // Super mutants
+KILL_TYPE_GHOUL        // Ghouls
+KILL_TYPE_BRAHMIN      // Brahmin
+KILL_TYPE_RADSCORPION  // Radscorpions
+KILL_TYPE_RAT          // Rats
+KILL_TYPE_FLOATER      // Floaters
+KILL_TYPE_CENTAUR      // Centaurs
+KILL_TYPE_ROBOT        // Robots
+KILL_TYPE_DOG          // Dogs
+KILL_TYPE_MANTIS       // Mantises
+KILL_TYPE_DEATH_CLAW   // Deathclaws
+KILL_TYPE_PLANT        // Plants
+KILL_TYPE_GECKO        // Geckos
+KILL_TYPE_ALIEN        // Aliens
+KILL_TYPE_GIANT_ANT    // Giant ants
+KILL_TYPE_BIG_BAD_BOSS // Boss creatures
+```
+
+Access via: `critterGetKillType(obj)` from `critter.h`
+
+### Critter Hostility (Team System)
+
+Critters belong to teams. Team membership determines friend/foe status:
+
+```cpp
+obj->data.critter.combat.team  // Critter's team number
+// Team 0 = player's team (friendly)
+// Other teams = different faction (potentially hostile)
+```
+
+**Detecting friendly vs hostile:**
+```cpp
+// Same team as player = friendly
+bool isFriendly = (obj->data.critter.combat.team == gDude->data.critter.combat.team);
+
+// Party member check (companions)
+#include "party_member.h"
+bool isCompanion = objectIsPartyMember(obj);
+```
+
+**For accessibility, categorize as:**
+- **Party member**: `objectIsPartyMember(obj)` returns true
+- **Friendly NPC**: `team == 0` but not party member
+- **Hostile/Other**: `team != 0`
 
 ### Important Object Flags
 
@@ -319,13 +403,66 @@ Approach options:
 2. **Radius search** - spiral out ring-by-ring (see combat.cc:4021 for pattern)
 3. **All objects of type** - use `objectListCreate()`, sort by distance
 
-Key interactable scenery types:
+**Important for navigation** (scenery):
 ```cpp
-SCENERY_TYPE_DOOR
-SCENERY_TYPE_STAIRS
-SCENERY_TYPE_LADDER_UP
-SCENERY_TYPE_LADDER_DOWN
-SCENERY_TYPE_GENERIC  // Containers, etc.
+SCENERY_TYPE_DOOR        // Doors
+SCENERY_TYPE_STAIRS      // Stairs
+SCENERY_TYPE_ELEVATOR    // Elevators
+SCENERY_TYPE_LADDER_UP   // Ladders up
+SCENERY_TYPE_LADDER_DOWN // Ladders down
+```
+
+**Important for looting** (items):
+```cpp
+ITEM_TYPE_CONTAINER      // Containers (lockers, desks, chests)
+// Also: any OBJ_TYPE_ITEM on ground is lootable
+```
+
+**Filter out:**
+```cpp
+SCENERY_TYPE_GENERIC     // Decorative props - NOT containers
+```
+
+**Detecting containers:**
+```cpp
+if (PID_TYPE(obj->pid) == OBJ_TYPE_ITEM) {
+    Proto* proto;
+    protoGetProto(obj->pid, &proto);
+    if (proto->item.type == ITEM_TYPE_CONTAINER) {
+        // It's a container (locker, desk, chest, etc.)
+    }
+}
+```
+
+### OBJ_TYPE_MISC Objects
+
+Misc objects (PID type 5, i.e., PIDs starting with `0x5`) include:
+
+- **Exit grids** (PIDs `0x5000010` - `0x5000017`) - Teleport player to another map or location. **Relevant for navigation.**
+- **Spatial script triggers** (PID `0x500000C`) - Invisible script triggers. Not player-visible.
+- **Visual effects** - Blood pools, explosion effects, decay remains. Purely cosmetic.
+
+**For nearby object scanning**, only exit grids are relevant:
+
+```cpp
+#include "proto.h"  // for isExitGridPid()
+
+if (PID_TYPE(obj->pid) == OBJ_TYPE_MISC) {
+    if (isExitGridPid(obj->pid)) {
+        // Announce as "Exit" - important for navigation
+    }
+    // Skip other misc objects (visual effects, script triggers)
+}
+```
+
+Exit grid destination data is stored in `obj->data.misc`:
+```cpp
+typedef struct MiscObjectData {
+    int map;       // Destination map ID
+    int tile;      // Destination tile
+    int elevation; // Destination elevation
+    int rotation;  // Player rotation on arrival
+} MiscObjectData;
 ```
 
 ### Elevation Awareness

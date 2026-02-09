@@ -38,6 +38,7 @@
 #include "movie.h"
 #include "movie_effect.h"
 #include "object.h"
+#include "object_scanner.h"
 #include "options.h"
 #include "palette.h"
 #include "party_member.h"
@@ -189,6 +190,7 @@ int gameInitWithOptions(const char* windowTitle, bool isMapper, int font, int a4
     tolkSpeak("Fallout 2 loaded", true);
 
     tileExplorerInit();
+    objectScannerInit();
 
     interfaceFontsInit();
     fontManagerAdd(&gModernFontManager);
@@ -840,6 +842,16 @@ int gameHandleKey(int eventCode, bool isInCombatMode)
         // Reset tile explorer cursor to player position
         tileExplorerResetToPlayer();
 
+        break;
+    // Object scanner navigation keys
+    case KEY_PAGE_UP:
+    case KEY_PAGE_DOWN:
+    case KEY_CTRL_PAGE_UP:
+    case KEY_CTRL_PAGE_DOWN:
+    case KEY_END:
+        if (interfaceBarEnabled()) {
+            objectScannerHandleKey(eventCode);
+        }
         break;
     case KEY_1:
     case KEY_EXCLAMATION:
